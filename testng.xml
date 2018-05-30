@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Run">
+
+    <test name="First">
+        <classes>
+            <class name="LoginPageTest.LoginPageTest" />
+            <class name="Touchpoint.TouchpointPageTest" />
+        </classes>
+    </test>
+
+</suite>
