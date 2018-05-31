@@ -13,8 +13,6 @@ public class LoginPageTest extends LoginPageTestDriver {
 
 
 
-
-
     @BeforeMethod(description = "open browser before each test")
     public void start() {
 
