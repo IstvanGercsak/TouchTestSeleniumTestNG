@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Run" duration-ms="54915" started-at="2018-05-31T12:57:54Z" finished-at="2018-05-31T12:58:48Z">
+    <groups>
+    </groups>
+    <test name="First" duration-ms="54915" started-at="2018-05-31T12:57:54Z" finished-at="2018-05-31T12:58:48Z">
+      <class name="LoginPageTest.LoginPageTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="start" is-config="true" duration-ms="6899" started-at="2018-05-31T12:57:54Z" description="open browser before each test" finished-at="2018-05-31T12:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="loginAfterWrongdetails()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="loginAfterWrongdetails" duration-ms="2180" started-at="2018-05-31T12:58:01Z" description="Log in after wrong username or password" finished-at="2018-05-31T12:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAfterWrongdetails -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="closebrowser" is-config="true" duration-ms="172" started-at="2018-05-31T12:58:03Z" description="Close the browser after each test" finished-at="2018-05-31T12:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="start()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="start" is-config="true" duration-ms="4261" started-at="2018-05-31T12:58:03Z" description="open browser before each test" finished-at="2018-05-31T12:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="loginIntoTouch()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="loginIntoTouch" duration-ms="1250" started-at="2018-05-31T12:58:07Z" description="I can log into the application" finished-at="2018-05-31T12:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoTouch -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="closebrowser" is-config="true" duration-ms="193" started-at="2018-05-31T12:58:08Z" description="Close the browser after each test" finished-at="2018-05-31T12:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="start()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="start" is-config="true" duration-ms="4074" started-at="2018-05-31T12:58:09Z" description="open browser before each test" finished-at="2018-05-31T12:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="messageApperAfterWrongLoginDetails()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="messageApperAfterWrongLoginDetails" duration-ms="924" started-at="2018-05-31T12:58:13Z" description="I don&#039;t give username or passwowrd and a message appears" finished-at="2018-05-31T12:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageApperAfterWrongLoginDetails -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="closebrowser" is-config="true" duration-ms="183" started-at="2018-05-31T12:58:14Z" description="Close the browser after each test" finished-at="2018-05-31T12:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="start()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="start" is-config="true" duration-ms="4287" started-at="2018-05-31T12:58:14Z" description="open browser before each test" finished-at="2018-05-31T12:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="redirectedToInvalidLoginPage()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="redirectedToInvalidLoginPage" duration-ms="861" started-at="2018-05-31T12:58:18Z" description="I don&#039;t give username or passwowrd" finished-at="2018-05-31T12:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectedToInvalidLoginPage -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="closebrowser" is-config="true" duration-ms="141" started-at="2018-05-31T12:58:19Z" description="Close the browser after each test" finished-at="2018-05-31T12:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="start()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="start" is-config="true" duration-ms="4908" started-at="2018-05-31T12:58:19Z" description="open browser before each test" finished-at="2018-05-31T12:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="touchIsAvailable()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="touchIsAvailable" duration-ms="54" started-at="2018-05-31T12:58:24Z" description="Touch is available" finished-at="2018-05-31T12:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- touchIsAvailable -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:LoginPageTest.LoginPageTest@2d209079]" name="closebrowser" is-config="true" duration-ms="186" started-at="2018-05-31T12:58:24Z" description="Close the browser after each test" finished-at="2018-05-31T12:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- LoginPageTest.LoginPageTest -->
+      <class name="Touchpoint.TouchpointPageTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:Touchpoint.TouchpointPageTest@6bdf28bb]" name="start" is-config="true" duration-ms="4273" started-at="2018-05-31T12:58:24Z" description="open browser before each test" finished-at="2018-05-31T12:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="second()[pri:0, instance:Touchpoint.TouchpointPageTest@6bdf28bb]" name="second" duration-ms="4066" started-at="2018-05-31T12:58:28Z" description="Dropwodn list" finished-at="2018-05-31T12:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Touchpoint.TouchpointPageTest@6bdf28bb]" name="closebrowser" is-config="true" duration-ms="184" started-at="2018-05-31T12:58:33Z" description="Close the browser after each test" finished-at="2018-05-31T12:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Touchpoint.TouchpointPageTest@6bdf28bb]" name="start" is-config="true" duration-ms="4498" started-at="2018-05-31T12:58:33Z" description="open browser before each test" finished-at="2018-05-31T12:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="third()[pri:0, instance:Touchpoint.TouchpointPageTest@6bdf28bb]" name="third" duration-ms="3633" started-at="2018-05-31T12:58:37Z" description="UKT1009" finished-at="2018-05-31T12:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Touchpoint.TouchpointPageTest@6bdf28bb]" name="closebrowser" is-config="true" duration-ms="168" started-at="2018-05-31T12:58:41Z" description="Close the browser after each test" finished-at="2018-05-31T12:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Touchpoint.TouchpointPageTest@6bdf28bb]" name="start" is-config="true" duration-ms="4429" started-at="2018-05-31T12:58:41Z" description="open browser before each test" finished-at="2018-05-31T12:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="touchpointIsReachable()[pri:0, instance:Touchpoint.TouchpointPageTest@6bdf28bb]" name="touchpointIsReachable" duration-ms="2848" started-at="2018-05-31T12:58:45Z" description="UK is clickable" finished-at="2018-05-31T12:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- touchpointIsReachable -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Touchpoint.TouchpointPageTest@6bdf28bb]" name="closebrowser" is-config="true" duration-ms="187" started-at="2018-05-31T12:58:48Z" description="Close the browser after each test" finished-at="2018-05-31T12:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Touchpoint.TouchpointPageTest -->
+    </test> <!-- First -->
+  </suite> <!-- Run -->
+</testng-results>

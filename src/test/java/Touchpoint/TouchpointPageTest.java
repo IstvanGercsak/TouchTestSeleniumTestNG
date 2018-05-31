@@ -56,25 +56,25 @@ public class TouchpointPageTest extends TouchpointPageTestDriver {
 
     }
 
-
-    @Test(description = "update")
-    public void Update() throws InterruptedException {
-        /*Log In*/
-        driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
-        driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
-        driver.findElement(By.className("btn-primary")).click();
-        driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/div/div[2]/div/a[1]")).click();
-        driver.findElement(By.name("reference")).sendKeys("UKT1009");
-        driver.findElement(By.className("glyphicon-search")).click();
-        driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/section/div[4]/div/div[1]/span[2]/a")).click();
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("//button[contains(text(),'Add Update')]")).click();
-        Thread.sleep(3000);
-        driver.findElement(By.name("updateComment")).sendKeys("AutoTest");
-        driver.findElement(By.id("saveUpdate")).click();
-        Thread.sleep(1000);
-
-    }
+//    @Ignore
+//    @Test(description = "update")
+//    public void Update() throws InterruptedException {
+//        /*Log In*/
+//        driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
+//        driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
+//        driver.findElement(By.className("btn-primary")).click();
+//        driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/div/div[2]/div/a[1]")).click();
+//        driver.findElement(By.name("reference")).sendKeys("UKT1009");
+//        driver.findElement(By.className("glyphicon-search")).click();
+//        driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/section/div[4]/div/div[1]/span[2]/a")).click();
+//        Thread.sleep(2000);
+//        driver.findElement(By.xpath("//button[contains(text(),'Add Update')]")).click();
+//        Thread.sleep(3000);
+//        driver.findElement(By.name("updateComment")).sendKeys("AutoTest");
+//        driver.findElement(By.id("saveUpdate")).click();
+//        Thread.sleep(1000);
+//
+//    }
 
     @AfterMethod(description = "Close the browser after each test")
     public void closebrowser() {
