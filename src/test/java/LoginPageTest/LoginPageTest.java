@@ -1,16 +1,16 @@
 package LoginPageTest;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class LoginPageTest extends LoginPageTestDriver {
 
+    private static final String TESTPLOGINAGE = "https://touch-test-central.azurewebsites.net/central/login";
+    private static final String INVALIDLOGIPNAGE = "https://touch-test-central.azurewebsites.net/central/login?error";
     private static final String TESTPAGE = "https://touch-test-central.azurewebsites.net/central/";
     private static final String TESTUSERNAME = "istvan.gercsak@metlife.com";
     private static final String TESTPASSWORD = "Igercsak8!#";
-
 
 
     @BeforeMethod(description = "open browser before each test")
@@ -22,42 +22,45 @@ public class LoginPageTest extends LoginPageTestDriver {
 
     }
 
-    @Test(description = "First test")
-    public void first() {
 
-        driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
-        driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
-        driver.findElement(By.className("btn-primary")).click();
-        Assert.assertEquals(driver.getCurrentUrl(), TESTPAGE);
+    @Test(description = "Touch is available")
+    public void touchIsAvailable() {
+
+        urlIsAssert(TESTPLOGINAGE);
 
     }
 
-    @Test(description = "First test")
-    public void first12() {
+    @Test(description = "I can log into the application")
+    public void loginIntoTouch() {
 
-        driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
-        driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
-        driver.findElement(By.className("btn-primary")).click();
-        Assert.assertEquals(driver.getCurrentUrl(), TESTPAGE);
+        login(TESTUSERNAME, TESTPASSWORD);
+        urlIsAssert(TESTPAGE);
 
     }
 
-    @Test(description = "Second test")
-    public void second() {
+    @Test(description = "I don't give username or passwowrd")
+    public void redirectedToInvalidLoginPage() {
 
-        driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
-        driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
-        driver.findElement(By.className("btn-primary")).click();
-        Assert.assertEquals(driver.getCurrentUrl(), TESTPAGE);
+        login("", "");
+        Assert.assertEquals(driver.getCurrentUrl(), INVALIDLOGIPNAGE);
+
     }
 
-    @Test(description = "Second test")
-    public void third() {
+    @Test(description = "I don't give username or passwowrd and a message appears")
+    public void messageApperAfterWrongLoginDetails() {
 
-        driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
-        driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
-        driver.findElement(By.className("btn-primary")).click();
-        Assert.assertEquals(driver.getCurrentUrl(), TESTPAGE);
+        login("", "");
+        findInvalidMessage();
+
+    }
+
+    @Test(description = "Log in after wrong username or password")
+    public void loginAfterWrongdetails() {
+
+        login("", "");
+        login(TESTUSERNAME, TESTPASSWORD);
+        urlIsAssert(TESTPAGE);
+
     }
 
     @AfterMethod(description = "Close the browser after each test")
