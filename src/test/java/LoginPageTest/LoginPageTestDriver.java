@@ -62,7 +62,7 @@ public class LoginPageTestDriver extends BaseData {
             System.out.println();
         }
         for (String s : Array) {
-            System.out.println(s);
+            System.out.println(""+s);
         }
         inputStream.close();
     }
