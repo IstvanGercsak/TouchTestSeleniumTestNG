@@ -32,6 +32,16 @@ public class LoginPageTest extends LoginPageTestDriver {
 
     }
 
+    @Test(description = "First test")
+    public void first12() {
+
+        driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
+        driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
+        driver.findElement(By.className("btn-primary")).click();
+        Assert.assertEquals(driver.getCurrentUrl(), TESTPAGE);
+
+    }
+
     @Test(description = "Second test")
     public void second() {
 
