@@ -44,7 +44,7 @@ public class LoginPageTest extends LoginPageTestDriver {
 
     }
 
-    @Test(description = "I don't give username or passwowrd")
+    @Test(description = "I don't give username or password")
     public void redirectedToInvalidLoginPage() {
 
         login("", "");
