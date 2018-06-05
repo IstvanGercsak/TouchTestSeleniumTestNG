@@ -19,7 +19,7 @@ public class LoginPageTest extends LoginPageTestDriver {
         ChromeDriverManager.getInstance().setup();
     }
 
-    @BeforeMethod(description = "Open browser before each test")
+    @BeforeMethod(description = "Open browser before each test!")
     public void start() {
 
         driver = new ChromeDriver();
