@@ -14,10 +14,13 @@ public class LoginPageTest extends LoginPageTestDriver {
     private static final String TESTPASSWORD = "Igercsak8!#";
 
 
+    @BeforeClass
+    public static void setupClass() {
+        ChromeDriverManager.getInstance().setup();
+    }
+
     @BeforeMethod(description = "open browser before each test")
     public void start() {
-
-        ChromeDriverManager.getInstance().setup();
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
