@@ -1,5 +1,6 @@
 package LoginPageTest;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -15,6 +16,8 @@ public class LoginPageTest extends LoginPageTestDriver {
 
     @BeforeMethod(description = "open browser before each test")
     public void start() {
+
+        ChromeDriverManager.getInstance().setup();
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
