@@ -25,7 +25,7 @@ public class LoginPageTest extends LoginPageTestDriver {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(getBASESITE());
-
+//
     }
 
     @Test(description = "Touch is available!")

@@ -6,6 +6,7 @@
         <classes>
             <class name="LoginPageTest.LoginPageTest" />
             <class name="Touchpoint.TouchpointPageTest" />
+            <class name="User.RightsTest" />
         </classes>
     </test>
 
