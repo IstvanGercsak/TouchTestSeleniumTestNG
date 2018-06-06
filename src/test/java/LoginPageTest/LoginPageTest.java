@@ -1,6 +1,5 @@
 package LoginPageTest;
 
-import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -13,12 +12,6 @@ public class LoginPageTest extends LoginPageTestDriver {
     private static final String TESTUSERNAME = "istvan.gercsak@metlife.com";
     private static final String TESTPASSWORD = "Igercsak8!#";
 
-
-    @BeforeClass
-    public static void setupClass() {
-        ChromeDriverManager.getInstance().setup();
-    }
-
     @BeforeMethod(description = "Open browser before each test!")
     public void start() {
 
@@ -27,7 +20,6 @@ public class LoginPageTest extends LoginPageTestDriver {
         driver.get(getBASESITE());
 
     }
-
 
     @Test(description = "Touch is available!")
     public void touchIsAvailable() {
