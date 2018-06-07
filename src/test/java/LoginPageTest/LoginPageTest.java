@@ -27,7 +27,7 @@ public class LoginPageTest extends LoginPageTestDriver {
     @Test(description = "Touch is available!")
     public void touchIsAvailable() {
 
-        urlIsAssert(CentralPageURL);
+        urlIsAssert(TestLoginPageURL);
 
     }
 

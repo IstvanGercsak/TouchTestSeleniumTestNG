@@ -15,12 +15,15 @@ public class BaseData {
     protected String InvalidLoginPageURL = "https://touch-test-central.azurewebsites.net/central/login?error";
     protected String CentralPageURL = "https://touch-test-central.azurewebsites.net/central/";
     protected String UKPageURL = "http://touch-test-zone.azurewebsites.net/uk/";
-    protected String HamburgerUserProfile = "https://touch-test-central.azurewebsites.net/central/myprofile";
+    protected String UserProfileURL = "https://touch-test-central.azurewebsites.net/central/myprofile";
+    protected String AboutTouchURL = "https://touch-test-central.azurewebsites.net/central/help/about";
 
     /*Hamburger menu names implementation*/
 
     protected String HamburgerDashboardName = "Dashboard";
-    protected String UserProfile = "User Profile";
+    protected String HamburgerUserProfile = "User Profile";
+    protected String HamburgerAboutTouch = "About Touch";
+    protected String HamburgerLougout = "Logout";
 
     /*Users implementation*/
 
@@ -29,21 +32,6 @@ public class BaseData {
     protected String UKJurisdictionOperatorName = "istvan.gercsak@metlife.com";
     protected String UKJurisdictionOperatorPassword = "Igercsak8!#";
 
-
-
-
-
-//    public HamburgerMenuPages HamburgerAboutTouch = new HamburgerMenuPages(
-//            "About Touch",
-//            "https://touch-test-central.azurewebsites.net/central/help/about"
-//    );
-//
-//
-//    public HamburgerMenuPages HamburgerLogout = new HamburgerMenuPages(
-//            "Logout",
-//            "https://touch-test-central.azurewebsites.net/central/login"
-//    );
-//
 //
 //    /*TOUCHPOINT ADMINISTRATION*/
 //
