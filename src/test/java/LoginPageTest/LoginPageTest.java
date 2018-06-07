@@ -7,8 +7,6 @@ import org.testng.annotations.*;
 
 public class LoginPageTest extends LoginPageTestDriver {
 
-
-
     //Todo: webserveren beallitani az instance-ot
     @BeforeClass
     public static void setupClass() {
@@ -21,7 +19,7 @@ public class LoginPageTest extends LoginPageTestDriver {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(testLoginPageURL);
-//
+
     }
 
     @Test(description = "Touch is available!")
@@ -30,6 +28,7 @@ public class LoginPageTest extends LoginPageTestDriver {
         urlIsAssert(testLoginPageURL);
 
     }
+
 
     @Test(description = "I can log into the application")
     public void loginIntoTouch() {
@@ -63,6 +62,19 @@ public class LoginPageTest extends LoginPageTestDriver {
         urlIsAssert(centralPageURL);
 
     }
+
+    @Test(description = "Hamburger menu is availible")
+    public void hamburgerMenuisAvailable() {
+
+    }
+
+    @Test(description = "Hamburger menu is availible")
+    public void hamburgerMenuListIsAvailable() {
+
+    }
+
+
+
 
     @AfterMethod(description = "Close the browser after each test")
     public void closebrowser() {
