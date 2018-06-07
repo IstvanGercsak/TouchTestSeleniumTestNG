@@ -4,38 +4,111 @@ import org.openqa.selenium.WebDriver;
 
 public class BaseData {
 
-    public WebDriver driver;
-    private static final String BASESITE = "https://touch-test-central.azurewebsites.net/central/login";
+    /*Webdriver implementation*/
+
+    protected WebDriver driver;
+
+    /*URL implementation*/
+
+    protected String TestLoginPageURL = "https://touch-test-central.azurewebsites.net/central/login";
+    protected String DashboardPageURL = "https://touch-test-central.azurewebsites.net/central/reports/dashboard";
+    protected String InvalidLoginPageURL = "https://touch-test-central.azurewebsites.net/central/login?error";
+    protected String CentralPageURL = "https://touch-test-central.azurewebsites.net/central/";
+    protected String UKPageURL = "http://touch-test-zone.azurewebsites.net/uk/";
+
+    /*Hamburger menu names implementation*/
+
+    protected String HamburgerDashboardName = "Dashboard";
 
 
-    public class Pages {
-        public String name;
-        public String url;
-        Pages(String name, String url){
-            this.name=name;
-            this.url=url;
-        }
-    };
 
-    public Pages Dashboard = new Pages("Dashboard","https://touch-test-central.azurewebsites.net/central/reports/dashboard");
 
-    String[][] hamburgermenu = new String[][]{
-            {"Touch Central Actions"},{"https://touch-test-central.azurewebsites.net/central/"},
-            {"Dashboard"},{"https://touch-test-central.azurewebsites.net/central/reports/dashboard"},
-            {"User Profile"},{"https://touch-test-central.azurewebsites.net/central/myprofile"},
-            {"About Touch"},{"https://touch-test-central.azurewebsites.net/central/help/about"},
-            {"Logout"},{"https://touch-test-central.azurewebsites.net/central/login"}
-    };
 
-    String[][] sites = new String[][]{
-            {"Login"},{},
-            {"Central"},{},
-            {"UK"},{},
-            {"Dashboard"},{}
-    };
 
-    protected String getBASESITE() {
-        return BASESITE;
-    }
+
+    /*Users implementation*/
+
+    protected String AdminUserName = "istvan.gercsak@metlife.com";
+    protected String AdminUserPassword = "Igercsak8!#";
+    protected String UKJurisdictionOperatorName = "istvan.gercsak@metlife.com";
+    protected String UKJurisdictionOperatorPassword = "Igercsak8!#";
+
+
+
+
+//    public HamburgerMenuPages HamburgerTouchCentralActions = new HamburgerMenuPages(
+//            "Dashboard",
+//            "https://touch-test-central.azurewebsites.net/central/"
+//    );
+//
+//    public HamburgerMenuPages HamburgerUserProfile = new HamburgerMenuPages(
+//            "User Profile",
+//            "https://touch-test-central.azurewebsites.net/central/myprofile"
+//    );
+//
+//    public HamburgerMenuPages HamburgerAboutTouch = new HamburgerMenuPages(
+//            "About Touch",
+//            "https://touch-test-central.azurewebsites.net/central/help/about"
+//    );
+//
+//
+//    public HamburgerMenuPages HamburgerLogout = new HamburgerMenuPages(
+//            "Logout",
+//            "https://touch-test-central.azurewebsites.net/central/login"
+//    );
+//
+//
+//    /*TOUCHPOINT ADMINISTRATION*/
+//
+//    sad Touchpoint Forms
+//
+//    Touchpoint Data Lists
+//
+//    /* SYSTEM ADMINISTRATION */
+//
+//    Manage Users
+//
+//    Manage Jurisdictions
+//
+//    base:tlbl:central:admin-system-endpoints-title
+//
+//    base:tlbl:central:admin-system-info-title
+//
+//
+//
+//    Text Content
+//
+//    Content Templates
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//    public Sites LoginSite = new Sites(
+//      ""
+//    );
+//
+//    public Sites WorngLoginSite = new Sites(
+//            ""
+//    );
+//
+//    public Sites CentralSite = new Sites(
+//            ""
+//    );
+//
+//    public Sites UKSite = new Sites(
+//            ""
+//    );
+//
+//    public Sites DashbordSite = new Sites(
+//            ""
+
 
 }

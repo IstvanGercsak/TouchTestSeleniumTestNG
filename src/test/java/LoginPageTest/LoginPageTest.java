@@ -7,11 +7,7 @@ import org.testng.annotations.*;
 
 public class LoginPageTest extends LoginPageTestDriver {
 
-    private static final String TESTPLOGINAGE = "https://touch-test-central.azurewebsites.net/central/login";
-    private static final String INVALIDLOGIPNAGE = "https://touch-test-central.azurewebsites.net/central/login?error";
-    private static final String TESTPAGE = "https://touch-test-central.azurewebsites.net/central/";
-    private static final String TESTUSERNAME = "istvan.gercsak@metlife.com";
-    private static final String TESTPASSWORD = "Igercsak8!#";
+
 
     //Todo: webserveren beallitani az instance-ot
     @BeforeClass
@@ -24,22 +20,22 @@ public class LoginPageTest extends LoginPageTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(getBASESITE());
+        driver.get(TestLoginPageURL);
 //
     }
 
     @Test(description = "Touch is available!")
     public void touchIsAvailable() {
 
-        urlIsAssert(TESTPLOGINAGE);
+        urlIsAssert(CentralPageURL);
 
     }
 
     @Test(description = "I can log into the application")
     public void loginIntoTouch() {
 
-        login(TESTUSERNAME, TESTPASSWORD);
-        urlIsAssert(TESTPAGE);
+        login(UKJurisdictionOperatorName, UKJurisdictionOperatorPassword);
+        urlIsAssert(CentralPageURL);
 
     }
 
@@ -47,7 +43,7 @@ public class LoginPageTest extends LoginPageTestDriver {
     public void redirectedToInvalidLoginPage() {
 
         login("", "");
-        Assert.assertEquals(driver.getCurrentUrl(), INVALIDLOGIPNAGE);
+        Assert.assertEquals(driver.getCurrentUrl(), InvalidLoginPageURL);
 
     }
 
@@ -63,8 +59,8 @@ public class LoginPageTest extends LoginPageTestDriver {
     public void loginAfterWrongdetails() {
 
         login("", "");
-        login(TESTUSERNAME, TESTPASSWORD);
-        urlIsAssert(TESTPAGE);
+        login(UKJurisdictionOperatorName, UKJurisdictionOperatorPassword);
+        urlIsAssert(CentralPageURL);
 
     }
 

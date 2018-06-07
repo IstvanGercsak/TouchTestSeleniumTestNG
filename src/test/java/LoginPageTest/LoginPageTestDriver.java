@@ -34,36 +34,4 @@ public class LoginPageTestDriver extends BaseData {
         Assert.assertEquals(driver.getCurrentUrl(), checkPage);
     }
 
-    public void reader() throws IOException {
-        String[] Array = new String[4];
-        int i = 0;
-        String excelFilePath = "data.xlsx";
-        FileInputStream inputStream = new FileInputStream(new File(excelFilePath));
-
-        Workbook workbook = new XSSFWorkbook(inputStream);
-        Sheet firstSheet = workbook.getSheetAt(0);
-        Iterator<Row> iterator = firstSheet.iterator();
-
-        while (iterator.hasNext()) {
-            Row nextRow = iterator.next();
-            Iterator<Cell> cellIterator = nextRow.cellIterator();
-
-            while (cellIterator.hasNext()) {
-                Cell cell = cellIterator.next();
-
-                switch (cell.getCellType()) {
-                    case Cell.CELL_TYPE_STRING:
-                        break;
-                }
-
-                Array[i] = cell.getStringCellValue();
-                i++;
-            }
-            System.out.println();
-        }
-        for (String s : Array) {
-            System.out.println(""+s);
-        }
-        inputStream.close();
-    }
 }
