@@ -13,7 +13,7 @@ public class RightsTest extends RightsTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(LoginTestPageURL);
+        driver.get(loginPage.url());
 
     }
 
@@ -33,7 +33,7 @@ public class RightsTest extends RightsTestDriver {
 
         login(adminUserName, adminUserPassword);
         clickOnTheHamburgeMenuDropdown();
-        clickOnTheHamburgerMenuElement(hamburgerDashboardName);
+        clickOnTheHamburgerMenuElement(dashboardPage.hamburgerName());
 //        clickOnTheHamburgeMenuDropdown();
 //        clickOnTheHamburgerMenuElement(HamburgerTouchCentralActions);
 //        clickOnTheHamburgeMenuDropdown();

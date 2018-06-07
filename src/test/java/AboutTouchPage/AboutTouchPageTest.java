@@ -1,48 +1,53 @@
 package AboutTouchPage;
 
-import LoginPage.LoginPageTestDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AboutTouchPageTest extends LoginPageTestDriver {
+public class AboutTouchPageTest extends AboutTouchPageTestDriver {
 
     @BeforeMethod(description = "Open browser before each test!")
     public void start() {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(LoginTestPageURL);
+        driver.get(loginPage.url());
 
     }
 
     @Test
     public void pageIsAvailable() {
-        login(adminUserName, adminUserPassword);
-        Assert.assertEquals(driver.getCurrentUrl(),aboutTouchURL);
+
+        login(adminUserName,adminUserPassword);
+        goToHamburgerAboutTouchPage();
+        Assert.assertEquals(driver.getCurrentUrl(), aboutTouchPage.url());
+
     }
 
     @Test
     public void AboutTouchHamburgerMenuElementsAreAvailable() {
-        login(adminUserName, adminUserPassword);
+
+        goToHamburgerAboutTouchPage();
+        clickOnHamburgermenu();
 
     }
 
     @Test
     public void AboutTouchMetlifeIcondirection() {
-        login(adminUserName, adminUserPassword);
+
+        goToHamburgerAboutTouchPage();
+        clickOnTheMetlifeIcon();
+        Assert.assertEquals(driver.getCurrentUrl(),touchCentral.url());
+
     }
 
     @Test
-    public void AboutTouchUserIcondirection() {
-        login(adminUserName, adminUserPassword);
-    }
+    public void AboutTouchBreadcrumbs() {
 
-    @Test
-    public void AboutTouchBreadctumbs() {
-        login(adminUserName, adminUserPassword);
+        goToHamburgerAboutTouchPage();
+        checkHamburgerMenuList();
     }
 
     @AfterMethod(description = "Close the browser after each test")

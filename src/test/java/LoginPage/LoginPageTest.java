@@ -18,14 +18,14 @@ public class LoginPageTest extends LoginPageTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(LoginTestPageURL);
+        driver.get(loginPage.url());
 
     }
 
     @Test(description = "Touch is available!")
     public void touchIsAvailable() {
 
-        urlIsAssert(LoginTestPageURL);
+        urlIsAssert(loginPage.url());
 
     }
 
@@ -34,7 +34,7 @@ public class LoginPageTest extends LoginPageTestDriver {
     public void loginIntoTouch() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
-        urlIsAssert(centralPageURL);
+        urlIsAssert(touchCentral.url());
 
     }
 
@@ -42,7 +42,7 @@ public class LoginPageTest extends LoginPageTestDriver {
     public void redirectedToInvalidLoginPage() {
 
         login("", "");
-        Assert.assertEquals(driver.getCurrentUrl(), invalidLoginPageURL);
+        Assert.assertEquals(driver.getCurrentUrl(), wrongLoginPage.url());
 
     }
 
@@ -59,7 +59,7 @@ public class LoginPageTest extends LoginPageTestDriver {
 
         login("", "");
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
-        urlIsAssert(centralPageURL);
+        urlIsAssert(touchCentral.url());
 
     }
 
@@ -72,9 +72,6 @@ public class LoginPageTest extends LoginPageTestDriver {
     public void hamburgerMenuListIsAvailable() {
 
     }
-
-
-
 
     @AfterMethod(description = "Close the browser after each test")
     public void closebrowser() {

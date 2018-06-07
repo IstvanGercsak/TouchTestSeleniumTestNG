@@ -9,10 +9,10 @@ public class LoginPageTestDriver extends BaseData {
 
     public void login(String TESTUSERNAME, String TESTPASSWORD) {
 
-
         driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
         driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
         driver.findElement(By.className("btn-primary")).click();
+
     }
 
     public void findInvalidMessage() {

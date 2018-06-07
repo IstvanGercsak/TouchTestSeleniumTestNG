@@ -14,7 +14,7 @@ public class TouchpointPageTest extends TouchpointPageTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(LoginTestPageURL);
+        driver.get(loginPage.url());
 
     }
 
@@ -25,7 +25,7 @@ public class TouchpointPageTest extends TouchpointPageTestDriver {
         driver.findElement(By.id("password")).sendKeys(ukJurisdictionOperatorPassword);
         driver.findElement(By.className("btn-primary")).click();
         driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/div/div[2]/div/a[1]")).click();
-        Assert.assertEquals(driver.getCurrentUrl(), ukPageURL);
+        Assert.assertEquals(driver.getCurrentUrl(), uktouchPage.url());
 
     }
 

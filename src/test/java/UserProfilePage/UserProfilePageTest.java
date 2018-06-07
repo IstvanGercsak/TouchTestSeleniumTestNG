@@ -1,37 +1,46 @@
 package UserProfilePage;
 
+import AboutTouchPage.AboutTouchPageTest;
 import LoginPage.LoginPageTestDriver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class UserProfilePageTest extends LoginPageTestDriver {
+public class UserProfilePageTest extends AboutTouchPageTest {
 
     @BeforeMethod(description = "Open browser before each test!")
     public void start() {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(LoginTestPageURL);
+        driver.get(loginPage.url());
 
     }
 
     @Test
     public void pageIsAvailable() {
+
         login(adminUserName, adminUserPassword);
-        Assert.assertEquals(driver.getCurrentUrl(),userProfileURL);
+        directionWithHamburgerMenu(userProfilePage.hamburgerName());
+        Assert.assertEquals(driver.getCurrentUrl(), userProfilePage.url());
+
     }
 
     @Test
     public void UserProfileHamburgerMenuElementsAreAvailable() {
         login(adminUserName, adminUserPassword);
+        clickOnHamburgermenu();
+
     }
 
     @Test
     public void UserProfileMetlifeIcondirection() {
         login(adminUserName, adminUserPassword);
+        clickOnTheMetlifeIcon();
+        Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
     }
 
     @Test

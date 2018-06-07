@@ -13,14 +13,14 @@ public class CentralPageTest extends LoginPageTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(LoginTestPageURL);
+        driver.get(loginPage.url());
 
     }
 
     @Test
     public void pageIsAvailable() {
         login(adminUserName, adminUserPassword);
-        Assert.assertEquals(driver.getCurrentUrl(),centralPageURL);
+        Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
     }
 
     @Test
@@ -31,6 +31,8 @@ public class CentralPageTest extends LoginPageTestDriver {
     @Test
     public void centralPageMetlifeIcondirection() {
         login(adminUserName, adminUserPassword);
+        clickOnTheMetlifeIcon();
+        Assert.assertEquals(driver.getCurrentUrl(),touchCentral.url());
     }
 
     @Test
