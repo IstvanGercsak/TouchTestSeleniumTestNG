@@ -31,6 +31,7 @@ public class UserProfilePageTest extends AboutTouchPageTest {
 
     @Test
     public void UserProfileHamburgerMenuElementsAreAvailable() {
+
         login(adminUserName, adminUserPassword);
         clickOnHamburgermenu();
 
@@ -38,50 +39,68 @@ public class UserProfilePageTest extends AboutTouchPageTest {
 
     @Test
     public void UserProfileMetlifeIcondirection() {
+
         login(adminUserName, adminUserPassword);
         clickOnTheMetlifeIcon();
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
+
     }
 
     @Test
     public void UserProfileUserIcondirection() {
+
         login(adminUserName, adminUserPassword);
+
     }
 
     @Test
     public void UserProfileTestBreadctumbs() {
+
         login(adminUserName, adminUserPassword);
+
     }
 
     @Test
     public void permissionsAreVisibleAsAdmin() {
+
         login(adminUserName, adminUserPassword);
+
     }
 
     @Test
     public void permissionIsVisibleAsAdmin() {
+
         login(adminUserName, adminUserPassword);
+
     }
 
     @Test
     public void permissionIsVisibleAsJurisdiction() {
+
         login(adminUserName, adminUserPassword);
+
     }
 
     @Test
     public void clickOnLogoutButton() {
+
         login(adminUserName, adminUserPassword);
+
     }
 
     @Test
     public void clickOnBackButtonAfterLogin() {
+
         login(adminUserName, adminUserPassword);
+
     }
 
 
     @Test
     public void clickOnBackButtonFromAnotherPage() {
+
         login(adminUserName, adminUserPassword);
+
     }
 
     @AfterMethod(description = "Close the browser after each test")

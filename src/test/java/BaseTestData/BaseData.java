@@ -2,10 +2,8 @@ package BaseTestData;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class BaseData {
 
@@ -72,7 +70,7 @@ public class BaseData {
 
     public Page userProfilePage = new Page(
             "User Profile",
-            ""
+            "https://touch-test-central.azurewebsites.net/central/myprofile"
     );
 
     public Page touchCentral = new Page(
@@ -151,6 +149,7 @@ public class BaseData {
 
         ArrayList<String> myList = new ArrayList<>();
 
+        //ToDo:This Menu element is not appears on every page
         //myList.add(uktouchPage.hamburgerName);
         myList.add(touchCentral.hamburgerName);
         myList.add(dashboardPage.hamburgerName);
