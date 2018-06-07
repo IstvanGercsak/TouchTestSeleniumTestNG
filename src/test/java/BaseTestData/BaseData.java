@@ -81,7 +81,7 @@ public class BaseData {
     );
 
     public Page uktouchPage = new Page(
-            "",
+            "uk:tlbl:zone:touchpoints-title",
             "http://touch-test-zone.azurewebsites.net/uk/"
     );
 
@@ -147,30 +147,26 @@ public class BaseData {
 
     }
 
-    public void createHamburgerMenuList(){
-        List myList = new ArrayList();
+    public ArrayList<String> createHamburgerMenuList() {
+
+        ArrayList<String> myList = new ArrayList<>();
+
+        //myList.add(uktouchPage.hamburgerName);
+        myList.add(touchCentral.hamburgerName);
+        myList.add(dashboardPage.hamburgerName);
+        myList.add(userProfilePage.hamburgerName);
+        myList.add(logoutPage.hamburgerName);
         myList.add(aboutTouchPage.hamburgerName);
+
+        return myList;
     }
 
-//    public void checkHamburgerMenuList() throws InterruptedException {
-//
-//        clickOnHamburgermenu();
-//        System.out.println("123");
-//        Thread.sleep(3000);
-//
-//        for (int i = 0; i < listOfPages.size(); i++) {
-//            System.out.println(i);
-//            System.out.println(" " + listOfPages.get(i));
-//        }
-//
-//
-//        for (Page item : listOfPages) {
-//            System.out.println("qwe");
-//            if (!(item.hamburgerName.equals(""))) {
-//                driver.findElement(By.xpath("//a[contains(text(),'" + item.hamburgerName + "')]"));
-//                System.out.println(item.hamburgerName);
-//            }
-//        }
-//
-//    }
+    public void hamburgerMenuElementsIsClickable() {
+
+        for (String item : createHamburgerMenuList()) {
+            driver.findElement(By.xpath("//a[contains(text(),'" + item + "')]"));
+            System.out.println(item);
+        }
+
+    }
 }

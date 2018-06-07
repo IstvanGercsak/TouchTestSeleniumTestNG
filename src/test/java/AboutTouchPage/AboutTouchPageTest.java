@@ -31,14 +31,15 @@ public class AboutTouchPageTest extends AboutTouchPageTestDriver {
 
         login(adminUserName,adminUserPassword);
         goToHamburgerAboutTouchPage();
-
-
+        clickOnHamburgermenu();
+        hamburgerMenuElementsIsClickable();
 
     }
 
     @Test
     public void AboutTouchMetlifeIcondirection() {
 
+        login(adminUserName,adminUserPassword);
         goToHamburgerAboutTouchPage();
         clickOnTheMetlifeIcon();
         Assert.assertEquals(driver.getCurrentUrl(),touchCentral.url());
@@ -48,6 +49,7 @@ public class AboutTouchPageTest extends AboutTouchPageTestDriver {
     @Test
     public void AboutTouchBreadcrumbs() throws InterruptedException {
 
+        login(adminUserName,adminUserPassword);
         goToHamburgerAboutTouchPage();
 
     }
