@@ -15,16 +15,12 @@ public class BaseData {
     protected String InvalidLoginPageURL = "https://touch-test-central.azurewebsites.net/central/login?error";
     protected String CentralPageURL = "https://touch-test-central.azurewebsites.net/central/";
     protected String UKPageURL = "http://touch-test-zone.azurewebsites.net/uk/";
+    protected String HamburgerUserProfile = "https://touch-test-central.azurewebsites.net/central/myprofile";
 
     /*Hamburger menu names implementation*/
 
     protected String HamburgerDashboardName = "Dashboard";
-
-
-
-
-
-
+    protected String UserProfile = "User Profile";
 
     /*Users implementation*/
 
@@ -36,16 +32,7 @@ public class BaseData {
 
 
 
-//    public HamburgerMenuPages HamburgerTouchCentralActions = new HamburgerMenuPages(
-//            "Dashboard",
-//            "https://touch-test-central.azurewebsites.net/central/"
-//    );
-//
-//    public HamburgerMenuPages HamburgerUserProfile = new HamburgerMenuPages(
-//            "User Profile",
-//            "https://touch-test-central.azurewebsites.net/central/myprofile"
-//    );
-//
+
 //    public HamburgerMenuPages HamburgerAboutTouch = new HamburgerMenuPages(
 //            "About Touch",
 //            "https://touch-test-central.azurewebsites.net/central/help/about"
