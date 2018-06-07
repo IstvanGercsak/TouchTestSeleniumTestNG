@@ -1,4 +1,4 @@
-package Touchpoint;
+package TouchpointPage;
 
 import BaseTestData.BaseData;
 

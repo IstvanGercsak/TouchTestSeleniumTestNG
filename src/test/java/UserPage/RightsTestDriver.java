@@ -1,6 +1,6 @@
-package User;
+package UserPage;
 
-import LoginPageTest.LoginPageTestDriver;
+import LoginPage.LoginPageTestDriver;
 import org.openqa.selenium.By;
 
 public class RightsTestDriver extends LoginPageTestDriver {

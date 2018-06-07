@@ -1,4 +1,4 @@
-package LoginPageTest;
+package LoginPage;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,14 +18,14 @@ public class LoginPageTest extends LoginPageTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(testLoginPageURL);
+        driver.get(LoginTestPageURL);
 
     }
 
     @Test(description = "Touch is available!")
     public void touchIsAvailable() {
 
-        urlIsAssert(testLoginPageURL);
+        urlIsAssert(LoginTestPageURL);
 
     }
 

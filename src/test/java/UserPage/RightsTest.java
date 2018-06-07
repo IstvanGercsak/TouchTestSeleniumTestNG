@@ -1,4 +1,4 @@
-package User;
+package UserPage;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -13,7 +13,7 @@ public class RightsTest extends RightsTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(testLoginPageURL);
+        driver.get(LoginTestPageURL);
 
     }
 
@@ -22,7 +22,7 @@ public class RightsTest extends RightsTestDriver {
         login(adminUserName, adminUserPassword);
     }
 
-    @Test(description = "Login with Touchpoint administrator")
+    @Test(description = "Login with TouchpointPage administrator")
     public void loginWithTouchpointUser() {
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
     }
@@ -42,6 +42,7 @@ public class RightsTest extends RightsTestDriver {
 //        clickOnTheHamburgerMenuElement(HamburgerAboutTouch);
 //        clickOnTheHamburgeMenuDropdown();
 //        clickOnTheHamburgerMenuElement(HamburgerLogout);
+
 
     }
 

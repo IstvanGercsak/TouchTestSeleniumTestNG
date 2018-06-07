@@ -4,9 +4,9 @@
 
     <test name="First">
         <classes>
-            <class name="LoginPageTest.LoginPageTest" />
-            <class name="Touchpoint.TouchpointPageTest" />
-            <class name="User.RightsTest" />
+            <class name="LoginPage.LoginPageTest" />
+            <class name="TouchpointPage.TouchpointPageTest" />
+            <class name="UserPage.RightsTest" />
         </classes>
     </test>
 

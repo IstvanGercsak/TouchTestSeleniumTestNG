@@ -13,7 +13,7 @@ public class BaseData {
 
     /*URL implementation*/
 
-    protected String testLoginPageURL = "https://touch-test-central.azurewebsites.net/central/login";
+    protected String LoginTestPageURL = "https://touch-test-central.azurewebsites.net/central/login";
     protected String invalidLoginPageURL = "https://touch-test-central.azurewebsites.net/central/login?error";
     protected String centralPageURL = "https://touch-test-central.azurewebsites.net/central/";
     protected String ukPageURL = "http://touch-test-zone.azurewebsites.net/uk/";
@@ -32,13 +32,34 @@ public class BaseData {
 
     /*Hamburger menu names implementation*/
 
+
+    class Book {
+        int id;
+        String name, author, publisher;
+        int quantity;
+
+        public Book(int id, String name, String author, String publisher, int quantity) {
+            this.id = id;
+            this.name = name;
+            this.author = author;
+            this.publisher = publisher;
+            this.quantity = quantity;
+        }
+    }
+
+    List<Book> list = new ArrayList<Book>();
+    protected Book b1 = new Book(101, "Let us C", "Yashwant Kanetkar", "BPB", 8);
+    protected Book b2 = new Book(102, "Data Communications & Networking", "Forouzan", "Mc Graw Hill", 4);
+    protected Book b3 = new Book(103, "Operating System", "Galvin", "Wiley", 6);
+
+
     protected String touchCentralActions = "Touch Central Actions";
     protected String hamburgerDashboardName = "Dashboard";
-    protected String hamburgerUserProfile = "User Profile";
+    protected String hamburgerUserProfile = "UserPage Profile";
     protected String hamburgerAboutTouch = "About Touch";
     protected String hamburgerLougout = "Logout";
-    protected String hamburgerTouchpointForms = "Touchpoint Forms";
-    protected String hamburgerTouchpointDataLists = "Touchpoint Data Lists";
+    protected String hamburgerTouchpointForms = "TouchpointPage Forms";
+    protected String hamburgerTouchpointDataLists = "TouchpointPage Data Lists";
     protected String hamburgerManageUsers = "Manage Users";
     protected String hamburgerManageJurisdictions = "Manage Jurisdictions";
     protected String hamburgerAdmin_system_endpoints_title = "base:tlbl:central:admin-system-endpoints-title";

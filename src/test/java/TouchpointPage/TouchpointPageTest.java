@@ -1,4 +1,4 @@
-package Touchpoint;
+package TouchpointPage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +14,7 @@ public class TouchpointPageTest extends TouchpointPageTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(testLoginPageURL);
+        driver.get(LoginTestPageURL);
 
     }
 
