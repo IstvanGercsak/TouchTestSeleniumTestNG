@@ -5,7 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 public class TouchpointPageTest extends TouchpointPageTestDriver {
@@ -15,26 +14,26 @@ public class TouchpointPageTest extends TouchpointPageTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(TestLoginPageURL);
+        driver.get(testLoginPageURL);
 
     }
 
     @Test(description = "UK is clickable")
     public void touchpointIsReachable() {
 
-        driver.findElement(By.id("username")).sendKeys(UKJurisdictionOperatorName);
-        driver.findElement(By.id("password")).sendKeys(UKJurisdictionOperatorPassword);
+        driver.findElement(By.id("username")).sendKeys(ukJurisdictionOperatorName);
+        driver.findElement(By.id("password")).sendKeys(ukJurisdictionOperatorPassword);
         driver.findElement(By.className("btn-primary")).click();
         driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/div/div[2]/div/a[1]")).click();
-        Assert.assertEquals(driver.getCurrentUrl(), UKPageURL);
+        Assert.assertEquals(driver.getCurrentUrl(), ukPageURL);
 
     }
 
     @Test(description = "Dropwodn list")
     public void second() {
 
-        driver.findElement(By.id("username")).sendKeys(UKJurisdictionOperatorName);
-        driver.findElement(By.id("password")).sendKeys(UKJurisdictionOperatorPassword);
+        driver.findElement(By.id("username")).sendKeys(ukJurisdictionOperatorName);
+        driver.findElement(By.id("password")).sendKeys(ukJurisdictionOperatorPassword);
         driver.findElement(By.className("btn-primary")).click();
         driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/div/div[2]/div/a[1]")).click();
         driver.findElement(By.id("mode")).click();
@@ -43,8 +42,8 @@ public class TouchpointPageTest extends TouchpointPageTestDriver {
     @Test(description = "UKT1009")
     public void third() {
 
-        driver.findElement(By.id("username")).sendKeys(UKJurisdictionOperatorName);
-        driver.findElement(By.id("password")).sendKeys(UKJurisdictionOperatorPassword);
+        driver.findElement(By.id("username")).sendKeys(ukJurisdictionOperatorName);
+        driver.findElement(By.id("password")).sendKeys(ukJurisdictionOperatorPassword);
         driver.findElement(By.className("btn-primary")).click();
         driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/div/div[2]/div/a[1]")).click();
         driver.findElement(By.name("reference")).sendKeys("UKT1009");

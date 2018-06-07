@@ -20,22 +20,22 @@ public class LoginPageTest extends LoginPageTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(TestLoginPageURL);
+        driver.get(testLoginPageURL);
 //
     }
 
     @Test(description = "Touch is available!")
     public void touchIsAvailable() {
 
-        urlIsAssert(TestLoginPageURL);
+        urlIsAssert(testLoginPageURL);
 
     }
 
     @Test(description = "I can log into the application")
     public void loginIntoTouch() {
 
-        login(UKJurisdictionOperatorName, UKJurisdictionOperatorPassword);
-        urlIsAssert(CentralPageURL);
+        login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
+        urlIsAssert(centralPageURL);
 
     }
 
@@ -43,7 +43,7 @@ public class LoginPageTest extends LoginPageTestDriver {
     public void redirectedToInvalidLoginPage() {
 
         login("", "");
-        Assert.assertEquals(driver.getCurrentUrl(), InvalidLoginPageURL);
+        Assert.assertEquals(driver.getCurrentUrl(), invalidLoginPageURL);
 
     }
 
@@ -59,8 +59,8 @@ public class LoginPageTest extends LoginPageTestDriver {
     public void loginAfterWrongdetails() {
 
         login("", "");
-        login(UKJurisdictionOperatorName, UKJurisdictionOperatorPassword);
-        urlIsAssert(CentralPageURL);
+        login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
+        urlIsAssert(centralPageURL);
 
     }
 

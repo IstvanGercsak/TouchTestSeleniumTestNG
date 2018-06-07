@@ -13,27 +13,27 @@ public class RightsTest extends RightsTestDriver {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(TestLoginPageURL);
+        driver.get(testLoginPageURL);
 
     }
 
     @Test(description = "Login with admin")
     public void loginWithAdmin() {
-        login(AdminUserName, AdminUserPassword);
+        login(adminUserName, adminUserPassword);
     }
 
     @Test(description = "Login with Touchpoint administrator")
     public void loginWithTouchpointUser() {
-        login(UKJurisdictionOperatorName, UKJurisdictionOperatorPassword);
+        login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
     }
 
 
     @Test(description = "I can reach every page with admin permission - (Regression and Smoke)")
     public void reachPagesWithAdmin() {
 
-        login(AdminUserName, AdminUserPassword);
+        login(adminUserName, adminUserPassword);
         clickOnTheHamburgeMenuDropdown();
-        clickOnTheHamburgerMenuElement(HamburgerDashboardName);
+        clickOnTheHamburgerMenuElement(hamburgerDashboardName);
 //        clickOnTheHamburgeMenuDropdown();
 //        clickOnTheHamburgerMenuElement(HamburgerTouchCentralActions);
 //        clickOnTheHamburgeMenuDropdown();
@@ -47,7 +47,7 @@ public class RightsTest extends RightsTestDriver {
 
     @Test(description = "I can reach every page with admin permission")
     public void reachPagesWithTouchUser() {
-        login(UKJurisdictionOperatorName, UKJurisdictionOperatorPassword);
+        login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
     }
 
     @AfterMethod(description = "Close the browser after each test")
