@@ -92,9 +92,8 @@ public class BaseData {
 
     public Page loginPage = new Page(
             "",
-            "    https://touch-test-central.azurewebsites.net/central/login"
+            "https://touch-test-central.azurewebsites.net/central/login"
     );
-
 
     //protected String touchCentralActions = "Touch Central Actions";
     //protected String hamburgerDashboardName = "Dashboard";
@@ -145,6 +144,10 @@ public class BaseData {
         driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
         driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
         driver.findElement(By.className("btn-primary")).click();
+
+    }
+
+    public void createHamburgerMenuList(){
 
     }
 

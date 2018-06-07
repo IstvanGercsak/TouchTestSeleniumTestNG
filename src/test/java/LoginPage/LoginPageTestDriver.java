@@ -22,6 +22,7 @@ public class LoginPageTestDriver extends BaseData {
     public void urlIsAssert(String checkPage) {
 
         Assert.assertEquals(driver.getCurrentUrl(), checkPage);
+
     }
 
 }
