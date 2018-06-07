@@ -7,6 +7,9 @@
             <class name="LoginPage.LoginPageTest" />
             <class name="TouchpointPage.TouchpointPageTest" />
             <class name="UserPage.RightsTest" />
+            <class name="AboutTouchPage.AboutTouchPageTest" />
+            <class name="UserProfilePage.UserProfilePageTest" />
+            <class name="CentralPage.CentralPageTest" />
         </classes>
     </test>
 

@@ -148,7 +148,8 @@ public class BaseData {
     }
 
     public void createHamburgerMenuList(){
-
+        List myList = new ArrayList();
+        myList.add(aboutTouchPage.hamburgerName);
     }
 
 //    public void checkHamburgerMenuList() throws InterruptedException {
