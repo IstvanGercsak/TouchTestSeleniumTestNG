@@ -55,8 +55,6 @@ public class BaseData {
 
     }
 
-    public List<Page> listOfPages = new ArrayList<Page>();
-
     public Page aboutTouchPage = new Page(
             "About Touch",
             "https://touch-test-central.azurewebsites.net/central/help/about"
@@ -150,11 +148,25 @@ public class BaseData {
 
     }
 
-    public void checkHamburgerMenuList() {
-
-        clickOnHamburgermenu();
-
-
-    }
-
+//    public void checkHamburgerMenuList() throws InterruptedException {
+//
+//        clickOnHamburgermenu();
+//        System.out.println("123");
+//        Thread.sleep(3000);
+//
+//        for (int i = 0; i < listOfPages.size(); i++) {
+//            System.out.println(i);
+//            System.out.println(" " + listOfPages.get(i));
+//        }
+//
+//
+//        for (Page item : listOfPages) {
+//            System.out.println("qwe");
+//            if (!(item.hamburgerName.equals(""))) {
+//                driver.findElement(By.xpath("//a[contains(text(),'" + item.hamburgerName + "')]"));
+//                System.out.println(item.hamburgerName);
+//            }
+//        }
+//
+//    }
 }

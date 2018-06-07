@@ -27,10 +27,12 @@ public class AboutTouchPageTest extends AboutTouchPageTestDriver {
     }
 
     @Test
-    public void AboutTouchHamburgerMenuElementsAreAvailable() {
+    public void AboutTouchHamburgerMenuElementsAreAvailable() throws InterruptedException {
 
+        login(adminUserName,adminUserPassword);
         goToHamburgerAboutTouchPage();
-        clickOnHamburgermenu();
+
+
 
     }
 
@@ -44,10 +46,10 @@ public class AboutTouchPageTest extends AboutTouchPageTestDriver {
     }
 
     @Test
-    public void AboutTouchBreadcrumbs() {
+    public void AboutTouchBreadcrumbs() throws InterruptedException {
 
         goToHamburgerAboutTouchPage();
-        checkHamburgerMenuList();
+
     }
 
     @AfterMethod(description = "Close the browser after each test")
