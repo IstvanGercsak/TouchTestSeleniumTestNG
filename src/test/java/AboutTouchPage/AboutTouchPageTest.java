@@ -18,8 +18,6 @@ public class AboutTouchPageTest extends BaseData {
 
     }
 
-    /*In this case it is not necessary to test with the two permission*/
-
     @Test
     public void pageIsAvailable() {
 
@@ -30,9 +28,31 @@ public class AboutTouchPageTest extends BaseData {
     }
 
     @Test
-    public void AboutTouchHamburgerMenuElementsAreAvailable() {
+    public void AboutTouchHamburgerMenuElementsAreAvailableAsMixedUser() {
 
         login(testUserName, testUserPassword);
+        directionWithHamburgerMenu(aboutTouchPage.hamburgerName());
+        clickOnHamburgermenu();
+        hamburgerMenuElementsIsClickable();
+
+    }
+
+    //TODO: Not clear
+    @Test
+    public void AboutTouchHamburgerMenuElementsAreAvailableAsAdmin() {
+
+        login(adminUserName, adminUserPassword);
+        directionWithHamburgerMenu(aboutTouchPage.hamburgerName());
+        clickOnHamburgermenu();
+        hamburgerMenuElementsIsClickable();
+
+    }
+
+    //TODO: Not clear
+    @Test
+    public void AboutTouchHamburgerMenuElementsAreAvailableAsJurisdiction() {
+
+        login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(aboutTouchPage.hamburgerName());
         clickOnHamburgermenu();
         hamburgerMenuElementsIsClickable();

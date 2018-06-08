@@ -147,13 +147,13 @@ public class BaseData {
         myList.add(aboutTouchPage.hamburgerName);
 
         return myList;
-
     }
 
     protected void hamburgerMenuElementsIsClickable() {
 
         for (String item : createHamburgerMenuList()) {
             driver.findElement(By.xpath("//a[contains(text(),'" + item + "')]"));
+            System.out.println(item);
         }
 
     }
