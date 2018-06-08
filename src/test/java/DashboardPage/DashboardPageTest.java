@@ -31,7 +31,7 @@ public class DashboardPageTest extends DashboardPageDriverTest {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(dashboardPage.hamburgerName());
-        Assert.assertEquals(driver.getCurrentUrl(), aboutTouchPage.url());
+        Assert.assertEquals(driver.getCurrentUrl(), dashboardPage.url());
 
     }
 
@@ -79,7 +79,7 @@ public class DashboardPageTest extends DashboardPageDriverTest {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(dashboardPage.hamburgerName());
-        assertBreadcrumbs(aboutTouchPage.hamburgerName());
+        assertBreadcrumbs("Dashboards");
 
     }
 
