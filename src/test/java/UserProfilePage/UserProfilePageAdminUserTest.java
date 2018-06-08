@@ -18,6 +18,8 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
 
     }
 
+    /*From thee test we can create smoke test with different users*/
+
     @Test
     public void pageIsAvailable() {
 

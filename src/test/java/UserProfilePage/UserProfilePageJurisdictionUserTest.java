@@ -18,7 +18,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
 
     }
 
-    /*In this case it is not necessary to test with the two permission (Except the specific test)*/
+    /*From thee test we can create smoke test with different users*/
 
     @Test
     public void pageIsAvailable() {
