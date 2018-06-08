@@ -79,7 +79,7 @@ public class TouchpointPageTest extends BaseData {
 //    }
 
     @AfterMethod(description = "Close the browser after each test")
-    public void closebrowser() {
+    public void closeBrowser() {
 
         driver.close();
 

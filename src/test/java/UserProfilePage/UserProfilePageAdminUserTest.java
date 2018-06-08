@@ -43,7 +43,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileMetlifeIcondirection() {
+    public void UserProfileMetLifeIconDirection() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -53,7 +53,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileUserIcondirection() {
+    public void UserProfileUserIconDirection() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -63,7 +63,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileTestBreadctumbs() {
+    public void UserProfileTestBreadcrumb() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -110,8 +110,10 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @AfterMethod(description = "Close the browser after each test")
-    public void closebrowser() {
+    public void closeBrowser() {
+
         driver.close();
+
     }
 
 }

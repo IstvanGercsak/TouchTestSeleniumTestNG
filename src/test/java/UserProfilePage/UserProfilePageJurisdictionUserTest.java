@@ -21,7 +21,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
 
     }
 
-    /*From thee test we can create smoke test with different users*/
+    /*From these test we can create smoke test with different users*/
 
     @Test
     public void pageIsAvailable() {
@@ -43,7 +43,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @Test
-    public void UserProfileMetlifeIcondirection() {
+    public void UserProfileMetLifeIconDirection() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -53,7 +53,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @Test
-    public void UserProfileUserIcondirection() {
+    public void UserProfileUserIconDirection() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -63,7 +63,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @Test
-    public void UserProfileTestBreadctumbs() {
+    public void UserProfileTestBreadcrumb() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -111,8 +111,10 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @AfterMethod(description = "Close the browser after each test")
-    public void closebrowser() {
+    public void closeBrowser() {
+
         driver.close();
+
     }
 
 }

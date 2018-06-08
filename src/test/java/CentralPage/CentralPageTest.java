@@ -59,7 +59,7 @@ public class CentralPageTest extends BaseData {
     }
 
     @Test
-    public void centralPageMetlifeIcondirection() {
+    public void centralPageMetLifeIconDirection() {
 
         login(adminUserName, adminUserPassword);
         clickOnTheMetlifeIcon();
@@ -68,14 +68,14 @@ public class CentralPageTest extends BaseData {
     }
 
     @Test
-    public void centralPageUserIcondirection() {
+    public void centralPageUserIconDirection() {
 
         login(adminUserName, adminUserPassword);
 
     }
 
     @Test
-    public void centralPageBreadctumbs() {
+    public void centralPageBreadcrumb() {
 
         login(adminUserName, adminUserPassword);
 
@@ -89,7 +89,9 @@ public class CentralPageTest extends BaseData {
     }
 
     @AfterMethod(description = "Close the browser after each test")
-    public void closebrowser() {
+    public void closeBrowser() {
+
         driver.close();
+
     }
 }
