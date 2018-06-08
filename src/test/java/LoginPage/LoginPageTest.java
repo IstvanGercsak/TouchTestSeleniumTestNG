@@ -47,7 +47,7 @@ public class LoginPageTest extends LoginPageTestDriver {
     }
 
     @Test(description = "I don't give username or passwowrd and a message appears")
-    public void messageAppearAfterWrongLoginDetails() {
+    public void messageAppearsAfterWrongLoginDetails() {
 
         login("", "");
         findInvalidMessage();

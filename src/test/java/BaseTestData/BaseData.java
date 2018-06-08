@@ -153,7 +153,6 @@ public class BaseData {
 
         for (String item : createHamburgerMenuList()) {
             driver.findElement(By.xpath("//a[contains(text(),'" + item + "')]"));
-            System.out.println(item);
         }
 
     }

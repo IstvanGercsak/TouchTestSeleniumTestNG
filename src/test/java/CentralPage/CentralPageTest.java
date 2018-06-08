@@ -2,13 +2,20 @@ package CentralPage;
 
 import BaseTestData.BaseData;
 import LoginPage.LoginPageTestDriver;
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class CentralPageTest extends BaseData {
+
+    @BeforeClass
+    public static void setupClass() {
+        ChromeDriverManager.getInstance().setup();
+    }
 
     @BeforeMethod(description = "Open browser before each test!")
     public void start() {
