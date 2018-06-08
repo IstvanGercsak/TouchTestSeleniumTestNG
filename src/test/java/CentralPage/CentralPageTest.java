@@ -1,7 +1,6 @@
 package CentralPage;
 
 import BaseTestData.BaseData;
-import LoginPage.LoginPageTestDriver;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
