@@ -2,6 +2,7 @@ package BaseTestData;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import java.util.ArrayList;
 
@@ -36,7 +37,7 @@ public class BaseData {
 
         String hamburgerName, url;
 
-        public Page(String hamburgerName, String url) {
+        Page(String hamburgerName, String url) {
 
             this.hamburgerName = hamburgerName;
             this.url = url;
@@ -53,42 +54,42 @@ public class BaseData {
 
     }
 
-    public Page aboutTouchPage = new Page(
+    protected Page aboutTouchPage = new Page(
             "About Touch",
             "https://touch-test-central.azurewebsites.net/central/help/about"
     );
 
-    public Page logoutPage = new Page(
+    protected Page logoutPage = new Page(
             "Logout",
             ""
     );
 
-    public Page dashboardPage = new Page(
+    protected Page dashboardPage = new Page(
             "Dashboard",
             "https://touch-test-central.azurewebsites.net/central/reports/dashboard"
     );
 
-    public Page userProfilePage = new Page(
+    protected Page userProfilePage = new Page(
             "User Profile",
             "https://touch-test-central.azurewebsites.net/central/myprofile"
     );
 
-    public Page touchCentral = new Page(
+    protected Page touchCentral = new Page(
             "Touch Central Actions",
             "https://touch-test-central.azurewebsites.net/central/"
     );
 
-    public Page uktouchPage = new Page(
+    protected Page uktouchPage = new Page(
             "uk:tlbl:zone:touchpoints-title",
             "http://touch-test-zone.azurewebsites.net/uk/"
     );
 
-    public Page wrongLoginPage = new Page(
+    protected Page wrongLoginPage = new Page(
             "",
             "https://touch-test-central.azurewebsites.net/central/login?error"
     );
 
-    public Page loginPage = new Page(
+    protected Page loginPage = new Page(
             "",
             "https://touch-test-central.azurewebsites.net/central/login"
     );
@@ -137,7 +138,7 @@ public class BaseData {
 
     }
 
-    public void login(String TESTUSERNAME, String TESTPASSWORD) {
+    protected void login(String TESTUSERNAME, String TESTPASSWORD) {
 
         driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
         driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
@@ -145,7 +146,7 @@ public class BaseData {
 
     }
 
-    public ArrayList<String> createHamburgerMenuList() {
+    private ArrayList<String> createHamburgerMenuList() {
 
         ArrayList<String> myList = new ArrayList<>();
 
@@ -160,7 +161,7 @@ public class BaseData {
         return myList;
     }
 
-    public void hamburgerMenuElementsIsClickable() {
+    protected void hamburgerMenuElementsIsClickable() {
 
         for (String item : createHamburgerMenuList()) {
             driver.findElement(By.xpath("//a[contains(text(),'" + item + "')]"));
@@ -168,4 +169,29 @@ public class BaseData {
         }
 
     }
+
+    protected void clickOnProfileIcon() {
+
+        driver.findElement(By.className("icon-medium")).click();
+
+    }
+
+    protected void assertBreadcrumbs(String getBreadcumbs) {
+
+        Assert.assertEquals(driver.findElement(By.xpath("//*[@id=\"titlebarFragment\"]/div/span")).getText(), getBreadcumbs);
+
+    }
+
+    protected void urlIsAssert(String checkPage) {
+
+        Assert.assertEquals(driver.getCurrentUrl(), checkPage);
+
+    }
+
+    protected void assertTextOn(String getPermissionText, boolean isAvailable) {
+
+        Assert.assertEquals(driver.getPageSource().contains(getPermissionText), isAvailable);
+
+    }
+
 }

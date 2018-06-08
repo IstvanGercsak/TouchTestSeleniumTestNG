@@ -19,10 +19,4 @@ public class LoginPageTestDriver extends BaseData {
         driver.findElement(By.className("alert-danger"));
     }
 
-    public void urlIsAssert(String checkPage) {
-
-        Assert.assertEquals(driver.getCurrentUrl(), checkPage);
-
-    }
-
 }
