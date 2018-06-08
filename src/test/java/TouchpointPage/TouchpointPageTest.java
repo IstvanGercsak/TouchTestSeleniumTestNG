@@ -29,10 +29,8 @@ public class TouchpointPageTest extends BaseData {
     @Test(description = "UK is clickable")
     public void touchpointIsReachable() {
 
-        driver.findElement(By.id("username")).sendKeys(ukJurisdictionOperatorName);
-        driver.findElement(By.id("password")).sendKeys(ukJurisdictionOperatorPassword);
-        driver.findElement(By.className("btn-primary")).click();
-        driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/div/div[2]/div/a[1]")).click();
+        login(testUserName,testUserPassword);
+        clickOnTextLink("UK");
         Assert.assertEquals(driver.getCurrentUrl(), uktouchPage.url());
 
     }

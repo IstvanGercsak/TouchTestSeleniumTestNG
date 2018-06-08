@@ -181,4 +181,10 @@ public class BaseData {
 
     }
 
+    protected void clickOnTextLink(String linkText){
+
+        driver.findElement(By.linkText(linkText)).click();
+
+    }
+
 }
