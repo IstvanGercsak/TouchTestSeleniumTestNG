@@ -1,7 +1,6 @@
 package TouchpointPage;
 
 import BaseTestData.BaseData;
-import com.sun.xml.internal.rngom.parse.host.Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
