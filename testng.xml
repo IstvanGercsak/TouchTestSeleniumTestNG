@@ -10,7 +10,7 @@
             <package name="LoginPage"/>
             <package name="TouchpointPage"/>
             <package name="UserProfilePage"/>
-            <package name="Dashboard"/>
+            <package name="DashboardPage"/>
 
         </packages>
 
