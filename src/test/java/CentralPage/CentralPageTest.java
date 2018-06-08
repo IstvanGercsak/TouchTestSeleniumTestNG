@@ -18,7 +18,7 @@ public class CentralPageTest extends LoginPageTestDriver {
     }
 
     @Test
-    public void pageIsAvailable() {
+    public void loginIsPossibleWithAdmin(){
 
         login(adminUserName, adminUserPassword);
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
@@ -26,9 +26,26 @@ public class CentralPageTest extends LoginPageTestDriver {
     }
 
     @Test
-    public void centralPageHamburgerMenuElementsAreAvailable() {
+    public void loginIsPossibleWithJurisdiction(){
+
+        login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
+        Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
+
+    }
+
+    @Test
+    public void centralPageHamburgerMenuElementsAreAvailableWithAdmin() {
 
         login(adminUserName, adminUserPassword);
+        hamburgerMenuElementsIsClickable();
+
+    }
+
+    @Test
+    public void centralPageHamburgerMenuElementsAreAvailableWithJurisdiction() {
+
+        login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
+        hamburgerMenuElementsIsClickable();
 
     }
 

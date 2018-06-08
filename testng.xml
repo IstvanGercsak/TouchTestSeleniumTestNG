@@ -8,7 +8,7 @@
             <class name="TouchpointPage.TouchpointPageTest" />
             <class name="UserPage.RightsTest" />
             <class name="AboutTouchPage.AboutTouchPageTest" />
-            <class name="UserProfilePage.UserProfilePageTest" />
+            <class name="UserProfilePage.UserProfilePageMixedUserTest" />
             <class name="CentralPage.CentralPageTest" />
         </classes>
     </test>

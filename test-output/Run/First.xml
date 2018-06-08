@@ -22,17 +22,17 @@
   <testcase classname="AboutTouchPage.AboutTouchPageTest" name="AboutTouchBreadcrumbs" time="1.736"/>
   <testcase classname="AboutTouchPage.AboutTouchPageTest" name="AboutTouchHamburgerMenuElementsAreAvailable" time="1.785"/>
   <testcase classname="AboutTouchPage.AboutTouchPageTest" name="AboutTouchMetlifeIcondirection" time="2.672"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="UserProfileHamburgerMenuElementsAreAvailable" time="1.115"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="UserProfileMetlifeIcondirection" time="1.705"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="UserProfileTestBreadctumbs" time="1.409"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="UserProfileUserIcondirection" time="1.266"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="clickOnBackButtonAfterLogin" time="1.146"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="clickOnBackButtonFromAnotherPage" time="1.46"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="clickOnLogoutButton" time="1.378"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="pageIsAvailable" time="2.782"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="permissionIsVisibleAsAdmin" time="1.073"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="permissionIsVisibleAsJurisdiction" time="1.39"/>
-  <testcase classname="UserProfilePage.UserProfilePageTest" name="permissionsAreVisibleAsAdmin" time="1.191"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="UserProfileHamburgerMenuElementsAreAvailable" time="1.115"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="UserProfileMetlifeIcondirection" time="1.705"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="UserProfileTestBreadctumbs" time="1.409"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="UserProfileUserIcondirection" time="1.266"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="clickOnBackButtonAfterLogin" time="1.146"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="clickOnBackButtonFromAnotherPage" time="1.46"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="clickOnLogoutButton" time="1.378"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="pageIsAvailable" time="2.782"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="permissionIsVisibleAsAdmin" time="1.073"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="permissionIsVisibleAsJurisdiction" time="1.39"/>
+  <testcase classname="UserProfilePage.UserProfilePageMixedUserTest" name="permissionsAreVisibleAsAdmin" time="1.191"/>
   <testcase classname="CentralPage.CentralPageTest" name="centralPageBreadctumbs" time="1.592"/>
   <testcase classname="CentralPage.CentralPageTest" name="centralPageHamburgerMenuElementsAreAvailable" time="1.167"/>
   <testcase classname="CentralPage.CentralPageTest" name="centralPageMetlifeIcondirection" time="1.746"/>

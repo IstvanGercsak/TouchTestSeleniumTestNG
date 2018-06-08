@@ -1,12 +1,13 @@
 package AboutTouchPage;
 
+import BaseTestData.BaseData;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AboutTouchPageTest extends AboutTouchPageTestDriver {
+public class AboutTouchPageTest extends BaseData {
 
     @BeforeMethod(description = "Open browser before each test!")
     public void start() {
@@ -17,20 +18,22 @@ public class AboutTouchPageTest extends AboutTouchPageTestDriver {
 
     }
 
+    /*In this case it is not necessary to test with the two permission*/
+
     @Test
     public void pageIsAvailable() {
 
-        login(adminUserName,adminUserPassword);
-        goToHamburgerAboutTouchPage();
+        login(testUserName, testUserPassword);
+        directionWithHamburgerMenu(aboutTouchPage.hamburgerName());
         Assert.assertEquals(driver.getCurrentUrl(), aboutTouchPage.url());
 
     }
 
     @Test
-    public void AboutTouchHamburgerMenuElementsAreAvailable() throws InterruptedException {
+    public void AboutTouchHamburgerMenuElementsAreAvailable() {
 
-        login(adminUserName,adminUserPassword);
-        goToHamburgerAboutTouchPage();
+        login(testUserName, testUserPassword);
+        directionWithHamburgerMenu(aboutTouchPage.hamburgerName());
         clickOnHamburgermenu();
         hamburgerMenuElementsIsClickable();
 
@@ -39,18 +42,29 @@ public class AboutTouchPageTest extends AboutTouchPageTestDriver {
     @Test
     public void AboutTouchMetlifeIcondirection() {
 
-        login(adminUserName,adminUserPassword);
-        goToHamburgerAboutTouchPage();
+        login(testUserName, testUserPassword);
+        directionWithHamburgerMenu(aboutTouchPage.hamburgerName());
         clickOnTheMetlifeIcon();
-        Assert.assertEquals(driver.getCurrentUrl(),touchCentral.url());
+        Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
 
     }
 
     @Test
-    public void AboutTouchBreadcrumbs() {
+    public void AboutTouchUserIcondirection() {
 
-        login(adminUserName,adminUserPassword);
-        goToHamburgerAboutTouchPage();
+        login(testUserName, testUserPassword);
+        directionWithHamburgerMenu(aboutTouchPage.hamburgerName());
+        clickOnProfileIcon();
+        urlIsAssert(userProfilePage.url());
+
+    }
+
+    @Test
+    public void AboutTouchTestBreadctumbs() {
+
+        login(testUserName, testUserPassword);
+        directionWithHamburgerMenu(aboutTouchPage.hamburgerName());
+        assertBreadcrumbs(aboutTouchPage.hamburgerName());
 
     }
 

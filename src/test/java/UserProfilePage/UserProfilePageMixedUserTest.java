@@ -1,7 +1,5 @@
 package UserProfilePage;
 
-import AboutTouchPage.AboutTouchPageTest;
-import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -9,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
-public class UserProfilePageTest extends AboutTouchPageTest {
+public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
 
     @BeforeMethod(description = "Open browser before each test!")
     public void start() {
@@ -20,10 +18,12 @@ public class UserProfilePageTest extends AboutTouchPageTest {
 
     }
 
+    /*In this case it is not necessary to test with the two permission (Except the specific test)*/
+
     @Test
     public void pageIsAvailable() {
 
-        login(adminUserName, adminUserPassword);
+        login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
         Assert.assertEquals(driver.getCurrentUrl(), userProfilePage.url());
 
@@ -32,7 +32,7 @@ public class UserProfilePageTest extends AboutTouchPageTest {
     @Test
     public void UserProfileHamburgerMenuElementsAreAvailable() {
 
-        login(adminUserName, adminUserPassword);
+        login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
         clickOnHamburgermenu();
         hamburgerMenuElementsIsClickable();
@@ -42,7 +42,7 @@ public class UserProfilePageTest extends AboutTouchPageTest {
     @Test
     public void UserProfileMetlifeIcondirection() {
 
-        login(adminUserName, adminUserPassword);
+        login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
         clickOnTheMetlifeIcon();
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
@@ -52,7 +52,7 @@ public class UserProfilePageTest extends AboutTouchPageTest {
     @Test
     public void UserProfileUserIcondirection() {
 
-        login(adminUserName, adminUserPassword);
+        login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
         clickOnProfileIcon();
         urlIsAssert(userProfilePage.url());
@@ -62,7 +62,7 @@ public class UserProfilePageTest extends AboutTouchPageTest {
     @Test
     public void UserProfileTestBreadctumbs() {
 
-        login(adminUserName, adminUserPassword);
+        login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
         assertBreadcrumbs(userProfilePage.hamburgerName());
 
@@ -71,14 +71,13 @@ public class UserProfilePageTest extends AboutTouchPageTest {
     @Test
     public void permissionsAreVisibleAsAdmin() {
 
-        login(adminUserName, adminUserPassword);
+        login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
         assertTextOn("Central Admin", true);
         assertTextOn("UK Jurisdiction Operator", true);
 
     }
 
-    @Ignore
     @Test
     public void permissionIsVisibleAsAdmin() {
 
@@ -89,11 +88,10 @@ public class UserProfilePageTest extends AboutTouchPageTest {
 
     }
 
-    @Ignore
     @Test
     public void permissionIsVisibleAsJurisdiction() {
 
-        login(adminUserName, adminUserPassword);
+        login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
         assertTextOn("Central Admin", false);
         assertTextOn("UK Jurisdiction Operator", true);
@@ -103,9 +101,9 @@ public class UserProfilePageTest extends AboutTouchPageTest {
     @Test
     public void clickOnLogoutButton() {
 
-        login(adminUserName, adminUserPassword);
+        login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
-        driver.findElement(By.linkText("Logout")).click();
+        clickTheButton("Logout");
         urlIsAssert(loginPage.url());
 
     }
@@ -113,9 +111,9 @@ public class UserProfilePageTest extends AboutTouchPageTest {
     @Test
     public void clickOnBackButtonAfterLogin() {
 
-        login(adminUserName, adminUserPassword);
+        login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
-        driver.findElement(By.linkText("Back")).click();
+        clickTheButton("Back");
         urlIsAssert(touchCentral.url());
 
     }
@@ -124,7 +122,7 @@ public class UserProfilePageTest extends AboutTouchPageTest {
     @Test(description = "This test is not working")
     public void clickOnBackButtonFromAnotherPage() {
 
-        login(adminUserName, adminUserPassword);
+        login(testUserName, testUserPassword);
 
     }
 

@@ -14,14 +14,6 @@ public class BaseData {
 
     /*URL implementation*/
 
-    //protected String LoginTestPageURL = "https://touch-test-central.azurewebsites.net/central/login";
-    //protected String invalidLoginPageURL = "https://touch-test-central.azurewebsites.net/central/login?error";
-    //protected String centralPageURL = "https://touch-test-central.azurewebsites.net/central/";
-    //protected String ukPageURL = "http://touch-test-zone.azurewebsites.net/uk/";
-    //protected String dashboardPageURL = "https://touch-test-central.azurewebsites.net/central/reports/dashboard";
-    //protected String userProfileURL = "https://touch-test-central.azurewebsites.net/central/myprofile";
-    //protected String aboutTouchURL = "https://touch-test-central.azurewebsites.net/central/help/about";
-
 //    protected String touchpointFormsURL = "https://touch-test-central.azurewebsites.net/central/admin/touchpoint/forms";
 //    protected String touchpointDataListsURL = "https://touch-test-central.azurewebsites.net/central/admin/touchpoint/datalists";
 //    protected String manageUsersURL = "https://touch-test-central.azurewebsites.net/central/admin/system/users";
@@ -94,13 +86,6 @@ public class BaseData {
             "https://touch-test-central.azurewebsites.net/central/login"
     );
 
-    //protected String touchCentralActions = "Touch Central Actions";
-    //protected String hamburgerDashboardName = "Dashboard";
-    //protected String hamburgerUserProfile = "User Profile";
-    //protected String hamburgerAboutTouch = "About Touch";
-    //protected String hamburgerLougout = "Logout";
-
-
 //    protected String hamburgerTouchpointForms = "TouchpointPage Forms";
 //    protected String hamburgerTouchpointDataLists = "TouchpointPage Data Lists";
 //    protected String hamburgerManageUsers = "Manage Users";
@@ -112,10 +97,13 @@ public class BaseData {
 
     /*Users implementation*/
 
-    protected String adminUserName = "istvan.gercsak@metlife.com";
+    protected String adminUserName = "TestAdmin@TestAdmin.com";
     protected String adminUserPassword = "Igercsak8!#";
-    protected String ukJurisdictionOperatorName = "istvan.gercsak@metlife.com";
+    protected String ukJurisdictionOperatorName = "istvan.gercsak@gmail.com";
     protected String ukJurisdictionOperatorPassword = "Igercsak8!#";
+    protected String testUserName = "istvan.gercsak@metlife.com";
+    protected String testUserPassword = "Igercsak8!#";
+
 
     /*Used methods on every page*/
 
@@ -138,10 +126,10 @@ public class BaseData {
 
     }
 
-    protected void login(String TESTUSERNAME, String TESTPASSWORD) {
+    protected void login(String testUserName, String testUserPassword) {
 
-        driver.findElement(By.id("username")).sendKeys(TESTUSERNAME);
-        driver.findElement(By.id("password")).sendKeys(TESTPASSWORD);
+        driver.findElement(By.id("username")).sendKeys(testUserName);
+        driver.findElement(By.id("password")).sendKeys(testUserPassword);
         driver.findElement(By.className("btn-primary")).click();
 
     }
@@ -159,13 +147,13 @@ public class BaseData {
         myList.add(aboutTouchPage.hamburgerName);
 
         return myList;
+
     }
 
     protected void hamburgerMenuElementsIsClickable() {
 
         for (String item : createHamburgerMenuList()) {
             driver.findElement(By.xpath("//a[contains(text(),'" + item + "')]"));
-            System.out.println(item);
         }
 
     }
