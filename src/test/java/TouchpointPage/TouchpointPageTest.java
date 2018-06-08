@@ -1,14 +1,21 @@
 package TouchpointPage;
 
 import BaseTestData.BaseData;
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TouchpointPageTest extends BaseData {
+
+    @BeforeClass
+    public static void setupClass() {
+        ChromeDriverManager.getInstance().setup();
+    }
 
     @BeforeMethod(description = "open browser before each test")
     public void start() {

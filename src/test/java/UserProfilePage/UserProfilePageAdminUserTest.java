@@ -1,13 +1,16 @@
 package UserProfilePage;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Ignore;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
+
+    @BeforeClass
+    public static void setupClass() {
+        ChromeDriverManager.getInstance().setup();
+    }
 
     @BeforeMethod(description = "Open browser before each test!")
     public void start() {
