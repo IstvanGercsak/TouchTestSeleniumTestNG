@@ -12,12 +12,13 @@ class DashboardPageDriverTest extends BaseData {
         WebElement mySelectElement = driver.findElement(By.tagName("select"));
         Select dropdown = new Select(mySelectElement);
 
-        for (int i = 0; i < getElements.length; i++) {
+        for (String name : getElements) {
 
             driver.findElement(By.tagName("select")).click();
-            dropdown.selectByVisibleText(getElements[i]);
+            dropdown.selectByVisibleText(name);
 
         }
+
     }
 
 }
