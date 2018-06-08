@@ -2,14 +2,24 @@
 
 <suite name="Run">
 
-    <test name="First">
+    <test name="Package test">
+        <packages>
+
+            <package name="AboutTouchPageTest"/>
+            <package name="CentralPage"/>
+            <package name="Loginpage"/>
+            <package name="TouchpointPage"/>
+            <package name="UserProfilePage"/>
+
+        </packages>
+
         <classes>
-            <class name="LoginPage.LoginPageTest" />
-            <class name="TouchpointPage.TouchpointPageTest" />
-            <class name="UserPage.RightsTest" />
-            <class name="AboutTouchPage.AboutTouchPageTest" />
-            <class name="UserProfilePage.UserProfilePageMixedUserTest" />
-            <class name="CentralPage.CentralPageTest" />
+            <!--<class name="LoginPage.LoginPageTest" />-->
+            <!--<class name="TouchpointPage.TouchpointPageTest" />-->
+            <!--<class name="UserProfilePage." />-->
+            <!--<class name="AboutTouchPage.AboutTouchPageTest" />-->
+            <!--<class name="UserProfilePage.UserProfilePageMixedUserTest" />-->
+            <!--<class name="CentralPage.CentralPageTest" />-->
         </classes>
     </test>
 
