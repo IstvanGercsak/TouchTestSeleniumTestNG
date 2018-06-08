@@ -24,7 +24,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     /*From thee test we can create smoke test with different users*/
 
     @Test
-    public void pageIsAvailable() {
+    public void UserProfileAdminPageIsAvailable() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -33,7 +33,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileHamburgerMenuElementsAreAvailable() {
+    public void UserProfileAdminHamburgerMenuElementsAreAvailable() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -43,7 +43,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileMetLifeIconDirection() {
+    public void UserProfileAdminMetLifeIconDirection() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -53,7 +53,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileUserIconDirection() {
+    public void UserProfileAdminUserIconDirection() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -63,7 +63,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileTestBreadcrumb() {
+    public void UserProfileAdminTestBreadcrumb() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -72,7 +72,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void permissionIsVisibleAsAdmin() {
+    public void UserProfileAdminPermissionIsVisibleAsAdmin() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -82,7 +82,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void clickOnLogoutButton() {
+    public void UserProfileAdminClickOnLogoutButton() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -92,7 +92,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void clickOnBackButtonAfterLogin() {
+    public void UserProfileAdminClickOnBackButtonAfterLogin() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -103,7 +103,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
 
     @Ignore
     @Test(description = "This test is not working")
-    public void clickOnBackButtonFromAnotherPage() {
+    public void UserProfileAdminClickOnBackButtonFromAnotherPage() {
 
         login(testUserName, testUserPassword);
 

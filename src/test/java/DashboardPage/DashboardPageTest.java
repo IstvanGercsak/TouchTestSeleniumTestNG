@@ -27,7 +27,7 @@ public class DashboardPageTest extends DashboardPageDriverTest {
     private static final String[] DROPDOWNLISTELEMENT = {"GLOBAL", "USA", "Mexico", "Brazil", "Poland"};
 
     @Test
-    public void pageIsAvailableThroughHamburger() {
+    public void dashboardPageIsAvailableThroughHamburger() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(dashboardPage.hamburgerName());
@@ -36,7 +36,7 @@ public class DashboardPageTest extends DashboardPageDriverTest {
     }
 
     @Test
-    public void pageIsAvailableThroughLink() {
+    public void dashboardPageIsAvailableThroughLink() {
 
         login(testUserName, testUserPassword);
         clickOnTextLink(dashboardPage.hamburgerName());
@@ -45,7 +45,7 @@ public class DashboardPageTest extends DashboardPageDriverTest {
     }
 
     @Test
-    public void DashboardHamburgerMenuElementsAreAvailableAsMixedUser() {
+    public void dashboardHamburgerMenuElementsAreAvailableAsMixedUser() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(dashboardPage.hamburgerName());
@@ -55,7 +55,7 @@ public class DashboardPageTest extends DashboardPageDriverTest {
     }
 
     @Test
-    public void DashboardMetLifeIconDirection() {
+    public void dashboardMetLifeIconDirection() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(dashboardPage.hamburgerName());
@@ -65,7 +65,7 @@ public class DashboardPageTest extends DashboardPageDriverTest {
     }
 
     @Test
-    public void DashboardUserIconDirection() {
+    public void dashboardUserIconDirection() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(dashboardPage.hamburgerName());
@@ -75,7 +75,7 @@ public class DashboardPageTest extends DashboardPageDriverTest {
     }
 
     @Test
-    public void DashboardTestBreadcrumb() {
+    public void dashboardBreadcrumb() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(dashboardPage.hamburgerName());
@@ -84,7 +84,7 @@ public class DashboardPageTest extends DashboardPageDriverTest {
     }
 
     @Test
-    public void DropdownListElementsAreAvailable() {
+    public void dashboardDropdownListElementsAreAvailable() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(dashboardPage.hamburgerName());

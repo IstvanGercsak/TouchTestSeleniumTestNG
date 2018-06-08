@@ -38,20 +38,16 @@ public class TouchpointPageTest extends BaseData {
     @Test(description = "Dropwodn list")
     public void second() {
 
-        driver.findElement(By.id("username")).sendKeys(ukJurisdictionOperatorName);
-        driver.findElement(By.id("password")).sendKeys(ukJurisdictionOperatorPassword);
-        driver.findElement(By.className("btn-primary")).click();
-        driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/div/div[2]/div/a[1]")).click();
+        login(testUserName,testUserPassword);
+        clickOnTextLink("UK");
         driver.findElement(By.id("mode")).click();
     }
 
     @Test(description = "UKT1009")
     public void third() {
 
-        driver.findElement(By.id("username")).sendKeys(ukJurisdictionOperatorName);
-        driver.findElement(By.id("password")).sendKeys(ukJurisdictionOperatorPassword);
-        driver.findElement(By.className("btn-primary")).click();
-        driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/div/div[2]/div/a[1]")).click();
+        login(testUserName,testUserPassword);
+        clickOnTextLink("UK");
         driver.findElement(By.name("reference")).sendKeys("UKT1009");
 
     }

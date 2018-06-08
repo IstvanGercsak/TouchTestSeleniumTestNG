@@ -26,7 +26,7 @@ public class CentralPageTest extends BaseData {
     }
 
     @Test
-    public void loginIsPossibleWithAdmin(){
+    public void centralPageLoginIsPossibleWithAdmin(){
 
         login(adminUserName, adminUserPassword);
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
@@ -34,7 +34,7 @@ public class CentralPageTest extends BaseData {
     }
 
     @Test
-    public void loginIsPossibleWithJurisdiction(){
+    public void centralPageLoginIsPossibleWithJurisdiction(){
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
@@ -74,14 +74,7 @@ public class CentralPageTest extends BaseData {
     }
 
     @Test
-    public void centralPageBreadcrumb() {
-
-        login(adminUserName, adminUserPassword);
-
-    }
-
-    @Test
-    public void permissionsAreVisibleAsAdmin() {
+    public void centralPageCentralPageBreadcrumb() {
 
         login(adminUserName, adminUserPassword);
 

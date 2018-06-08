@@ -26,7 +26,7 @@ public class AboutTouchPageTest extends BaseData {
     }
 
     @Test
-    public void pageIsAvailable() {
+    public void AboutTouchPageIsAvailable() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(aboutTouchPage.hamburgerName());

@@ -24,7 +24,7 @@ public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
     /*From thee test we can create smoke test with different users*/
 
     @Test
-    public void pageIsAvailable() {
+    public void UserProfileMixedUserPageIsAvailable() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -33,7 +33,7 @@ public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileHamburgerMenuElementsAreAvailable() {
+    public void UserProfileMixedUserHamburgerMenuElementsAreAvailable() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -43,7 +43,7 @@ public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileMetLifeIconDirection() {
+    public void UserProfileMixedUserMetLifeIconDirection() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -53,7 +53,7 @@ public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileUserIconDirection() {
+    public void UserProfileMixedUserUserIconDirection() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -63,7 +63,7 @@ public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileTestBreadcrumb() {
+    public void UserProfileMixedUserTestBreadcrumb() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -72,7 +72,7 @@ public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void permissionsAreVisibleAsAdmin() {
+    public void UserProfileMixedUserPermissionsAreVisibleAsAdmin() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -82,27 +82,7 @@ public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void permissionIsVisibleAsAdmin() {
-
-        login(adminUserName, adminUserPassword);
-        directionWithHamburgerMenu(userProfilePage.hamburgerName());
-        assertTextOn("Central Admin", true);
-        assertTextOn("UK Jurisdiction Operator", false);
-
-    }
-
-    @Test
-    public void permissionIsVisibleAsJurisdiction() {
-
-        login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
-        directionWithHamburgerMenu(userProfilePage.hamburgerName());
-        assertTextOn("Central Admin", false);
-        assertTextOn("UK Jurisdiction Operator", true);
-
-    }
-
-    @Test
-    public void clickOnLogoutButton() {
+    public void UserProfileMixedUserClickOnLogoutButton() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -112,7 +92,7 @@ public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void clickOnBackButtonAfterLogin() {
+    public void UserProfileMixedUserClickOnBackButtonAfterLogin() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());

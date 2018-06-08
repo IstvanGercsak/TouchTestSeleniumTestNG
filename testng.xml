@@ -13,17 +13,5 @@
             <package name="DashboardPage"/>
 
         </packages>
-
-        <classes>
-
-            <!--<class name="LoginPage.LoginPageTest" />-->
-            <!--<class name="TouchpointPage.TouchpointPageTest" />-->
-            <!--<class name="UserProfilePage." />-->
-            <!--<class name="AboutTouchPage.AboutTouchPageTest" />-->
-            <!--<class name="UserProfilePage.UserProfilePageMixedUserTest" />-->
-            <!--<class name="CentralPage.CentralPageTest" />-->
-
-        </classes>
     </test>
-
 </suite>

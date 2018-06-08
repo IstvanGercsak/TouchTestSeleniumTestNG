@@ -24,7 +24,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     /*From these test we can create smoke test with different users*/
 
     @Test
-    public void pageIsAvailable() {
+    public void UserProfileJurisdictionUserPageIsAvailable() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -33,7 +33,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @Test
-    public void UserProfileHamburgerMenuElementsAreAvailable() {
+    public void UserProfileJurisdictionUserHamburgerMenuElementsAreAvailable() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -43,7 +43,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @Test
-    public void UserProfileMetLifeIconDirection() {
+    public void UserProfileJurisdictionUserMetLifeIconDirection() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -53,7 +53,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @Test
-    public void UserProfileUserIconDirection() {
+    public void UserProfileJurisdictionUserUserIconDirection() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -63,7 +63,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @Test
-    public void UserProfileTestBreadcrumb() {
+    public void UserProfileJurisdictionUserTestBreadcrumb() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -73,7 +73,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
 
 
     @Test
-    public void permissionIsVisibleAsJurisdiction() {
+    public void UserProfileJurisdictionUserPermissionIsVisibleAsJurisdiction() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -83,7 +83,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @Test
-    public void clickOnLogoutButton() {
+    public void UserProfileJurisdictionUserClickOnLogoutButton() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
@@ -93,7 +93,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @Test
-    public void clickOnBackButtonAfterLogin() {
+    public void UserProfileJurisdictionUserClickOnBackButtonAfterLogin() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
