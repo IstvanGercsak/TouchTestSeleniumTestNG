@@ -47,7 +47,7 @@ public class AboutTouchPageTest extends AboutTouchPageTestDriver {
     }
 
     @Test
-    public void AboutTouchBreadcrumbs() throws InterruptedException {
+    public void AboutTouchBreadcrumbs() {
 
         login(adminUserName,adminUserPassword);
         goToHamburgerAboutTouchPage();

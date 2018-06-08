@@ -1,7 +1,6 @@
 package UserProfilePage;
 
 import AboutTouchPage.AboutTouchPageTest;
-import LoginPage.LoginPageTestDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
