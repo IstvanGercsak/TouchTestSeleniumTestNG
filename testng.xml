@@ -5,7 +5,7 @@
     <test name="Package test">
         <packages>
 
-            <package name="AboutTouchPageTest"/>
+            <package name="AboutTouchPage"/>
             <package name="CentralPage"/>
             <package name="LoginPage"/>
             <package name="TouchpointPage"/>

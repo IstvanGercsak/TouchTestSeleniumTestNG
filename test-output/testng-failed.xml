@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Run]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Package test(failed)">
+    <classes>
+      <class name="CentralPage.CentralPageTest">
+        <methods>
+          <include name="loginIsPossibleWithJurisdiction"/>
+          <include name="centralPageMetlifeIcondirection"/>
+          <include name="loginIsPossibleWithAdmin"/>
+          <include name="centralPageUserIcondirection"/>
+          <include name="permissionsAreVisibleAsAdmin"/>
+          <include name="centralPageHamburgerMenuElementsAreAvailableWithJurisdiction"/>
+          <include name="closebrowser"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- CentralPage.CentralPageTest -->
+    </classes>
+  </test> <!-- Package test(failed) -->
+</suite> <!-- Failed suite [Run] -->
