@@ -47,7 +47,7 @@ public class LoginPageTest extends LoginPageTestDriver {
     }
 
     @Test(description = "I don't give username or passwowrd and a message appears")
-    public void messageApperAfterWrongLoginDetails() {
+    public void messageAppearAfterWrongLoginDetails() {
 
         login("", "");
         findInvalidMessage();
@@ -55,21 +55,11 @@ public class LoginPageTest extends LoginPageTestDriver {
     }
 
     @Test(description = "Log in after wrong username or password")
-    public void loginAfterWrongdetails() {
+    public void loginAfterWrongDetails() {
 
         login("", "");
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         urlIsAssert(touchCentral.url());
-
-    }
-
-    @Test(description = "Hamburger menu is availible")
-    public void hamburgerMenuisAvailable() {
-
-    }
-
-    @Test(description = "Hamburger menu is availible")
-    public void hamburgerMenuListIsAvailable() {
 
     }
 

@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class CentralPageTest extends BaseData {
+
     @BeforeMethod(description = "Open browser before each test!")
     public void start() {
 

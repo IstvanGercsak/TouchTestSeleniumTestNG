@@ -1,483 +1,592 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="38" passed="38" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="2" failed="0" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-06-07T17:14:01Z" name="Run" finished-at="2018-06-07T17:17:57Z" duration-ms="235946">
+  <suite started-at="2018-06-08T13:40:15Z" name="Run" finished-at="2018-06-08T13:40:27Z" duration-ms="12527">
     <groups>
     </groups>
-    <test started-at="2018-06-07T17:14:01Z" name="First" finished-at="2018-06-07T17:17:57Z" duration-ms="235946">
-      <class name="UserPage.RightsTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:04Z" name="start" description="open browser before each test" finished-at="2018-06-07T17:15:08Z" duration-ms="4068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="loginWithAdmin()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:08Z" name="loginWithAdmin" description="Login with admin" finished-at="2018-06-07T17:15:09Z" duration-ms="1288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithAdmin -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:09Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:15:09Z" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:09Z" name="start" description="open browser before each test" finished-at="2018-06-07T17:15:14Z" duration-ms="4162" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="loginWithTouchpointUser()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:14Z" name="loginWithTouchpointUser" description="Login with TouchpointPage administrator" finished-at="2018-06-07T17:15:15Z" duration-ms="1023" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithTouchpointUser -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:15Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:15:15Z" duration-ms="153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:15Z" name="start" description="open browser before each test" finished-at="2018-06-07T17:15:19Z" duration-ms="4135" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="reachPagesWithAdmin()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:19Z" name="reachPagesWithAdmin" description="I can reach every page with admin permission - (Regression and Smoke)" finished-at="2018-06-07T17:15:21Z" duration-ms="2079" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reachPagesWithAdmin -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:21Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:15:21Z" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:21Z" name="start" description="open browser before each test" finished-at="2018-06-07T17:15:25Z" duration-ms="4083" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="reachPagesWithTouchUser()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:25Z" name="reachPagesWithTouchUser" description="I can reach every page with admin permission" finished-at="2018-06-07T17:15:26Z" duration-ms="1061" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reachPagesWithTouchUser -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserPage.RightsTest@3349e9bb]" started-at="2018-06-07T17:15:26Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:15:26Z" duration-ms="77" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- UserPage.RightsTest -->
-      <class name="AboutTouchPage.AboutTouchPageTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:26Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:15:30Z" duration-ms="4123" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="AboutTouchBreadcrumbs()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:30Z" name="AboutTouchBreadcrumbs" finished-at="2018-06-07T17:15:32Z" duration-ms="1826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutTouchBreadcrumbs -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:32Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:15:32Z" duration-ms="73" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:32Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:15:36Z" duration-ms="4116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="AboutTouchHamburgerMenuElementsAreAvailable()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:36Z" name="AboutTouchHamburgerMenuElementsAreAvailable" finished-at="2018-06-07T17:15:44Z" duration-ms="7371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutTouchHamburgerMenuElementsAreAvailable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:44Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:15:44Z" duration-ms="74" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:44Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:15:48Z" duration-ms="4236" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="AboutTouchMetlifeIcondirection()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:48Z" name="AboutTouchMetlifeIcondirection" finished-at="2018-06-07T17:15:51Z" duration-ms="2864" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutTouchMetlifeIcondirection -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:51Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:15:51Z" duration-ms="79" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:51Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:15:55Z" duration-ms="4043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="pageIsAvailable()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:55Z" name="pageIsAvailable" finished-at="2018-06-07T17:15:57Z" duration-ms="1615" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageIsAvailable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@409bf450]" started-at="2018-06-07T17:15:57Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:15:59Z" duration-ms="2116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- AboutTouchPage.AboutTouchPageTest -->
-      <class name="TouchpointPage.TouchpointPageTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:TouchpointPage.TouchpointPageTest@3c19aaa5]" started-at="2018-06-07T17:14:43Z" name="start" description="open browser before each test" finished-at="2018-06-07T17:14:48Z" duration-ms="4114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="second()[pri:0, instance:TouchpointPage.TouchpointPageTest@3c19aaa5]" started-at="2018-06-07T17:14:48Z" name="second" description="Dropwodn list" finished-at="2018-06-07T17:14:50Z" duration-ms="2712" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- second -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TouchpointPage.TouchpointPageTest@3c19aaa5]" started-at="2018-06-07T17:14:50Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:14:50Z" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:TouchpointPage.TouchpointPageTest@3c19aaa5]" started-at="2018-06-07T17:14:50Z" name="start" description="open browser before each test" finished-at="2018-06-07T17:14:54Z" duration-ms="4076" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="third()[pri:0, instance:TouchpointPage.TouchpointPageTest@3c19aaa5]" started-at="2018-06-07T17:14:54Z" name="third" description="UKT1009" finished-at="2018-06-07T17:14:57Z" duration-ms="2426" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- third -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TouchpointPage.TouchpointPageTest@3c19aaa5]" started-at="2018-06-07T17:14:57Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:14:57Z" duration-ms="78" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:TouchpointPage.TouchpointPageTest@3c19aaa5]" started-at="2018-06-07T17:14:57Z" name="start" description="open browser before each test" finished-at="2018-06-07T17:15:01Z" duration-ms="4101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="touchpointIsReachable()[pri:0, instance:TouchpointPage.TouchpointPageTest@3c19aaa5]" started-at="2018-06-07T17:15:01Z" name="touchpointIsReachable" description="UK is clickable" finished-at="2018-06-07T17:15:04Z" duration-ms="2816" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- touchpointIsReachable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TouchpointPage.TouchpointPageTest@3c19aaa5]" started-at="2018-06-07T17:15:04Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:15:04Z" duration-ms="79" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- TouchpointPage.TouchpointPageTest -->
+    <test started-at="2018-06-08T13:40:15Z" name="Package test" finished-at="2018-06-08T13:40:27Z" duration-ms="12527">
       <class name="CentralPage.CentralPageTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:21Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:17:25Z" duration-ms="4313" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:15Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T13:40:20Z" duration-ms="5441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageBreadctumbs()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:25Z" name="centralPageBreadctumbs" finished-at="2018-06-07T17:17:27Z" duration-ms="1592" status="PASS">
+        <test-method signature="centralPageBreadctumbs()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:20Z" name="centralPageBreadctumbs" finished-at="2018-06-08T13:40:22Z" duration-ms="1113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- centralPageBreadctumbs -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:27Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:17:27Z" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:22Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-08T13:40:22Z" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:17:32Z" duration-ms="4661" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:22Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T13:40:26Z" duration-ms="4192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageHamburgerMenuElementsAreAvailable()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:32Z" name="centralPageHamburgerMenuElementsAreAvailable" finished-at="2018-06-07T17:17:33Z" duration-ms="1167" status="PASS">
+        <test-method signature="centralPageHamburgerMenuElementsAreAvailableWithAdmin()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:26Z" name="centralPageHamburgerMenuElementsAreAvailableWithAdmin" finished-at="2018-06-08T13:40:27Z" duration-ms="1166" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- centralPageHamburgerMenuElementsAreAvailable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:33Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:17:33Z" duration-ms="77" status="PASS">
+        </test-method> <!-- centralPageHamburgerMenuElementsAreAvailableWithAdmin -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-08T13:40:27Z" duration-ms="193" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)
+at CentralPage.CentralPageTest.closebrowser(CentralPageTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:33Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:17:37Z" duration-ms="4468" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageMetlifeIcondirection()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:37Z" name="centralPageMetlifeIcondirection" finished-at="2018-06-07T17:17:39Z" duration-ms="1746" status="PASS">
+        <test-method signature="centralPageHamburgerMenuElementsAreAvailableWithJurisdiction()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="centralPageHamburgerMenuElementsAreAvailableWithJurisdiction" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)
+at CentralPage.CentralPageTest.closebrowser(CentralPageTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- centralPageHamburgerMenuElementsAreAvailableWithJurisdiction -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="centralPageMetlifeIcondirection()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="centralPageMetlifeIcondirection" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)
+at CentralPage.CentralPageTest.closebrowser(CentralPageTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- centralPageMetlifeIcondirection -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:39Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:17:39Z" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:39Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:17:43Z" duration-ms="4296" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageUserIcondirection()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:43Z" name="centralPageUserIcondirection" finished-at="2018-06-07T17:17:45Z" duration-ms="1153" status="PASS">
+        <test-method signature="centralPageUserIcondirection()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="centralPageUserIcondirection" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)
+at CentralPage.CentralPageTest.closebrowser(CentralPageTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- centralPageUserIcondirection -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:45Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:17:45Z" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:45Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:17:49Z" duration-ms="4310" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="pageIsAvailable()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:49Z" name="pageIsAvailable" finished-at="2018-06-07T17:17:50Z" duration-ms="1176" status="PASS">
+        <test-method signature="loginIsPossibleWithAdmin()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="loginIsPossibleWithAdmin" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)
+at CentralPage.CentralPageTest.closebrowser(CentralPageTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageIsAvailable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:50Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:17:50Z" duration-ms="130" status="PASS">
+        </test-method> <!-- loginIsPossibleWithAdmin -->
+        <test-method signature="loginIsPossibleWithJurisdiction()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="loginIsPossibleWithJurisdiction" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)
+at CentralPage.CentralPageTest.closebrowser(CentralPageTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIsPossibleWithJurisdiction -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:50Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:17:55Z" duration-ms="4495" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="permissionsAreVisibleAsAdmin()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:55Z" name="permissionsAreVisibleAsAdmin" finished-at="2018-06-07T17:17:57Z" duration-ms="1765" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="permissionsAreVisibleAsAdmin()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="permissionsAreVisibleAsAdmin" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1GP91JD', ip: '10.177.159.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\gery0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 5f50a43fc49180c606cd4888e0e2bf90
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)
+at CentralPage.CentralPageTest.closebrowser(CentralPageTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- permissionsAreVisibleAsAdmin -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@49e53c76]" started-at="2018-06-07T17:17:57Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:17:57Z" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:CentralPage.CentralPageTest@1b7cc17c]" started-at="2018-06-08T13:40:27Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-08T13:40:27Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- CentralPage.CentralPageTest -->
-      <class name="LoginPage.LoginPageTest">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:01Z" name="setupClass" finished-at="2018-06-07T17:14:03Z" duration-ms="2032" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:03Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:14:08Z" duration-ms="5699" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="hamburgerMenuListIsAvailable()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:08Z" name="hamburgerMenuListIsAvailable" description="Hamburger menu is availible" finished-at="2018-06-07T17:14:08Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hamburgerMenuListIsAvailable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:08Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:14:09Z" duration-ms="130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:09Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:14:14Z" duration-ms="5284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="hamburgerMenuisAvailable()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:14Z" name="hamburgerMenuisAvailable" description="Hamburger menu is availible" finished-at="2018-06-07T17:14:14Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hamburgerMenuisAvailable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:14Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:14:16Z" duration-ms="2207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:16Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:14:21Z" duration-ms="4851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="loginAfterWrongdetails()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:21Z" name="loginAfterWrongdetails" description="Log in after wrong username or password" finished-at="2018-06-07T17:14:24Z" duration-ms="2910" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAfterWrongdetails -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:24Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:14:24Z" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:24Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:14:28Z" duration-ms="4075" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="loginIntoTouch()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:28Z" name="loginIntoTouch" description="I can log into the application" finished-at="2018-06-07T17:14:29Z" duration-ms="1192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginIntoTouch -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:29Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:14:29Z" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:29Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:14:33Z" duration-ms="4107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="messageApperAfterWrongLoginDetails()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:33Z" name="messageApperAfterWrongLoginDetails" description="I don&#039;t give username or passwowrd and a message appears" finished-at="2018-06-07T17:14:34Z" duration-ms="738" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- messageApperAfterWrongLoginDetails -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:34Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:14:34Z" duration-ms="75" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:34Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:14:38Z" duration-ms="4058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="redirectedToInvalidLoginPage()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:38Z" name="redirectedToInvalidLoginPage" description="I don&#039;t give username or password" finished-at="2018-06-07T17:14:39Z" duration-ms="831" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- redirectedToInvalidLoginPage -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:39Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:14:39Z" duration-ms="82" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:39Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:14:43Z" duration-ms="4016" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="touchIsAvailable()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:43Z" name="touchIsAvailable" description="Touch is available!" finished-at="2018-06-07T17:14:43Z" duration-ms="50" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- touchIsAvailable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:LoginPage.LoginPageTest@f6efaab]" started-at="2018-06-07T17:14:43Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:14:43Z" duration-ms="173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- LoginPage.LoginPageTest -->
-      <class name="UserProfilePage.UserProfilePageMixedUserTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:15:59Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:16:03Z" duration-ms="4124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="AboutTouchBreadcrumbs()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:03Z" name="AboutTouchBreadcrumbs" finished-at="2018-06-07T17:16:05Z" duration-ms="1736" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutTouchBreadcrumbs -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:05Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:16:05Z" duration-ms="74" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:05Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:16:09Z" duration-ms="4026" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="AboutTouchHamburgerMenuElementsAreAvailable()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:09Z" name="AboutTouchHamburgerMenuElementsAreAvailable" finished-at="2018-06-07T17:16:11Z" duration-ms="1785" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutTouchHamburgerMenuElementsAreAvailable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:11Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:16:11Z" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:11Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:16:15Z" duration-ms="4021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="AboutTouchMetlifeIcondirection()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:15Z" name="AboutTouchMetlifeIcondirection" finished-at="2018-06-07T17:16:17Z" duration-ms="2672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutTouchMetlifeIcondirection -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:17Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:16:17Z" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:17Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:16:21Z" duration-ms="4041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="UserProfileHamburgerMenuElementsAreAvailable()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:21Z" name="UserProfileHamburgerMenuElementsAreAvailable" finished-at="2018-06-07T17:16:23Z" duration-ms="1115" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserProfileHamburgerMenuElementsAreAvailable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:23Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:16:23Z" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:23Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:16:27Z" duration-ms="4052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="UserProfileMetlifeIcondirection()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:27Z" name="UserProfileMetlifeIcondirection" finished-at="2018-06-07T17:16:28Z" duration-ms="1705" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserProfileMetlifeIcondirection -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:28Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:16:28Z" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:28Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:16:32Z" duration-ms="4022" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="UserProfileTestBreadctumbs()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:32Z" name="UserProfileTestBreadctumbs" finished-at="2018-06-07T17:16:34Z" duration-ms="1409" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserProfileTestBreadctumbs -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:34Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:16:34Z" duration-ms="133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:34Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:16:38Z" duration-ms="4371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="UserProfileUserIcondirection()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:38Z" name="UserProfileUserIcondirection" finished-at="2018-06-07T17:16:40Z" duration-ms="1266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserProfileUserIcondirection -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:40Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:16:40Z" duration-ms="76" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:40Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:16:44Z" duration-ms="4105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="clickOnBackButtonAfterLogin()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:44Z" name="clickOnBackButtonAfterLogin" finished-at="2018-06-07T17:16:45Z" duration-ms="1146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnBackButtonAfterLogin -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:45Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:16:45Z" duration-ms="59" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:45Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:16:50Z" duration-ms="4463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="clickOnBackButtonFromAnotherPage()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:50Z" name="clickOnBackButtonFromAnotherPage" finished-at="2018-06-07T17:16:51Z" duration-ms="1460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnBackButtonFromAnotherPage -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:51Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:16:51Z" duration-ms="75" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:51Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:16:56Z" duration-ms="4511" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="clickOnLogoutButton()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:56Z" name="clickOnLogoutButton" finished-at="2018-06-07T17:16:57Z" duration-ms="1378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnLogoutButton -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:57Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:16:57Z" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:16:57Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:17:01Z" duration-ms="4097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="pageIsAvailable()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:01Z" name="pageIsAvailable" finished-at="2018-06-07T17:17:04Z" duration-ms="2782" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageIsAvailable -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:04Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:17:04Z" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:04Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:17:08Z" duration-ms="4163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="permissionIsVisibleAsAdmin()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:08Z" name="permissionIsVisibleAsAdmin" finished-at="2018-06-07T17:17:09Z" duration-ms="1073" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- permissionIsVisibleAsAdmin -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:09Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:17:09Z" duration-ms="58" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:09Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:17:14Z" duration-ms="4544" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="permissionIsVisibleAsJurisdiction()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:14Z" name="permissionIsVisibleAsJurisdiction" finished-at="2018-06-07T17:17:15Z" duration-ms="1390" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- permissionIsVisibleAsJurisdiction -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:15Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:17:15Z" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:15Z" name="start" description="Open browser before each test!" finished-at="2018-06-07T17:17:20Z" duration-ms="4347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="permissionsAreVisibleAsAdmin()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:20Z" name="permissionsAreVisibleAsAdmin" finished-at="2018-06-07T17:17:21Z" duration-ms="1191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- permissionsAreVisibleAsAdmin -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@38d8f54a]" started-at="2018-06-07T17:17:21Z" name="closebrowser" description="Close the browser after each test" finished-at="2018-06-07T17:17:21Z" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- UserProfilePage.UserProfilePageMixedUserTest -->
-    </test> <!-- First -->
+    </test> <!-- Package test -->
   </suite> <!-- Run -->
 </testng-results>
