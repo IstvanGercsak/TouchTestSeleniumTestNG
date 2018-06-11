@@ -187,4 +187,10 @@ public class BaseData {
 
     }
 
+    protected void hamburgerLogout(){
+
+        directionWithHamburgerMenu(logoutPage.hamburgerName);
+
+    }
+
 }

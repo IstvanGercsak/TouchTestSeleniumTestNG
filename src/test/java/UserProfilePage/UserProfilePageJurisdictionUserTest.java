@@ -110,6 +110,16 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
 
     }
 
+    @Test
+    public void userProfileHamburgerLogout() {
+
+        login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
+        directionWithHamburgerMenu(userProfilePage.hamburgerName());
+        hamburgerLogout();
+        Assert.assertEquals(driver.getCurrentUrl(), loginPage.url());
+
+    }
+
     @AfterMethod(description = "Close the browser after each test")
     public void closeBrowser() {
 

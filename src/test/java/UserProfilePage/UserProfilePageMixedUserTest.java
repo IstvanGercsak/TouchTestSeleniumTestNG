@@ -109,6 +109,16 @@ public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
 
     }
 
+    @Test
+    public void userProfileHamburgerLogout() {
+
+        login(testUserName, testUserPassword);
+        directionWithHamburgerMenu(userProfilePage.hamburgerName());
+        hamburgerLogout();
+        Assert.assertEquals(driver.getCurrentUrl(), loginPage.url());
+
+    }
+
     @AfterMethod(description = "Close the browser after each test")
     public void closeBrowser() {
 

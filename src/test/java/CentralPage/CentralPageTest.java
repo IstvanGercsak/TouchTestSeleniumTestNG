@@ -80,6 +80,16 @@ public class CentralPageTest extends BaseData {
 
     }
 
+    @Test
+    public void centralPageHamburgerLogout() {
+
+        login(testUserName, testUserPassword);
+        directionWithHamburgerMenu(touchCentral.hamburgerName());
+        hamburgerLogout();
+        Assert.assertEquals(driver.getCurrentUrl(), loginPage.url());
+
+    }
+
     @AfterMethod(description = "Close the browser after each test")
     public void closeBrowser() {
 

@@ -92,6 +92,16 @@ public class DashboardPageTest extends DashboardPageDriverTest {
 
     }
 
+    @Test
+    public void dashboardHamburgerLogout() {
+
+        login(testUserName, testUserPassword);
+        directionWithHamburgerMenu(dashboardPage.hamburgerName());
+        hamburgerLogout();
+        Assert.assertEquals(driver.getCurrentUrl(), loginPage.url());
+
+    }
+
     @AfterMethod(description = "Close the browser after each test")
     public void closeBrowser() {
 
