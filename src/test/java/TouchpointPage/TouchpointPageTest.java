@@ -1,16 +1,12 @@
 package TouchpointPage;
 
-import BaseTestData.BaseData;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class TouchpointPageTest extends BaseData {
+public class TouchpointPageTest extends TouchPointPageDriverTest {
 
     @BeforeClass
     public static void setupClass() {
@@ -26,10 +22,23 @@ public class TouchpointPageTest extends BaseData {
 
     }
 
+    private static final String[] REFERENCETYPE = {"Policy Number", "BPA number","Reference"};
+    private static final String TESTREFERENCEID = "Reference id;123456";
+    private static final String PRODUCTCATEGORY = "Accident and health";
+    private static final String[] PRODUCTNAME = {"Accident Protection", "Multi-Protect"};
+    private static final String[] ORIGIN = {"Not specified","Online Form","Service Center Call","Postal","Email"};
+    private static final String[] STATUS = {"Closed","In Progress","New"};
+    private static final double TESTAMOUNT = 45.45;
+    private static final String[] AMOUNTCURRENCY = {"AED","ARS","AUD","BGN","BHD","BRL"};
+    private static final String AMOUNTCURRENCYtxt = "src/amountCurrency.txt";
+    private static final String LOCATIONtxt = "src/Location.txt";
+
+
+
     @Test(description = "UK is clickable")
     public void touchpointIsReachable() {
 
-        login(testUserName,testUserPassword);
+        login(testUserName, testUserPassword);
         clickOnTextLink("UK");
         Assert.assertEquals(driver.getCurrentUrl(), uktouchPage.url());
 
@@ -38,7 +47,7 @@ public class TouchpointPageTest extends BaseData {
     @Test(description = "Dropwodn list")
     public void second() {
 
-        login(testUserName,testUserPassword);
+        login(testUserName, testUserPassword);
         clickOnTextLink("UK");
         driver.findElement(By.id("mode")).click();
     }
@@ -46,9 +55,28 @@ public class TouchpointPageTest extends BaseData {
     @Test(description = "UKT1009")
     public void third() {
 
-        login(testUserName,testUserPassword);
+        login(testUserName, testUserPassword);
         clickOnTextLink("UK");
         driver.findElement(By.name("reference")).sendKeys("UKT1009");
+
+    }
+
+    @Ignore
+    @Test
+    public void Lists() {
+
+//        login(testUserName, testUserPassword);
+//        clickOnTextLink("UK");
+//        driver.findElement(By.name("reference")).sendKeys("UKT1009");
+//        driver.findElement(By.className("btn-default")).click();
+//        Thread.sleep(1000);
+//        driver.findElement(By.linkText("Create New Touchpoint")).click();
+//        Thread.sleep(1000);
+//        driver.findElement(By.id("search-contacts")).click();
+//        Thread.sleep(1000);
+//        driver.findElement(By.linkText("Create New Contact")).click();
+
+        assertTheFileWithList(AMOUNTCURRENCYtxt);
 
     }
 
