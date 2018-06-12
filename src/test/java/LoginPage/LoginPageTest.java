@@ -1,7 +1,6 @@
 package LoginPage;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
-import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -65,16 +64,16 @@ public class LoginPageTest extends LoginPageTestDriver {
     }
 
     @Test
-    public void loginPlaceholderUsername() {
+    public void loginPagePlaceholderUsername() {
 
-        assertPlaceholder(PLACEHOLDERUSERNAME);
+        assertPlaceholder(placeholderUserName);
 
     }
 
     @Test
-    public void loginPlaceholderPassword() {
+    public void loginPagePlaceholderPassword() {
 
-        assertPlaceholder(PLACEHOLDERPASSWORD);
+        assertPlaceholder(placeholderPassword);
 
     }
 

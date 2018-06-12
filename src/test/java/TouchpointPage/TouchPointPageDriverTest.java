@@ -60,11 +60,6 @@ class TouchPointPageDriverTest extends BaseData {
 
     }
 
-    void searchText() {
-
-
-    }
-
     void goToCreateToucpointPage() {
 
         driver.findElement(By.name("reference")).sendKeys("UKT1009");
@@ -76,23 +71,32 @@ class TouchPointPageDriverTest extends BaseData {
 
     }
 
-    void assertResult() {
+    void searchByReference(String getMode, String getReference) {
 
 
     }
 
-    void searchByMode(String mode) {
+    void searchByName(String getMode, String getGivenName, String getFamilyName) {
 
-        driver.findElement(By.id("mode")).click();
+
+    }
+
+    void searchByEmail(String getMode, String getEmail) {
+
 
     }
 
-    void assertListElement(String[] getList) {
+    void choseMode() {
 
-        for (int i = 0; i < getList.length; i++) {
-            //Assert.assertEquals(getList[i]);
-        }
 
     }
+
+//    void assertListElement(String[] getList) {
+//
+//        for (int i = 0; i < getList.length; i++) {
+//            //Assert.assertEquals(getList[i]);
+//        }
+//
+//    }
 
 }

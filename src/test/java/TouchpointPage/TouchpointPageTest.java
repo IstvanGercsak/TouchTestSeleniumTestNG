@@ -44,54 +44,63 @@ public class TouchpointPageTest extends TouchPointPageDriverTest {
     }
 
     @Test
-    public void touchpointPagePlaceholder() {
+    public void touchpointPageReferencePlaceholder() {
 
         login(testUserName, testUserPassword);
         goToTouchpoint();
-        assertPlaceholder(PLACEHOLDERSEARCH);
+        assertPlaceholder(placeholderReference);
 
     }
 
+    @Test
+    public void touchpointPageNamePlaceholder() {
+
+        login(testUserName, testUserPassword);
+        goToTouchpoint();
+        choseMode();
+        assertPlaceholder(placeholderGivenName);
+        assertPlaceholder(placeholderFamilyName);
+
+    }
+
+    @Ignore
+    @Test
+    public void touchpointPageEmilPlaceholder() {
+
+        login(testUserName, testUserPassword);
+        goToTouchpoint();
+        choseMode();
+        assertPlaceholder(placeholderEmail);
+
+    }
+
+    @Ignore
     @Test
     public void touchpointPageSearchByReference() {
 
         login(testUserName, testUserPassword);
         goToTouchpoint();
-        searchByMode("Reference");
-        searchText();
-        assertResult();
-        Assert.assertEquals("", "");
+        searchByReference("Reference", "UKT1009");
 
     }
 
+    @Ignore
     @Test
     public void touchpointPageSearchByName() {
 
         login(testUserName, testUserPassword);
         goToTouchpoint();
-        searchByMode("Name");
-        searchText();
-        assertResult();
+        searchByName("Name", "Istvan", "Gercsak");
 
     }
 
+    @Ignore
     @Test
-    public void touchpointPageSearchByEmil() {
+    public void touchpointPageSearchByEmail() {
 
         login(testUserName, testUserPassword);
         goToTouchpoint();
-        searchByMode("Emil");
-        searchText();
-        assertResult();
-
-    }
-
-    @Test(description = "I can find UKT1009")
-    public void touchpointPageTouchpointFind() {
-
-        login(testUserName, testUserPassword);
-        goToTouchpoint();
-        driver.findElement(By.name("reference")).sendKeys("UKT1009");
+        searchByEmail("Reference", "UKT1009");
 
     }
 

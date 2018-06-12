@@ -68,19 +68,34 @@ public class BaseData {
 
     }
 
-    protected final Placeholder PLACEHOLDERUSERNAME = new Placeholder(
+    protected final Placeholder placeholderUserName = new Placeholder(
             "#username",
             "Username / Email"
     );
 
-    protected final Placeholder PLACEHOLDERPASSWORD = new Placeholder(
+    protected final Placeholder placeholderPassword = new Placeholder(
             "#password",
             "Password"
     );
 
-    protected final Placeholder PLACEHOLDERSEARCH = new Placeholder(
+    protected final Placeholder placeholderReference = new Placeholder(
             "#reference",
             "Search for name or reference"
+    );
+
+    protected final Placeholder placeholderGivenName = new Placeholder(
+            "#given",
+            "uk:tlbl:zone:searchbar-search-given-name"
+    );
+
+    protected final Placeholder placeholderFamilyName = new Placeholder(
+            "#family",
+            "uk:tlbl:zone:searchbar-search-family-name"
+    );
+
+    protected final Placeholder placeholderEmail = new Placeholder(
+            "",
+            ""
     );
 
     protected Page aboutTouchPage = new Page(
