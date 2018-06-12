@@ -94,8 +94,8 @@ public class BaseData {
     );
 
     protected final Placeholder placeholderEmail = new Placeholder(
-            "",
-            ""
+            "#email",
+            "uk:tlbl:zone:searchbar-search-email"
     );
 
     protected Page aboutTouchPage = new Page(

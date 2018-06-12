@@ -57,19 +57,19 @@ public class TouchpointPageTest extends TouchPointPageDriverTest {
 
         login(testUserName, testUserPassword);
         goToTouchpoint();
-        choseMode();
+        choseMode("Name");
         assertPlaceholder(placeholderGivenName);
         assertPlaceholder(placeholderFamilyName);
 
     }
 
-    @Ignore
+
     @Test
     public void touchpointPageEmilPlaceholder() {
 
         login(testUserName, testUserPassword);
         goToTouchpoint();
-        choseMode();
+        choseMode("Email");
         assertPlaceholder(placeholderEmail);
 
     }
@@ -104,7 +104,8 @@ public class TouchpointPageTest extends TouchPointPageDriverTest {
 
     }
 
-    @Test
+    @Ignore
+    @Test(description = "I have to expand the tests with Webdriver wait")
     public void touchpointPageAmountCurrency() {
 
         login(testUserName, testUserPassword);

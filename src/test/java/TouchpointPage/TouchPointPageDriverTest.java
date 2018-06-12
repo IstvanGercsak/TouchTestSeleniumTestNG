@@ -2,6 +2,11 @@ package TouchpointPage;
 
 import BaseTestData.BaseData;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.io.BufferedReader;
@@ -86,8 +91,13 @@ class TouchPointPageDriverTest extends BaseData {
 
     }
 
-    void choseMode() {
+    void choseMode(String getMode) {
 
+        WebElement mySelectElement = driver.findElement(By.tagName("select"));
+        Select dropdown = new Select(mySelectElement);
+        driver.findElement(By.tagName("select")).click();
+        dropdown.selectByVisibleText(getMode);
+        driver.findElement(By.tagName("select")).click();
 
     }
 
