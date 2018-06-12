@@ -1,6 +1,7 @@
 package LoginPage;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -25,7 +26,7 @@ public class LoginPageTest extends LoginPageTestDriver {
     @Test(description = "Touch is available!")
     public void touchIsAvailable() {
 
-       urlIsAssert(loginPage.url());
+        urlIsAssert(loginPage.url());
 
     }
 
@@ -60,6 +61,20 @@ public class LoginPageTest extends LoginPageTestDriver {
         login("", "");
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         urlIsAssert(touchCentral.url());
+
+    }
+
+    @Test
+    public void loginPlaceholderUsername() {
+
+        assertPlaceholder(PLACEHOLDERUSERNAME);
+
+    }
+
+    @Test
+    public void loginPlaceholderPassword() {
+
+        assertPlaceholder(PLACEHOLDERPASSWORD);
 
     }
 

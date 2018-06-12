@@ -1,6 +1,7 @@
 package TouchpointPage;
 
 import BaseTestData.BaseData;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 
 import java.io.BufferedReader;
@@ -36,7 +37,7 @@ class TouchPointPageDriverTest extends BaseData {
         ReadFile rf = new ReadFile();
         String filename = txt;
         String[] textList = new String[200];
-        int i=0;
+        int i = 0;
 
         try {
             String[] lines = rf.readLines(filename);
@@ -53,5 +54,45 @@ class TouchPointPageDriverTest extends BaseData {
         }
     }
 
+    void goToTouchpoint() {
+
+        clickOnTextLink("UK");
+
+    }
+
+    void searchText() {
+
+
+    }
+
+    void goToCreateToucpointPage() {
+
+        driver.findElement(By.name("reference")).sendKeys("UKT1009");
+        driver.findElement(By.className("btn-default")).click();
+        driver.findElement(By.linkText("Create New Touchpoint")).click();
+        driver.findElement(By.id("search-contacts")).click();
+        driver.findElement(By.className("glyphicon-search")).click();
+        driver.findElement(By.linkText("Create New Contact")).click();
+
+    }
+
+    void assertResult() {
+
+
+    }
+
+    void searchByMode(String mode) {
+
+        driver.findElement(By.id("mode")).click();
+
+    }
+
+    void assertListElement(String[] getList) {
+
+        for (int i = 0; i < getList.length; i++) {
+            //Assert.assertEquals(getList[i]);
+        }
+
+    }
 
 }

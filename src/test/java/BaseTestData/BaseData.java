@@ -46,6 +46,43 @@ public class BaseData {
 
     }
 
+    /*Placeholder implementation*/
+
+    public class Placeholder {
+
+        String cssSelector;
+        String placeholder;
+
+        Placeholder(String cssSelectorName, String placeholderName) {
+            this.cssSelector = cssSelectorName;
+            this.placeholder = placeholderName;
+        }
+
+        public String cssSelector() {
+            return cssSelector;
+        }
+
+        public String placeholder() {
+            return placeholder;
+        }
+
+    }
+
+    protected final Placeholder PLACEHOLDERUSERNAME = new Placeholder(
+            "#username",
+            "Username / Email"
+    );
+
+    protected final Placeholder PLACEHOLDERPASSWORD = new Placeholder(
+            "#password",
+            "Password"
+    );
+
+    protected final Placeholder PLACEHOLDERSEARCH = new Placeholder(
+            "#reference",
+            "Search for name or reference"
+    );
+
     protected Page aboutTouchPage = new Page(
             "About Touch",
             "https://touch-test-central.azurewebsites.net/central/help/about"
@@ -85,6 +122,7 @@ public class BaseData {
             "",
             "https://touch-test-central.azurewebsites.net/central/login"
     );
+
 
 //    protected String hamburgerTouchpointForms = "TouchpointPage Forms";
 //    protected String hamburgerTouchpointDataLists = "TouchpointPage Data Lists";
@@ -181,16 +219,21 @@ public class BaseData {
 
     }
 
-    protected void clickOnTextLink(String linkText){
+    protected void clickOnTextLink(String linkText) {
 
         driver.findElement(By.linkText(linkText)).click();
 
     }
 
-    protected void hamburgerLogout(){
+    protected void hamburgerLogout() {
 
         directionWithHamburgerMenu(logoutPage.hamburgerName);
 
     }
 
+    protected void assertPlaceholder(Placeholder placeholder) {
+
+        Assert.assertEquals(driver.findElement(By.cssSelector(placeholder.cssSelector())).getAttribute("placeholder"), placeholder.placeholder);
+
+    }
 }
