@@ -48,8 +48,7 @@ public class AdminEndpointsTest extends BaseData {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(adminEndpointsPage.hamburgerName());
-        clickOnHamburgermenu();
-        hamburgerMenuElementsIsClickable();
+        assertBreadcrumbs(adminEndpointsPage.breadcrumb());
 
     }
 

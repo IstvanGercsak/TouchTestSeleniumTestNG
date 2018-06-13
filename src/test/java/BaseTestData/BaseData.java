@@ -168,7 +168,7 @@ public class BaseData {
     );
 
     protected Page adminEndpointsPage = new Page(
-            "base:tlbl:central:admin-endpoints-title",
+            "base:tlbl:central:admin-system-endpoints-title",
             "https://touch-test-central.azurewebsites.net/central/admin/system/endpoints",
             "base:tlbl:central:admin-endpoints-title"
     );
