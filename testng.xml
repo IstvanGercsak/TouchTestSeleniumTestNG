@@ -5,12 +5,12 @@
     <test name="Package test">
         <packages>
 
-            <!--<package name="AboutTouchPage"/>-->
-            <!--<package name="CentralPage"/>-->
-            <!--<package name="LoginPage"/>-->
-            <!--<package name="TouchpointPage"/>-->
-            <!--<package name="UserProfilePage"/>-->
-            <!--<package name="DashboardPage"/>-->
+            <package name="AboutTouchPage"/>
+            <package name="CentralPage"/>
+            <package name="LoginPage"/>
+            <package name="TouchpointPage"/>
+            <package name="UserProfilePage"/>
+            <package name="DashboardPage"/>
 
             <package name="AdminEndpoints"/>
             <package name="AdminInfo"/>
