@@ -13,7 +13,7 @@
             <!--<package name="DashboardPage"/>-->
 
             <package name="AdminEndpoints"/>
-            <!--<package name="AdminInfo"/>-->
+            <package name="AdminInfo"/>
             <!--<package name="ContentTemplates"/>-->
             <!--<package name="ManageJurisdictions"/>-->
             <!--<package name="ManageUsers"/>-->

@@ -174,7 +174,7 @@ public class BaseData {
     );
 
     protected Page adminInfoPage = new Page(
-            "base:tlbl:central:admin-info-title",
+            "base:tlbl:central:admin-system-info-title",
             "https://touch-test-central.azurewebsites.net/central/admin/system/info",
             "base:tlbl:central:admin-info-title"
     );
