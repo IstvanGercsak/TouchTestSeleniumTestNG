@@ -12,17 +12,6 @@ public class BaseData {
 
     protected WebDriver driver;
 
-    /*URL implementation*/
-
-//    protected String touchpointFormsURL = "https://touch-test-central.azurewebsites.net/central/admin/touchpoint/forms";
-//    protected String touchpointDataListsURL = "https://touch-test-central.azurewebsites.net/central/admin/touchpoint/datalists";
-//    protected String manageUsersURL = "https://touch-test-central.azurewebsites.net/central/admin/system/users";
-//    protected String manageJurisdictionsURL = "https://touch-test-central.azurewebsites.net/central/admin/system/jurisdictions";
-//    protected String admin_system_endpoints_titleURL = "https://touch-test-central.azurewebsites.net/central/admin/system/endpoints";
-//    protected String admin_system_info_titleURL = "https://touch-test-central.azurewebsites.net/central/admin/system/info";
-//    protected String textContentURL = "https://touch-test-central.azurewebsites.net/central/admin/content/text";
-//    protected String contentTemplatesURL = "https://touch-test-central.azurewebsites.net/central/admin/content/templates";
-
     /*Hamburger menu names implementation*/
 
     public class Page {
@@ -120,7 +109,7 @@ public class BaseData {
     protected Page dashboardPage = new Page(
             "Dashboard",
             "https://touch-test-central.azurewebsites.net/central/reports/dashboard",
-            "Dashboard"
+            "Dashboards"
     );
 
     protected Page userProfilePage = new Page(
@@ -153,15 +142,55 @@ public class BaseData {
             ""
     );
 
+    protected Page TouchpointFormsPage = new Page(
+            "Touchpoint Forms",
+            "https://touch-test-central.azurewebsites.net/central/admin/touchpoint/forms",
+            "Touchpoint Forms"
+    );
 
-//    protected String hamburgerTouchpointForms = "TouchpointPage Forms";
-//    protected String hamburgerTouchpointDataLists = "TouchpointPage Data Lists";
-//    protected String hamburgerManageUsers = "Manage Users";
-//    protected String hamburgerManageJurisdictions = "Manage Jurisdictions";
-//    protected String hamburgerAdmin_system_endpoints_title = "base:tlbl:central:admin-system-endpoints-title";
-//    protected String hamburgerAdmin_system_info_title = "base:tlbl:central:admin-system-info-title";
-//    protected String hamburgerTextContent = "Text Content";
-//    protected String hamburgerContentTemplates = "Content Templates";
+
+    protected Page TouchpointDataListsPage = new Page(
+            "Touchpoint Data Lists",
+            "https://touch-test-central.azurewebsites.net/central/admin/touchpoint/datalists",
+            "Touchpoint Data Lists"
+    );
+
+    protected Page ManageUsersPage = new Page(
+            "Manage Users",
+            "https://touch-test-central.azurewebsites.net/central/admin/system/users",
+            "Manage Users"
+    );
+
+    protected Page manageJurisdictionsPage = new Page(
+            "Manage Jurisdictions",
+            "https://touch-test-central.azurewebsites.net/central/admin/system/jurisdictions",
+            "Manage Jurisdictions"
+    );
+
+    protected Page adminEndpointsPage = new Page(
+            "base:tlbl:central:admin-endpoints-title",
+            "https://touch-test-central.azurewebsites.net/central/admin/system/endpoints",
+            "base:tlbl:central:admin-endpoints-title"
+    );
+
+    protected Page adminInfoPage = new Page(
+            "base:tlbl:central:admin-info-title",
+            "https://touch-test-central.azurewebsites.net/central/admin/system/info",
+            "base:tlbl:central:admin-info-title"
+    );
+
+    protected Page textContentPage = new Page(
+            "Text Content",
+            "https://touch-test-central.azurewebsites.net/central/admin/content/text",
+            "Text Content"
+    );
+
+    protected Page contentTemplatesPage = new Page(
+            "Touchpoint Data Lists",
+            "https://touch-test-central.azurewebsites.net/central/admin/content/templates",
+            "base:tlbl:central:content-template-title"
+    );
+
 
     /*Users implementation*/
 

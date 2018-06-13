@@ -1,0 +1,122 @@
+Not specified
+TR - Truro
+PL - Plymouth
+TQ - Torquay
+BH - Bournemouth
+DT - Dorchester
+PO - Portsmouth
+EX - Exeter
+BN - Brighton
+SO - Southampton
+TA - Taunton
+TN - Tonbridge
+SP - Salisbury
+RH - Redhill
+BA - Bath
+GU - Guildford
+CT - Canterbury
+ME - Rochester
+CR - Croydon
+KT - Kingston upon Thames
+SM - Sutton
+BR - Bromley
+RG - Reading
+DA - Dartford
+TW - Twickenham
+BS - Bristol
+SW - South West London
+SE - South East London
+SN - Swindon
+W - West London
+SL - Slough
+WC - Central London
+EC - Central London
+UB - Southall
+CF - Cardiff
+E - East London
+RM - Romford
+NW - North West London
+SS - Southend-on-Sea
+IG - Ilford
+N - North London
+HA - Harrow
+WD - Watford
+NP - Newport
+EN - Enfield
+HP - Hemel Hempstead
+CM - Chelmsford
+SA - Swansea
+AL - St Albans
+OX - Oxford
+GL - Gloucester
+LU - Luton
+CO - Colchester
+SG - Stevenage
+MK - Milton Keynes
+HR - Hereford
+LD - Llandrindod Wells
+WR - Worcester
+IP - Ipswich
+CB - Cambridge
+NN - Northampton
+CV - Coventry
+DY - Dudley
+B - Birmingham
+WV - Wolverhampton
+PE - Peterborough
+LE - Leicester
+NR - Norwich
+WS - Walsall
+SY - Shrewsbury
+TF - Telford
+DE - Derby
+ST - Stoke-on-Trent
+NG - Nottingham
+LL - Llandudno
+CW - Crewe
+LN - Lincoln
+CH - Chester
+SK - Stockport
+WA - Warrington
+S - Sheffield
+L - Liverpool
+M - Manchester
+WN - Wigan
+DN - Doncaster
+OL - Oldham
+BL - Bolton
+HD - Huddersfield
+WF - Wakefield
+HX - Halifax
+PR - Preston
+HU - Hull
+BB - Blackburn
+LS - Leeds
+FY - Blackpool
+BD - Bradford
+HG - Harrogate
+YO - York
+LA - Lancaster
+DL - Darlington
+TS - Cleveland
+BT - Northern Ireland
+CA - Carlisle
+DH - Durham
+SR - Sunderland
+DG - Dumfries and Galloway
+NE - Newcastle upon Tyne
+KA - Kilmarnock
+TD - Galashiels
+ML - Motherwell
+G - Glasgow
+EH - Edinburgh
+PA - Paisley
+FK - Falkirk and Stirling
+KY - Kirkcaldy
+DD - Dundee
+PH - Perth
+AB - Aberdeen
+IV - Inverness
+HS - Outer Hebrides
+KW - Kirkwall
+ZE - Lerwick
