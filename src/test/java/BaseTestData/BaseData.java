@@ -295,4 +295,11 @@ public class BaseData {
         Assert.assertEquals(driver.findElement(By.cssSelector(placeholder.cssSelector())).getAttribute("placeholder"), placeholder.placeholder);
 
     }
+
+    protected void assertAccessDeniedText() {
+
+        Assert.assertEquals(driver.findElement(By.xpath("/html/body/div/div[3]/div/div/section/div/div/div/div/p[2]/span")).getText(), "Access is denied");
+
+    }
+
 }
