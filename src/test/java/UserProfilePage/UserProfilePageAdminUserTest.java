@@ -67,7 +67,7 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
-        assertBreadcrumbs(userProfilePage.hamburgerName());
+        assertBreadcrumbs(userProfilePage.breadcrumb());
 
     }
 

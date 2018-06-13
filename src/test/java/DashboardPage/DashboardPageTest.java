@@ -79,7 +79,7 @@ public class DashboardPageTest extends DashboardPageDriverTest {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(dashboardPage.hamburgerName());
-        assertBreadcrumbs("Dashboards");
+        assertBreadcrumbs(dashboardPage.breadcrumb());
 
     }
 

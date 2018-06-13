@@ -77,6 +77,7 @@ public class CentralPageTest extends BaseData {
     public void centralPageCentralPageBreadcrumb() {
 
         login(adminUserName, adminUserPassword);
+        assertBreadcrumbs(touchCentral.breadcrumb());
 
     }
 

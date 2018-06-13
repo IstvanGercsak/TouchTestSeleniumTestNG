@@ -24,7 +24,6 @@ public class TouchpointPageTest extends TouchPointPageDriverTest {
 
     private static final String[] SEARCHBYMODE = {"Reference", "Name", "Emil"};
     private static final String[] REFERENCETYPE = {"Policy Number", "BPA number", "Reference"};
-    private static final String TESTREFERENCEID = "Reference id;123456";
     private static final String PRODUCTCATEGORY = "Accident and health";
     private static final String[] PRODUCTNAME = {"Accident Protection", "Multi-Protect"};
     private static final String[] ORIGIN = {"Not specified", "Online Form", "Service Center Call", "Postal", "Email"};
@@ -80,6 +79,7 @@ public class TouchpointPageTest extends TouchPointPageDriverTest {
 
         login(testUserName, testUserPassword);
         goToTouchpoint();
+        choseMode("Reference");
         searchByReference("Reference", "UKT1009");
 
     }
@@ -128,7 +128,7 @@ public class TouchpointPageTest extends TouchPointPageDriverTest {
 
         login(testUserName, testUserPassword);
         goToTouchpoint();
-        //uk:tlbl:zone:touchpoints-title
+        assertBreadcrumbs(uktouchPage.breadcrumb());
 
     }
 

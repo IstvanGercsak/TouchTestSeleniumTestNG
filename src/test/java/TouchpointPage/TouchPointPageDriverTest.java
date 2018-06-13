@@ -3,11 +3,7 @@ package TouchpointPage;
 import BaseTestData.BaseData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -79,6 +75,7 @@ class TouchPointPageDriverTest extends BaseData {
     void searchByReference(String getMode, String getReference) {
 
 
+
     }
 
     void searchByName(String getMode, String getGivenName, String getFamilyName) {
@@ -90,6 +87,7 @@ class TouchPointPageDriverTest extends BaseData {
 
 
     }
+
 
     void choseMode(String getMode) {
 

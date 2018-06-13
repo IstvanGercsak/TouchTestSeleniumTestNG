@@ -91,7 +91,7 @@ public class AboutTouchPageTest extends BaseData {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(aboutTouchPage.hamburgerName());
-        assertBreadcrumbs(aboutTouchPage.hamburgerName());
+        assertBreadcrumbs(aboutTouchPage.breadcrumb());
 
     }
 

@@ -67,7 +67,7 @@ public class UserProfilePageMixedUserTest extends UserProfilePageTestDriver {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
-        assertBreadcrumbs(userProfilePage.hamburgerName());
+        assertBreadcrumbs(userProfilePage.breadcrumb());
 
     }
 

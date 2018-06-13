@@ -27,12 +27,13 @@ public class BaseData {
 
     public class Page {
 
-        String hamburgerName, url;
+        String hamburgerName, url, breadcrumb;
 
-        Page(String hamburgerName, String url) {
+        Page(String hamburgerName, String url, String breadcrumb) {
 
             this.hamburgerName = hamburgerName;
             this.url = url;
+            this.breadcrumb = breadcrumb;
 
         }
 
@@ -44,6 +45,10 @@ public class BaseData {
             return url;
         }
 
+        public String breadcrumb() {
+            return breadcrumb;
+        }
+
     }
 
     /*Placeholder implementation*/
@@ -53,9 +58,11 @@ public class BaseData {
         String cssSelector;
         String placeholder;
 
+
         Placeholder(String cssSelectorName, String placeholderName) {
             this.cssSelector = cssSelectorName;
             this.placeholder = placeholderName;
+
         }
 
         public String cssSelector() {
@@ -100,42 +107,50 @@ public class BaseData {
 
     protected Page aboutTouchPage = new Page(
             "About Touch",
-            "https://touch-test-central.azurewebsites.net/central/help/about"
+            "https://touch-test-central.azurewebsites.net/central/help/about",
+            "About Touch"
     );
 
     protected Page logoutPage = new Page(
             "Logout",
+            "",
             ""
     );
 
     protected Page dashboardPage = new Page(
             "Dashboard",
-            "https://touch-test-central.azurewebsites.net/central/reports/dashboard"
+            "https://touch-test-central.azurewebsites.net/central/reports/dashboard",
+            "Dashboard"
     );
 
     protected Page userProfilePage = new Page(
             "User Profile",
-            "https://touch-test-central.azurewebsites.net/central/myprofile"
+            "https://touch-test-central.azurewebsites.net/central/myprofile",
+            "User Profile"
     );
 
     protected Page touchCentral = new Page(
             "Touch Central Actions",
-            "https://touch-test-central.azurewebsites.net/central/"
+            "https://touch-test-central.azurewebsites.net/central/",
+            "Touch Central"
     );
 
     protected Page uktouchPage = new Page(
             "uk:tlbl:zone:touchpoints-title",
-            "http://touch-test-zone.azurewebsites.net/uk/"
+            "http://touch-test-zone.azurewebsites.net/uk/",
+            "uk:tlbl:zone:touchpoints-title"
     );
 
     protected Page wrongLoginPage = new Page(
             "",
-            "https://touch-test-central.azurewebsites.net/central/login?error"
+            "https://touch-test-central.azurewebsites.net/central/login?error",
+            ""
     );
 
     protected Page loginPage = new Page(
             "",
-            "https://touch-test-central.azurewebsites.net/central/login"
+            "https://touch-test-central.azurewebsites.net/central/login",
+            ""
     );
 
 

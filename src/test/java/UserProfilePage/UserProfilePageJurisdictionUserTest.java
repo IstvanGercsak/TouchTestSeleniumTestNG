@@ -67,7 +67,7 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
-        assertBreadcrumbs(userProfilePage.hamburgerName());
+        assertBreadcrumbs(userProfilePage.breadcrumb());
 
     }
 
