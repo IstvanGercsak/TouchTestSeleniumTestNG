@@ -6,690 +6,690 @@
     <groups>
     </groups>
     <test started-at="2018-06-08T15:51:25Z" name="Package test" finished-at="2018-06-08T15:57:25Z" duration-ms="359512">
-      <class name="DashboardPage.DashboardPageTest">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:53:52Z" name="setupClass" finished-at="2018-06-08T15:53:52Z" duration-ms="125" status="PASS">
+      <class name="SeleniumTestNG.DashboardPage.DashboardPageTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:53:52Z" name="setupClass" finished-at="2018-06-08T15:53:52Z" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="start()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:53:52Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:57Z" duration-ms="4321" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:53:52Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:57Z" duration-ms="4321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="dashboardBreadcrumb()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:53:57Z" name="dashboardBreadcrumb" finished-at="2018-06-08T15:53:59Z" duration-ms="2683" status="PASS">
+        <test-method signature="dashboardBreadcrumb()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:53:57Z" name="dashboardBreadcrumb" finished-at="2018-06-08T15:53:59Z" duration-ms="2683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardBreadcrumb -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:53:59Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:00Z" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:53:59Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:00Z" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:00Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:04Z" duration-ms="4176" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:00Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:04Z" duration-ms="4176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="dashboardDropdownListElementsAreAvailable()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:04Z" name="dashboardDropdownListElementsAreAvailable" finished-at="2018-06-08T15:54:07Z" duration-ms="3539" status="PASS">
+        <test-method signature="dashboardDropdownListElementsAreAvailable()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:04Z" name="dashboardDropdownListElementsAreAvailable" finished-at="2018-06-08T15:54:07Z" duration-ms="3539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardDropdownListElementsAreAvailable -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:07Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:07Z" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:07Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:07Z" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:07Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:12Z" duration-ms="4175" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:07Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:12Z" duration-ms="4175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="dashboardHamburgerMenuElementsAreAvailableAsMixedUser()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:12Z" name="dashboardHamburgerMenuElementsAreAvailableAsMixedUser" finished-at="2018-06-08T15:54:14Z" duration-ms="2640" status="PASS">
+        <test-method signature="dashboardHamburgerMenuElementsAreAvailableAsMixedUser()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:12Z" name="dashboardHamburgerMenuElementsAreAvailableAsMixedUser" finished-at="2018-06-08T15:54:14Z" duration-ms="2640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardHamburgerMenuElementsAreAvailableAsMixedUser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:14Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:14Z" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:14Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:14Z" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:14Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:19Z" duration-ms="4208" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:14Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:19Z" duration-ms="4208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="dashboardMetLifeIconDirection()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:19Z" name="dashboardMetLifeIconDirection" finished-at="2018-06-08T15:54:22Z" duration-ms="3384" status="PASS">
+        <test-method signature="dashboardMetLifeIconDirection()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:19Z" name="dashboardMetLifeIconDirection" finished-at="2018-06-08T15:54:22Z" duration-ms="3384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardMetLifeIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:22Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:22Z" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:22Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:22Z" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:22Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:26Z" duration-ms="4238" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:22Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:26Z" duration-ms="4238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="dashboardPageIsAvailableThroughHamburger()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:26Z" name="dashboardPageIsAvailableThroughHamburger" finished-at="2018-06-08T15:54:28Z" duration-ms="1967" status="PASS">
+        <test-method signature="dashboardPageIsAvailableThroughHamburger()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:26Z" name="dashboardPageIsAvailableThroughHamburger" finished-at="2018-06-08T15:54:28Z" duration-ms="1967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardPageIsAvailableThroughHamburger -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:28Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:28Z" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:28Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:28Z" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:28Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:33Z" duration-ms="4195" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:28Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:33Z" duration-ms="4195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="dashboardPageIsAvailableThroughLink()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:33Z" name="dashboardPageIsAvailableThroughLink" finished-at="2018-06-08T15:54:35Z" duration-ms="2330" status="PASS">
+        <test-method signature="dashboardPageIsAvailableThroughLink()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:33Z" name="dashboardPageIsAvailableThroughLink" finished-at="2018-06-08T15:54:35Z" duration-ms="2330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardPageIsAvailableThroughLink -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:35Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:35Z" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:35Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:35Z" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:35Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:39Z" duration-ms="4282" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:35Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:39Z" duration-ms="4282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="dashboardUserIconDirection()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:39Z" name="dashboardUserIconDirection" finished-at="2018-06-08T15:54:43Z" duration-ms="3757" status="PASS">
+        <test-method signature="dashboardUserIconDirection()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:39Z" name="dashboardUserIconDirection" finished-at="2018-06-08T15:54:43Z" duration-ms="3757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardUserIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:43Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:43Z" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.DashboardPage.DashboardPageTest@14cd1699]" started-at="2018-06-08T15:54:43Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:43Z" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- DashboardPage.DashboardPageTest -->
-      <class name="AboutTouchPage.AboutTouchPageTest">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:25Z" name="setupClass" finished-at="2018-06-08T15:51:27Z" duration-ms="2249" status="PASS">
+      </class> <!-- SeleniumTestNG.DashboardPage.DashboardPageTest -->
+      <class name="SeleniumTestNG.AboutTouchPage.AboutTouchPageTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:25Z" name="setupClass" finished-at="2018-06-08T15:51:27Z" duration-ms="2249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:51:32Z" duration-ms="4891" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:51:32Z" duration-ms="4891" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="AboutTouchHamburgerMenuElementsAreAvailableAsAdmin()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:32Z" name="AboutTouchHamburgerMenuElementsAreAvailableAsAdmin" finished-at="2018-06-08T15:51:35Z" duration-ms="2229" status="PASS">
+        <test-method signature="AboutTouchHamburgerMenuElementsAreAvailableAsAdmin()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:32Z" name="AboutTouchHamburgerMenuElementsAreAvailableAsAdmin" finished-at="2018-06-08T15:51:35Z" duration-ms="2229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutTouchHamburgerMenuElementsAreAvailableAsAdmin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:35Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:51:35Z" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:35Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:51:35Z" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:35Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:51:39Z" duration-ms="4384" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:35Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:51:39Z" duration-ms="4384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="AboutTouchHamburgerMenuElementsAreAvailableAsJurisdiction()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:39Z" name="AboutTouchHamburgerMenuElementsAreAvailableAsJurisdiction" finished-at="2018-06-08T15:51:41Z" duration-ms="2206" status="PASS">
+        <test-method signature="AboutTouchHamburgerMenuElementsAreAvailableAsJurisdiction()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:39Z" name="AboutTouchHamburgerMenuElementsAreAvailableAsJurisdiction" finished-at="2018-06-08T15:51:41Z" duration-ms="2206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutTouchHamburgerMenuElementsAreAvailableAsJurisdiction -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:41Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:51:41Z" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:41Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:51:41Z" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:41Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:51:46Z" duration-ms="4162" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:41Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:51:46Z" duration-ms="4162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="AboutTouchHamburgerMenuElementsAreAvailableAsMixedUser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:46Z" name="AboutTouchHamburgerMenuElementsAreAvailableAsMixedUser" finished-at="2018-06-08T15:51:48Z" duration-ms="2346" status="PASS">
+        <test-method signature="AboutTouchHamburgerMenuElementsAreAvailableAsMixedUser()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:46Z" name="AboutTouchHamburgerMenuElementsAreAvailableAsMixedUser" finished-at="2018-06-08T15:51:48Z" duration-ms="2346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutTouchHamburgerMenuElementsAreAvailableAsMixedUser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:48Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:51:48Z" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:48Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:51:48Z" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:48Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:51:53Z" duration-ms="4850" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:48Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:51:53Z" duration-ms="4850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="AboutTouchMetLifeIconDirection()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:53Z" name="AboutTouchMetLifeIconDirection" finished-at="2018-06-08T15:51:55Z" duration-ms="2462" status="PASS">
+        <test-method signature="AboutTouchMetLifeIconDirection()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:53Z" name="AboutTouchMetLifeIconDirection" finished-at="2018-06-08T15:51:55Z" duration-ms="2462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutTouchMetLifeIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:56Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:51:56Z" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:56Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:51:56Z" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:56Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:00Z" duration-ms="4226" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:51:56Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:00Z" duration-ms="4226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="AboutTouchPageIsAvailable()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:00Z" name="AboutTouchPageIsAvailable" finished-at="2018-06-08T15:52:02Z" duration-ms="1995" status="PASS">
+        <test-method signature="AboutTouchPageIsAvailable()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:00Z" name="AboutTouchPageIsAvailable" finished-at="2018-06-08T15:52:02Z" duration-ms="1995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutTouchPageIsAvailable -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:02Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:02Z" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:02Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:02Z" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:02Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:06Z" duration-ms="4264" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:02Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:06Z" duration-ms="4264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="AboutTouchTestBreadcrumb()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:06Z" name="AboutTouchTestBreadcrumb" finished-at="2018-06-08T15:52:09Z" duration-ms="2192" status="PASS">
+        <test-method signature="AboutTouchTestBreadcrumb()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:06Z" name="AboutTouchTestBreadcrumb" finished-at="2018-06-08T15:52:09Z" duration-ms="2192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutTouchTestBreadcrumb -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:09Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:09Z" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:09Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:09Z" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:09Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:13Z" duration-ms="4235" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:09Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:13Z" duration-ms="4235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="AboutTouchUserIconDirection()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:13Z" name="AboutTouchUserIconDirection" finished-at="2018-06-08T15:52:16Z" duration-ms="3211" status="PASS">
+        <test-method signature="AboutTouchUserIconDirection()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:13Z" name="AboutTouchUserIconDirection" finished-at="2018-06-08T15:52:16Z" duration-ms="3211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutTouchUserIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:16Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:16Z" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.AboutTouchPage.AboutTouchPageTest@55141def]" started-at="2018-06-08T15:52:16Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:16Z" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- AboutTouchPage.AboutTouchPageTest -->
-      <class name="UserProfilePage.UserProfilePageMixedUserTest">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:10Z" name="setupClass" finished-at="2018-06-08T15:55:11Z" duration-ms="128" status="PASS">
+      </class> <!-- SeleniumTestNG.AboutTouchPage.AboutTouchPageTest -->
+      <class name="SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:10Z" name="setupClass" finished-at="2018-06-08T15:55:11Z" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:11Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:15Z" duration-ms="4268" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:11Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:15Z" duration-ms="4268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileMixedUserClickOnBackButtonAfterLogin()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:15Z" name="UserProfileMixedUserClickOnBackButtonAfterLogin" finished-at="2018-06-08T15:55:17Z" duration-ms="2663" status="PASS">
+        <test-method signature="UserProfileMixedUserClickOnBackButtonAfterLogin()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:15Z" name="UserProfileMixedUserClickOnBackButtonAfterLogin" finished-at="2018-06-08T15:55:17Z" duration-ms="2663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileMixedUserClickOnBackButtonAfterLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:17Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:18Z" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:17Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:18Z" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:18Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:22Z" duration-ms="4551" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:18Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:22Z" duration-ms="4551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileMixedUserClickOnLogoutButton()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:22Z" name="UserProfileMixedUserClickOnLogoutButton" finished-at="2018-06-08T15:55:26Z" duration-ms="3395" status="PASS">
+        <test-method signature="UserProfileMixedUserClickOnLogoutButton()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:22Z" name="UserProfileMixedUserClickOnLogoutButton" finished-at="2018-06-08T15:55:26Z" duration-ms="3395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileMixedUserClickOnLogoutButton -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:26Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:26Z" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:26Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:26Z" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:26Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:30Z" duration-ms="4220" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:26Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:30Z" duration-ms="4220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileMixedUserHamburgerMenuElementsAreAvailable()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:30Z" name="UserProfileMixedUserHamburgerMenuElementsAreAvailable" finished-at="2018-06-08T15:55:33Z" duration-ms="2939" status="PASS">
+        <test-method signature="UserProfileMixedUserHamburgerMenuElementsAreAvailable()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:30Z" name="UserProfileMixedUserHamburgerMenuElementsAreAvailable" finished-at="2018-06-08T15:55:33Z" duration-ms="2939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileMixedUserHamburgerMenuElementsAreAvailable -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:33Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:33Z" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:33Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:33Z" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:33Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:37Z" duration-ms="4188" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:33Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:37Z" duration-ms="4188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileMixedUserMetLifeIconDirection()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:37Z" name="UserProfileMixedUserMetLifeIconDirection" finished-at="2018-06-08T15:55:40Z" duration-ms="2446" status="PASS">
+        <test-method signature="UserProfileMixedUserMetLifeIconDirection()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:37Z" name="UserProfileMixedUserMetLifeIconDirection" finished-at="2018-06-08T15:55:40Z" duration-ms="2446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileMixedUserMetLifeIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:40Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:40Z" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:40Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:40Z" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:40Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:44Z" duration-ms="4335" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:40Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:44Z" duration-ms="4335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileMixedUserPageIsAvailable()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:44Z" name="UserProfileMixedUserPageIsAvailable" finished-at="2018-06-08T15:55:47Z" duration-ms="2509" status="PASS">
+        <test-method signature="UserProfileMixedUserPageIsAvailable()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:44Z" name="UserProfileMixedUserPageIsAvailable" finished-at="2018-06-08T15:55:47Z" duration-ms="2509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileMixedUserPageIsAvailable -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:47Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:47Z" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:47Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:47Z" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:47Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:51Z" duration-ms="4202" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:47Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:51Z" duration-ms="4202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileMixedUserPermissionsAreVisibleAsAdmin()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:51Z" name="UserProfileMixedUserPermissionsAreVisibleAsAdmin" finished-at="2018-06-08T15:55:53Z" duration-ms="1962" status="PASS">
+        <test-method signature="UserProfileMixedUserPermissionsAreVisibleAsAdmin()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:51Z" name="UserProfileMixedUserPermissionsAreVisibleAsAdmin" finished-at="2018-06-08T15:55:53Z" duration-ms="1962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileMixedUserPermissionsAreVisibleAsAdmin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:53Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:53Z" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:53Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:53Z" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:53Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:57Z" duration-ms="4163" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:53Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:57Z" duration-ms="4163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileMixedUserTestBreadcrumb()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:57Z" name="UserProfileMixedUserTestBreadcrumb" finished-at="2018-06-08T15:55:59Z" duration-ms="1950" status="PASS">
+        <test-method signature="UserProfileMixedUserTestBreadcrumb()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:57Z" name="UserProfileMixedUserTestBreadcrumb" finished-at="2018-06-08T15:55:59Z" duration-ms="1950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileMixedUserTestBreadcrumb -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:59Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:00Z" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:55:59Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:00Z" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:56:00Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:56:04Z" duration-ms="4272" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:56:00Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:56:04Z" duration-ms="4272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileMixedUserUserIconDirection()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:56:04Z" name="UserProfileMixedUserUserIconDirection" finished-at="2018-06-08T15:56:06Z" duration-ms="2442" status="PASS">
+        <test-method signature="UserProfileMixedUserUserIconDirection()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:56:04Z" name="UserProfileMixedUserUserIconDirection" finished-at="2018-06-08T15:56:06Z" duration-ms="2442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileMixedUserUserIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:56:06Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:06Z" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest@76505305]" started-at="2018-06-08T15:56:06Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:06Z" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- UserProfilePage.UserProfilePageMixedUserTest -->
-      <class name="TouchpointPage.TouchpointPageTest">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:06Z" name="setupClass" finished-at="2018-06-08T15:56:07Z" duration-ms="129" status="PASS">
+      </class> <!-- SeleniumTestNG.UserProfilePage.UserProfilePageMixedUserTest -->
+      <class name="SeleniumTestNG.TouchpointPage.TouchpointPageTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:SeleniumTestNG.TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:06Z" name="setupClass" finished-at="2018-06-08T15:56:07Z" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="start()[pri:0, instance:TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:07Z" name="start" description="open browser before each test" finished-at="2018-06-08T15:56:11Z" duration-ms="4139" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:07Z" name="start" description="open browser before each test" finished-at="2018-06-08T15:56:11Z" duration-ms="4139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="second()[pri:0, instance:TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:11Z" name="second" description="Dropwodn list" finished-at="2018-06-08T15:56:13Z" duration-ms="2578" status="PASS">
+        <test-method signature="second()[pri:0, instance:SeleniumTestNG.TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:11Z" name="second" description="Dropwodn list" finished-at="2018-06-08T15:56:13Z" duration-ms="2578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- second -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:13Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:13Z" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:13Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:13Z" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:13Z" name="start" description="open browser before each test" finished-at="2018-06-08T15:56:18Z" duration-ms="4164" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:13Z" name="start" description="open browser before each test" finished-at="2018-06-08T15:56:18Z" duration-ms="4164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="third()[pri:0, instance:TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:18Z" name="third" description="UKT1009" finished-at="2018-06-08T15:56:20Z" duration-ms="2581" status="PASS">
+        <test-method signature="third()[pri:0, instance:SeleniumTestNG.TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:18Z" name="third" description="UKT1009" finished-at="2018-06-08T15:56:20Z" duration-ms="2581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- third -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:20Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:20Z" duration-ms="135" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:20Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:20Z" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:20Z" name="start" description="open browser before each test" finished-at="2018-06-08T15:56:25Z" duration-ms="4313" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:20Z" name="start" description="open browser before each test" finished-at="2018-06-08T15:56:25Z" duration-ms="4313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="touchpointIsReachable()[pri:0, instance:TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:25Z" name="touchpointIsReachable" description="UK is clickable" finished-at="2018-06-08T15:56:27Z" duration-ms="2398" status="PASS">
+        <test-method signature="touchpointIsReachable()[pri:0, instance:SeleniumTestNG.TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:25Z" name="touchpointIsReachable" description="UK is clickable" finished-at="2018-06-08T15:56:27Z" duration-ms="2398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- touchpointIsReachable -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:27Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:27Z" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.TouchpointPage.TouchpointPageTest@235834f2]" started-at="2018-06-08T15:56:27Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:27Z" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TouchpointPage.TouchpointPageTest -->
-      <class name="CentralPage.CentralPageTest">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:12Z" name="setupClass" finished-at="2018-06-08T15:53:12Z" duration-ms="127" status="PASS">
+      </class> <!-- SeleniumTestNG.TouchpointPage.TouchpointPageTest -->
+      <class name="SeleniumTestNG.CentralPage.CentralPageTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:12Z" name="setupClass" finished-at="2018-06-08T15:53:12Z" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:12Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:16Z" duration-ms="4099" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:12Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:16Z" duration-ms="4099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageCentralPageBreadcrumb()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:16Z" name="centralPageCentralPageBreadcrumb" finished-at="2018-06-08T15:53:17Z" duration-ms="1236" status="PASS">
+        <test-method signature="centralPageCentralPageBreadcrumb()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:16Z" name="centralPageCentralPageBreadcrumb" finished-at="2018-06-08T15:53:17Z" duration-ms="1236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- centralPageCentralPageBreadcrumb -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:17Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:18Z" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:17Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:18Z" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:18Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:22Z" duration-ms="4232" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:18Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:22Z" duration-ms="4232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageHamburgerMenuElementsAreAvailableWithAdmin()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:22Z" name="centralPageHamburgerMenuElementsAreAvailableWithAdmin" finished-at="2018-06-08T15:53:23Z" duration-ms="1328" status="PASS">
+        <test-method signature="centralPageHamburgerMenuElementsAreAvailableWithAdmin()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:22Z" name="centralPageHamburgerMenuElementsAreAvailableWithAdmin" finished-at="2018-06-08T15:53:23Z" duration-ms="1328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- centralPageHamburgerMenuElementsAreAvailableWithAdmin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:23Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:23Z" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:23Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:23Z" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:23Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:27Z" duration-ms="4055" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:23Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:27Z" duration-ms="4055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageHamburgerMenuElementsAreAvailableWithJurisdiction()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:27Z" name="centralPageHamburgerMenuElementsAreAvailableWithJurisdiction" finished-at="2018-06-08T15:53:29Z" duration-ms="1474" status="PASS">
+        <test-method signature="centralPageHamburgerMenuElementsAreAvailableWithJurisdiction()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:27Z" name="centralPageHamburgerMenuElementsAreAvailableWithJurisdiction" finished-at="2018-06-08T15:53:29Z" duration-ms="1474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- centralPageHamburgerMenuElementsAreAvailableWithJurisdiction -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:29Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:29Z" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:29Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:29Z" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:29Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:33Z" duration-ms="4257" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:29Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:33Z" duration-ms="4257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageLoginIsPossibleWithAdmin()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:33Z" name="centralPageLoginIsPossibleWithAdmin" finished-at="2018-06-08T15:53:34Z" duration-ms="1095" status="PASS">
+        <test-method signature="centralPageLoginIsPossibleWithAdmin()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:33Z" name="centralPageLoginIsPossibleWithAdmin" finished-at="2018-06-08T15:53:34Z" duration-ms="1095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- centralPageLoginIsPossibleWithAdmin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:34Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:35Z" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:34Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:35Z" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:35Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:39Z" duration-ms="4312" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:35Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:39Z" duration-ms="4312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageLoginIsPossibleWithJurisdiction()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:39Z" name="centralPageLoginIsPossibleWithJurisdiction" finished-at="2018-06-08T15:53:40Z" duration-ms="1318" status="PASS">
+        <test-method signature="centralPageLoginIsPossibleWithJurisdiction()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:39Z" name="centralPageLoginIsPossibleWithJurisdiction" finished-at="2018-06-08T15:53:40Z" duration-ms="1318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- centralPageLoginIsPossibleWithJurisdiction -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:40Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:40Z" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:40Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:40Z" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:40Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:45Z" duration-ms="4184" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:40Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:45Z" duration-ms="4184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageMetLifeIconDirection()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:45Z" name="centralPageMetLifeIconDirection" finished-at="2018-06-08T15:53:46Z" duration-ms="1860" status="PASS">
+        <test-method signature="centralPageMetLifeIconDirection()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:45Z" name="centralPageMetLifeIconDirection" finished-at="2018-06-08T15:53:46Z" duration-ms="1860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- centralPageMetLifeIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:46Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:47Z" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:46Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:47Z" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:47Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:51Z" duration-ms="4299" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:47Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:51Z" duration-ms="4299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="centralPageUserIconDirection()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:51Z" name="centralPageUserIconDirection" finished-at="2018-06-08T15:53:52Z" duration-ms="1152" status="PASS">
+        <test-method signature="centralPageUserIconDirection()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:51Z" name="centralPageUserIconDirection" finished-at="2018-06-08T15:53:52Z" duration-ms="1152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- centralPageUserIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:52Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:52Z" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.CentralPage.CentralPageTest@55182842]" started-at="2018-06-08T15:53:52Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:52Z" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- CentralPage.CentralPageTest -->
-      <class name="LoginPage.LoginPageTest">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:43Z" name="setupClass" finished-at="2018-06-08T15:54:44Z" duration-ms="134" status="PASS">
+      </class> <!-- SeleniumTestNG.CentralPage.CentralPageTest -->
+      <class name="SeleniumTestNG.LoginPage.LoginPageTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:43Z" name="setupClass" finished-at="2018-06-08T15:54:44Z" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:44Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:48Z" duration-ms="4268" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:44Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:48Z" duration-ms="4268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="loginAfterWrongDetails()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:48Z" name="loginAfterWrongDetails" description="Log in after wrong username or password" finished-at="2018-06-08T15:54:50Z" duration-ms="2049" status="PASS">
+        <test-method signature="loginAfterWrongDetails()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:48Z" name="loginAfterWrongDetails" description="Log in after wrong username or password" finished-at="2018-06-08T15:54:50Z" duration-ms="2049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAfterWrongDetails -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:50Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:50Z" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:50Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:50Z" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:50Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:54Z" duration-ms="4227" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:50Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:54:54Z" duration-ms="4227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="loginIntoTouch()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:54Z" name="loginIntoTouch" description="I can log into the application" finished-at="2018-06-08T15:54:55Z" duration-ms="1176" status="PASS">
+        <test-method signature="loginIntoTouch()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:54Z" name="loginIntoTouch" description="I can log into the application" finished-at="2018-06-08T15:54:55Z" duration-ms="1176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginIntoTouch -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:55Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:56Z" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:55Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:54:56Z" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:56Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:00Z" duration-ms="4172" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:54:56Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:00Z" duration-ms="4172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="messageAppearsAfterWrongLoginDetails()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:00Z" name="messageAppearsAfterWrongLoginDetails" description="I don&#039;t give username or passwowrd and a message appears" finished-at="2018-06-08T15:55:01Z" duration-ms="863" status="PASS">
+        <test-method signature="messageAppearsAfterWrongLoginDetails()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:00Z" name="messageAppearsAfterWrongLoginDetails" description="I don&#039;t give username or passwowrd and a message appears" finished-at="2018-06-08T15:55:01Z" duration-ms="863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- messageAppearsAfterWrongLoginDetails -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:01Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:01Z" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:01Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:01Z" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:01Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:05Z" duration-ms="4174" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:01Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:05Z" duration-ms="4174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="redirectedToInvalidLoginPage()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:05Z" name="redirectedToInvalidLoginPage" description="I don&#039;t give username or password" finished-at="2018-06-08T15:55:06Z" duration-ms="901" status="PASS">
+        <test-method signature="redirectedToInvalidLoginPage()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:05Z" name="redirectedToInvalidLoginPage" description="I don&#039;t give username or password" finished-at="2018-06-08T15:55:06Z" duration-ms="901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- redirectedToInvalidLoginPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:06Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:06Z" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:06Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:06Z" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:06Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:10Z" duration-ms="4247" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:06Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:55:10Z" duration-ms="4247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="touchIsAvailable()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:10Z" name="touchIsAvailable" description="Touch is available!" finished-at="2018-06-08T15:55:10Z" duration-ms="21" status="PASS">
+        <test-method signature="touchIsAvailable()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:10Z" name="touchIsAvailable" description="Touch is available!" finished-at="2018-06-08T15:55:10Z" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- touchIsAvailable -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:10Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:10Z" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.LoginPage.LoginPageTest@3270d194]" started-at="2018-06-08T15:55:10Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:55:10Z" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- LoginPage.LoginPageTest -->
-      <class name="UserProfilePage.UserProfilePageJurisdictionUserTest">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:16Z" name="setupClass" finished-at="2018-06-08T15:52:16Z" duration-ms="152" status="PASS">
+      </class> <!-- SeleniumTestNG.LoginPage.LoginPageTest -->
+      <class name="SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:16Z" name="setupClass" finished-at="2018-06-08T15:52:16Z" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:16Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:21Z" duration-ms="4226" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:16Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:21Z" duration-ms="4226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileJurisdictionUserClickOnBackButtonAfterLogin()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:21Z" name="UserProfileJurisdictionUserClickOnBackButtonAfterLogin" finished-at="2018-06-08T15:52:24Z" duration-ms="3079" status="PASS">
+        <test-method signature="UserProfileJurisdictionUserClickOnBackButtonAfterLogin()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:21Z" name="UserProfileJurisdictionUserClickOnBackButtonAfterLogin" finished-at="2018-06-08T15:52:24Z" duration-ms="3079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileJurisdictionUserClickOnBackButtonAfterLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:24Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:24Z" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:24Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:24Z" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:24Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:28Z" duration-ms="4304" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:24Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:28Z" duration-ms="4304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileJurisdictionUserClickOnLogoutButton()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:28Z" name="UserProfileJurisdictionUserClickOnLogoutButton" finished-at="2018-06-08T15:52:30Z" duration-ms="2193" status="PASS">
+        <test-method signature="UserProfileJurisdictionUserClickOnLogoutButton()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:28Z" name="UserProfileJurisdictionUserClickOnLogoutButton" finished-at="2018-06-08T15:52:30Z" duration-ms="2193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileJurisdictionUserClickOnLogoutButton -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:30Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:31Z" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:30Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:31Z" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:31Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:35Z" duration-ms="4365" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:31Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:35Z" duration-ms="4365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileJurisdictionUserHamburgerMenuElementsAreAvailable()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:35Z" name="UserProfileJurisdictionUserHamburgerMenuElementsAreAvailable" finished-at="2018-06-08T15:52:37Z" duration-ms="2141" status="PASS">
+        <test-method signature="UserProfileJurisdictionUserHamburgerMenuElementsAreAvailable()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:35Z" name="UserProfileJurisdictionUserHamburgerMenuElementsAreAvailable" finished-at="2018-06-08T15:52:37Z" duration-ms="2141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileJurisdictionUserHamburgerMenuElementsAreAvailable -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:37Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:37Z" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:37Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:37Z" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:37Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:41Z" duration-ms="4162" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:37Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:41Z" duration-ms="4162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileJurisdictionUserMetLifeIconDirection()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:41Z" name="UserProfileJurisdictionUserMetLifeIconDirection" finished-at="2018-06-08T15:52:44Z" duration-ms="2778" status="PASS">
+        <test-method signature="UserProfileJurisdictionUserMetLifeIconDirection()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:41Z" name="UserProfileJurisdictionUserMetLifeIconDirection" finished-at="2018-06-08T15:52:44Z" duration-ms="2778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileJurisdictionUserMetLifeIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:44Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:44Z" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:44Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:44Z" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:44Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:49Z" duration-ms="4252" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:44Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:49Z" duration-ms="4252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileJurisdictionUserPageIsAvailable()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:49Z" name="UserProfileJurisdictionUserPageIsAvailable" finished-at="2018-06-08T15:52:51Z" duration-ms="2650" status="PASS">
+        <test-method signature="UserProfileJurisdictionUserPageIsAvailable()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:49Z" name="UserProfileJurisdictionUserPageIsAvailable" finished-at="2018-06-08T15:52:51Z" duration-ms="2650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileJurisdictionUserPageIsAvailable -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:51Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:51Z" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:51Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:51Z" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:51Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:56Z" duration-ms="4156" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:51Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:52:56Z" duration-ms="4156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileJurisdictionUserPermissionIsVisibleAsJurisdiction()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:56Z" name="UserProfileJurisdictionUserPermissionIsVisibleAsJurisdiction" finished-at="2018-06-08T15:52:58Z" duration-ms="2186" status="PASS">
+        <test-method signature="UserProfileJurisdictionUserPermissionIsVisibleAsJurisdiction()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:56Z" name="UserProfileJurisdictionUserPermissionIsVisibleAsJurisdiction" finished-at="2018-06-08T15:52:58Z" duration-ms="2186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileJurisdictionUserPermissionIsVisibleAsJurisdiction -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:58Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:58Z" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:58Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:52:58Z" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:58Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:02Z" duration-ms="4222" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:52:58Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:02Z" duration-ms="4222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileJurisdictionUserTestBreadcrumb()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:53:02Z" name="UserProfileJurisdictionUserTestBreadcrumb" finished-at="2018-06-08T15:53:04Z" duration-ms="2227" status="PASS">
+        <test-method signature="UserProfileJurisdictionUserTestBreadcrumb()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:53:02Z" name="UserProfileJurisdictionUserTestBreadcrumb" finished-at="2018-06-08T15:53:04Z" duration-ms="2227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileJurisdictionUserTestBreadcrumb -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:53:04Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:04Z" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:53:04Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:04Z" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:53:04Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:09Z" duration-ms="4061" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:53:04Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:53:09Z" duration-ms="4061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileJurisdictionUserUserIconDirection()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:53:09Z" name="UserProfileJurisdictionUserUserIconDirection" finished-at="2018-06-08T15:53:12Z" duration-ms="3249" status="PASS">
+        <test-method signature="UserProfileJurisdictionUserUserIconDirection()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:53:09Z" name="UserProfileJurisdictionUserUserIconDirection" finished-at="2018-06-08T15:53:12Z" duration-ms="3249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileJurisdictionUserUserIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:53:12Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:12Z" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest@4218d6a3]" started-at="2018-06-08T15:53:12Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:53:12Z" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- UserProfilePage.UserProfilePageJurisdictionUserTest -->
-      <class name="UserProfilePage.UserProfilePageAdminUserTest">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:27Z" name="setupClass" finished-at="2018-06-08T15:56:27Z" duration-ms="129" status="PASS">
+      </class> <!-- SeleniumTestNG.UserProfilePage.UserProfilePageJurisdictionUserTest -->
+      <class name="SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:27Z" name="setupClass" finished-at="2018-06-08T15:56:27Z" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:56:31Z" duration-ms="4147" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:27Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:56:31Z" duration-ms="4147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileAdminClickOnBackButtonAfterLogin()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:31Z" name="UserProfileAdminClickOnBackButtonAfterLogin" finished-at="2018-06-08T15:56:35Z" duration-ms="3276" status="PASS">
+        <test-method signature="UserProfileAdminClickOnBackButtonAfterLogin()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:31Z" name="UserProfileAdminClickOnBackButtonAfterLogin" finished-at="2018-06-08T15:56:35Z" duration-ms="3276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileAdminClickOnBackButtonAfterLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:35Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:35Z" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:35Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:35Z" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:35Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:56:39Z" duration-ms="4165" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:35Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:56:39Z" duration-ms="4165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileAdminClickOnLogoutButton()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:39Z" name="UserProfileAdminClickOnLogoutButton" finished-at="2018-06-08T15:56:42Z" duration-ms="2774" status="PASS">
+        <test-method signature="UserProfileAdminClickOnLogoutButton()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:39Z" name="UserProfileAdminClickOnLogoutButton" finished-at="2018-06-08T15:56:42Z" duration-ms="2774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileAdminClickOnLogoutButton -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:42Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:42Z" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:42Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:42Z" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:42Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:56:46Z" duration-ms="4159" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:42Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:56:46Z" duration-ms="4159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileAdminHamburgerMenuElementsAreAvailable()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:46Z" name="UserProfileAdminHamburgerMenuElementsAreAvailable" finished-at="2018-06-08T15:56:51Z" duration-ms="4456" status="PASS">
+        <test-method signature="UserProfileAdminHamburgerMenuElementsAreAvailable()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:46Z" name="UserProfileAdminHamburgerMenuElementsAreAvailable" finished-at="2018-06-08T15:56:51Z" duration-ms="4456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileAdminHamburgerMenuElementsAreAvailable -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:51Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:51Z" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:51Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:51Z" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:51Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:56:55Z" duration-ms="4169" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:51Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:56:55Z" duration-ms="4169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileAdminMetLifeIconDirection()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:55Z" name="UserProfileAdminMetLifeIconDirection" finished-at="2018-06-08T15:56:58Z" duration-ms="3332" status="PASS">
+        <test-method signature="UserProfileAdminMetLifeIconDirection()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:55Z" name="UserProfileAdminMetLifeIconDirection" finished-at="2018-06-08T15:56:58Z" duration-ms="3332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileAdminMetLifeIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:58Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:58Z" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:58Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:56:58Z" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:58Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:57:03Z" duration-ms="4224" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:56:58Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:57:03Z" duration-ms="4224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileAdminPageIsAvailable()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:03Z" name="UserProfileAdminPageIsAvailable" finished-at="2018-06-08T15:57:05Z" duration-ms="1967" status="PASS">
+        <test-method signature="UserProfileAdminPageIsAvailable()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:03Z" name="UserProfileAdminPageIsAvailable" finished-at="2018-06-08T15:57:05Z" duration-ms="1967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileAdminPageIsAvailable -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:05Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:57:05Z" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:05Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:57:05Z" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:05Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:57:09Z" duration-ms="4246" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:05Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:57:09Z" duration-ms="4246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileAdminPermissionIsVisibleAsAdmin()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:09Z" name="UserProfileAdminPermissionIsVisibleAsAdmin" finished-at="2018-06-08T15:57:11Z" duration-ms="1989" status="PASS">
+        <test-method signature="UserProfileAdminPermissionIsVisibleAsAdmin()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:09Z" name="UserProfileAdminPermissionIsVisibleAsAdmin" finished-at="2018-06-08T15:57:11Z" duration-ms="1989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileAdminPermissionIsVisibleAsAdmin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:11Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:57:11Z" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:11Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:57:11Z" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:11Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:57:15Z" duration-ms="4183" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:11Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:57:15Z" duration-ms="4183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileAdminTestBreadcrumb()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:15Z" name="UserProfileAdminTestBreadcrumb" finished-at="2018-06-08T15:57:17Z" duration-ms="1921" status="PASS">
+        <test-method signature="UserProfileAdminTestBreadcrumb()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:15Z" name="UserProfileAdminTestBreadcrumb" finished-at="2018-06-08T15:57:17Z" duration-ms="1921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileAdminTestBreadcrumb -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:17Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:57:17Z" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:17Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:57:17Z" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:17Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:57:22Z" duration-ms="4319" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:17Z" name="start" description="Open browser before each test!" finished-at="2018-06-08T15:57:22Z" duration-ms="4319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="UserProfileAdminUserIconDirection()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:22Z" name="UserProfileAdminUserIconDirection" finished-at="2018-06-08T15:57:25Z" duration-ms="2751" status="PASS">
+        <test-method signature="UserProfileAdminUserIconDirection()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:22Z" name="UserProfileAdminUserIconDirection" finished-at="2018-06-08T15:57:25Z" duration-ms="2751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfileAdminUserIconDirection -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:25Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:57:25Z" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest@5656be13]" started-at="2018-06-08T15:57:25Z" name="closeBrowser" description="Close the browser after each test" finished-at="2018-06-08T15:57:25Z" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- UserProfilePage.UserProfilePageAdminUserTest -->
+      </class> <!-- SeleniumTestNG.UserProfilePage.UserProfilePageAdminUserTest -->
     </test> <!-- Package test -->
   </suite> <!-- Run -->
 </testng-results>

@@ -3,7 +3,7 @@
 <suite name="Failed suite [Run]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Package test(failed)">
     <classes>
-      <class name="CentralPage.CentralPageTest">
+      <class name="SeleniumTestNG.CentralPage.CentralPageTest">
         <methods>
           <include name="loginIsPossibleWithJurisdiction"/>
           <include name="centralPageMetlifeIcondirection"/>
@@ -14,7 +14,7 @@
           <include name="closebrowser"/>
           <include name="start"/>
         </methods>
-      </class> <!-- CentralPage.CentralPageTest -->
+      </class> <!-- SeleniumTestNG.CentralPage.CentralPageTest -->
     </classes>
   </test> <!-- Package test(failed) -->
 </suite> <!-- Failed suite [Run] -->

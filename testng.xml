@@ -5,21 +5,21 @@
     <test name="Package test">
         <packages>
 
-            <!--<package name="AboutTouchPage"/>-->
-            <!--<package name="CentralPage"/>-->
-            <!--<package name="LoginPage"/>-->
-            <!--<package name="TouchpointPage"/>-->
-            <!--<package name="UserProfilePage"/>-->
-            <!--<package name="DashboardPage"/>-->
+            <package name="SeleniumTestNG.AboutTouchPage"/>
+            <package name="SeleniumTestNG.CentralPage"/>
+            <package name="SeleniumTestNG.LoginPage"/>
+            <package name="SeleniumTestNG.TouchpointPage"/>
+            <package name="SeleniumTestNG.UserProfilePage"/>
+            <package name="SeleniumTestNG.DashboardPage"/>
 
-            <package name="AdminEndpoints"/>
-            <package name="AdminInfo"/>
-            <!--<package name="ContentTemplates"/>-->
-            <!--<package name="ManageJurisdictions"/>-->
-            <!--<package name="ManageUsers"/>-->
-            <!--<package name="TextContent"/>-->
-            <!--<package name="TouchpointDataLists"/>-->
-            <package name="TouchpointForms"/>
+            <package name="SeleniumTestNG.AdminEndpoints"/>
+            <package name="SeleniumTestNG.AdminInfo"/>
+            <package name="SeleniumTestNG.ContentTemplates"/>
+            <package name="SeleniumTestNG.ManageJurisdictions"/>
+            <package name="SeleniumTestNG.BaseTestData.ManageUsers"/>
+            <package name="SeleniumTestNG.TextContent"/>
+            <package name="SeleniumTestNG.TouchpointDataLists"/>
+            <package name="SeleniumTestNG.TouchpointForms"/>
 
         </packages>
     </test>
