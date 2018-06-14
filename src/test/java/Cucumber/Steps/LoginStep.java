@@ -2,6 +2,7 @@ package Cucumber.Steps;
 
 import Cucumber.Base.BaseUtil;
 
+import Cucumber.Pages.LoginPage;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -45,7 +46,10 @@ public class LoginStep extends BaseUtil {
     public void iClickOnTheLoginButton() {
 
         /* The button type is submit -> submit method */
-        base.driver.findElement(By.name("Login")).submit();
+        //base.driver.findElement(By.name("Login")).submit();
+
+        LoginPage page = new LoginPage(base.driver);
+        page.clickLogin();
 
     }
 
@@ -53,6 +57,8 @@ public class LoginStep extends BaseUtil {
     public void iSeeTheTouchCentralPage() {
 
         Assert.assertEquals(base.driver.findElement(By.id("Initial")).isDisplayed(), true);
+
+        //   Assert.assertEquals(base.driver.getCurrentUrl(),"http://executeautomation.com/demosite/index.html?UserName=admin&Password=admin&Login=Login");
 
     }
 
@@ -78,10 +84,11 @@ public class LoginStep extends BaseUtil {
 //            System.out.println("The password is: " + user.password);
 //        }
 
+        LoginPage page = new LoginPage(base.driver);
+
         for (User user : users) {
 
-            base.driver.findElement(By.name("UserName")).sendKeys(user.username);
-            base.driver.findElement(By.name("Password")).sendKeys(user.password);
+            page.Login(user.username, user.password);
 
         }
 
@@ -91,8 +98,8 @@ public class LoginStep extends BaseUtil {
     @And("^I enter the \"([^\"]*)\" as admin user and \"([^\"]*)\" as admin password$")
     public void iEnterTheAsAdminAndAsAdmin(String userName, String password) {
 
-            base.driver.findElement(By.name("UserName")).sendKeys(userName);
-            base.driver.findElement(By.name("Password")).sendKeys(password);
+        base.driver.findElement(By.name("UserName")).sendKeys(userName);
+        base.driver.findElement(By.name("Password")).sendKeys(password);
 
 
     }
