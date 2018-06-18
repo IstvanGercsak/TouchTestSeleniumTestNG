@@ -22,7 +22,7 @@
             <!--<package name="SeleniumTestNG.TextContent"/>-->
             <!--<package name="SeleniumTestNG.TouchpointDataLists"/>-->
 
-            <!--<package name="SeleniumTestNG.TouchpointForms"/>-->
+            <package name="SeleniumTestNG.TouchpointForms"/>
 
             <package name="Cucumber.Runner"/>
 
