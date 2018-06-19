@@ -6,6 +6,10 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class LoginStep extends BaseUtil {
@@ -41,8 +45,8 @@ public class LoginStep extends BaseUtil {
     @And("^I log into the Touch with ([^\"]*) and ([^\"]*)$")
     public void iLogIntoTheTouchWithUsernameAndPasswordOutline(String username, String password) {
 
-        base.driver.findElement(By.name("username")).sendKeys(username);
-        base.driver.findElement(By.name("password")).sendKeys(password);
+        base.driver.findElement(By.id("username")).sendKeys(username);
+        base.driver.findElement(By.id("password")).sendKeys(password);
 
     }
 
@@ -70,6 +74,8 @@ public class LoginStep extends BaseUtil {
     @And("^I click on the profile icon$")
     public void iClickOnTheProfileIcon() {
 
+//        WebDriverWait wait = new WebDriverWait(base.driver, 10);
+//        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(base.driver.findElement(By.className("icon-medium"))));
         base.driver.findElement(By.className("icon-medium")).click();
 
     }
@@ -84,8 +90,8 @@ public class LoginStep extends BaseUtil {
     @Given("^I log into the Touch with \"([^\"]*)\" username and \"([^\"]*)\" password$")
     public void iLogIntoTheTouchWithUsernameAndPasswordSingle(String username, String password) {
 
-        base.driver.findElement(By.name("username")).sendKeys(username);
-        base.driver.findElement(By.name("password")).sendKeys(password);
+        base.driver.findElement(By.id("username")).sendKeys(username);
+        base.driver.findElement(By.id("password")).sendKeys(password);
 
     }
 
