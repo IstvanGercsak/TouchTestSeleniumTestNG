@@ -16,9 +16,6 @@ public class LoginStep extends BaseUtil {
         this.base = base;
     }
 
-    private static final String CENTRALPAGEURL = "https://touch-test-central.azurewebsites.net/central/";
-    private static final String INVALIDLOGINPAGE = "https://touch-test-central.azurewebsites.net/central/login?error";
-
     @Given("^I navigate to the login page$")
     public void iNavigateToTheLoginPage() {
 

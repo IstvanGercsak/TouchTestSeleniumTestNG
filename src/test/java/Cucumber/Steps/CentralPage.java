@@ -15,14 +15,6 @@ public class CentralPage extends BaseUtil {
         this.base = base;
     }
 
-    private static final String CENTRALPAGEURL = "https://touch-test-central.azurewebsites.net/central/";
-    private static final String DASHBOARDPAGE = "https://touch-test-zone.azurewebsites.net/uk/";
-    private static final String UKPAGE = "https://touch-test-central.azurewebsites.net/central/reports/dashboard";
-    private static final String LOGINPAGE = "https://touch-test-central.azurewebsites.net/central/login";
-    private static final String PROFILEPAGE = "https://touch-test-central.azurewebsites.net/central/myprofile";
-
-    protected String ukJurisdictionOperatorName = "istvan.gercsak@gmail.com";
-    protected String ukJurisdictionOperatorPassword = "Igercsak8!#";
 
     @Then("^I redirected to the UK page$")
     public void iRedirectedToTheUKPage() {
