@@ -33,7 +33,7 @@ public class CentralPage extends BaseUtil {
     @And("^I click on the \"([^\"]*)\" options$")
     public void iClickOnTheOptions(String getOption) {
 
-        driver.findElement(By.linkText(getOption)).click();
+        base.driver.findElement(By.linkText(getOption)).click();
 
     }
 

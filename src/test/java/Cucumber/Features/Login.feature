@@ -1,4 +1,4 @@
-Feature: LoginFeature
+Feature: Login Page Feature
   This feature deals with the login functionality of the application
 
   Scenario Outline: Login with correct username and password with different rights

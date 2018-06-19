@@ -9,8 +9,8 @@ public class BaseUtil {
 
     /*Page Url implementation*/
     public String CENTRALPAGEURL = "https://touch-test-central.azurewebsites.net/central/";
-    public String DASHBOARDPAGE = "https://touch-test-zone.azurewebsites.net/uk/";
-    public String UKPAGE = "https://touch-test-central.azurewebsites.net/central/reports/dashboard";
+    public String DASHBOARDPAGE = "https://touch-test-central.azurewebsites.net/central/reports/dashboard";
+    public String UKPAGE = "http://touch-test-zone.azurewebsites.net/uk/";
     public String LOGINPAGE = "https://touch-test-central.azurewebsites.net/central/login";
     public String PROFILEPAGE = "https://touch-test-central.azurewebsites.net/central/myprofile";
     public String INVALIDLOGINPAGE = "https://touch-test-central.azurewebsites.net/central/login?error";
