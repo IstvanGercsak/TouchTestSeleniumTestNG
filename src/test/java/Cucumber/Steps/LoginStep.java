@@ -112,7 +112,7 @@ public class LoginStep extends BaseUtil {
     @Then("^The \"([^\"]*)\" breadcrumb appears$")
     public void theRightBreadcrumbAppears(String breadcumb) {
 
-        Assert.assertEquals(driver.findElement(By.xpath("//*[@id=\"titlebarFragment\"]/div/span")).getText(), breadcumb);
+        Assert.assertEquals(base.driver.findElement(By.xpath("//*[@id=\"titlebarFragment\"]/div/span")).getText(), breadcumb);
 
     }
 
