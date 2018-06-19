@@ -2,24 +2,17 @@ package Cucumber.Steps;
 
 import Cucumber.Base.BaseUtil;
 
-import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
-import java.util.ArrayList;
-import java.util.List;
-
-
-/*CTRL + ALT + B -> Jump from the test to the method*/
-
 public class LoginStep extends BaseUtil {
 
     public class User {
 
-        public String username, password;
+        String username, password;
 
         public User(String username, String password) {
             this.username = username;
@@ -33,76 +26,103 @@ public class LoginStep extends BaseUtil {
         this.base = base;
     }
 
+    private static final String CENTRALPAGEURL = "https://touch-test-central.azurewebsites.net/central/";
+    private static final String INVALIDLOGINPAGE = "https://touch-test-central.azurewebsites.net/central/login?error";
+    private static final String PROFILEPAGE = "https://touch-test-central.azurewebsites.net/central/myprofile";
+    private static final String LOGINPAGE = "https://touch-test-central.azurewebsites.net/central/login";
+
     @Given("^I navigate to the login page$")
     public void iNavigateToTheLoginPage() {
 
-        base.driver.navigate().to("http://executeautomation.com/demosite/Login.html");
+        base.driver.navigate().to("https://touch-test-central.azurewebsites.net/central/login");
 
     }
 
+    @And("^I log into the Touch with ([^\"]*) and ([^\"]*)$")
+    public void iLogIntoTheTouchWithUsernameAndPasswordOutline(String username, String password) {
+
+        base.driver.findElement(By.name("username")).sendKeys(username);
+        base.driver.findElement(By.name("password")).sendKeys(password);
+
+    }
 
     @And("^I click on the login button$")
     public void iClickOnTheLoginButton() {
 
-        /* The button type is submit -> submit method */
-        base.driver.findElement(By.name("Login")).submit();
+        base.driver.findElement(By.className("btn-primary")).click();
 
     }
 
-    @Then("^I see the Touch central page$")
-    public void iSeeTheTouchCentralPage() {
+    @Then("^I arrive on the central page$")
+    public void iArriveOnTheCentralPage() {
 
-        Assert.assertEquals(base.driver.findElement(By.id("Initial")).isDisplayed(), true);
-
-    }
-
-    @And("^I enter the following for login$")
-    public void iEnterTheFollowingForLogin(DataTable table) {
-
-        /*        table.raw(); /*It is a is a <List<String>> */
-
-//        List<List<String>> data = table.raw();
-//        System.out.println("The value is: " + data.get(0).get(0).toString());
-//        System.out.println("The value is: " + data.get(0).get(1).toString());
-
-        // Create an ArrayList
-
-        List<User> users = new ArrayList<User>();
-
-        // Store all the users
-
-        users = table.asList(User.class);
-
-//        for (User user : users) {
-//            System.out.println("The username is: " + user.username);
-//            System.out.println("The password is: " + user.password);
-//        }
-
-        for (User user : users) {
-
-            base.driver.findElement(By.name("UserName")).sendKeys(user.username);
-            base.driver.findElement(By.name("Password")).sendKeys(user.password);
-
-        }
+        Assert.assertEquals(base.driver.getCurrentUrl(), CENTRALPAGEURL);
 
     }
 
+    @Then("^I redirected to the invalid login page$")
+    public void iRedirectedToTheInvalidLoginPage() {
 
-    @And("^I enter the \"([^\"]*)\" as admin user and \"([^\"]*)\" as admin password$")
-    public void iEnterTheAsAdminAndAsAdmin(String userName, String password) {
-
-            base.driver.findElement(By.name("UserName")).sendKeys(userName);
-            base.driver.findElement(By.name("Password")).sendKeys(password);
-
+        Assert.assertEquals(base.driver.getCurrentUrl(), INVALIDLOGINPAGE);
 
     }
 
-    /*
-     "([^"]*)"
-     */
+    @And("^I click on the profile icon$")
+    public void iClickOnTheProfileIcon() {
 
-    @And("^I enter ([^\"]*) and ([^\"]*)$")
-    public void iEnterUsernameAndPassword(String username, String password) {
+        base.driver.findElement(By.className("icon-medium")).click();
 
     }
+
+    @Then("^I arrive on the profile page$")
+    public void iArriveOnTheProfilePage() {
+
+        Assert.assertEquals(base.driver.getCurrentUrl(), PROFILEPAGE);
+
+    }
+
+    @Given("^I log into the Touch with \"([^\"]*)\" username and \"([^\"]*)\" password$")
+    public void iLogIntoTheTouchWithUsernameAndPasswordSingle(String username, String password) {
+
+        base.driver.findElement(By.name("username")).sendKeys(username);
+        base.driver.findElement(By.name("password")).sendKeys(password);
+
+    }
+
+    @And("^I click on the Metlife icon$")
+    public void iClickOnTheMetlifeIcon() {
+
+        base.driver.findElement(By.className("img-responsive")).click();
+
+    }
+
+    @Then("^I arrive on the Metlife page$")
+    public void iArriveOnTheMetlifePage() {
+
+        Assert.assertEquals(base.driver.getCurrentUrl(), CENTRALPAGEURL);
+
+    }
+
+    @Then("^The \"([^\"]*)\" breadcrumb appears$")
+    public void theRightBreadcrumbAppears(String breadcumb) {
+
+        Assert.assertEquals(driver.findElement(By.xpath("//*[@id=\"titlebarFragment\"]/div/span")).getText(), breadcumb);
+
+    }
+
+    @And("^I click on the log out$")
+    public void iClickOnTheLogOut() {
+
+        driver.findElement(By.id("hamburger-nav")).click();
+        driver.findElement(By.xpath("//a[contains(text(),'" + "Logout" + "')]")).click();
+
+    }
+
+    @Then("^I redirected to the login page$")
+    public void iRedirectedToTheLoginPage() {
+
+        Assert.assertEquals(base.driver.getCurrentUrl(),"LOGINPAGE");
+
+    }
+
 }
