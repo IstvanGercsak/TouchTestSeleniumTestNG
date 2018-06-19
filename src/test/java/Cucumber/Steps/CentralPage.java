@@ -91,6 +91,7 @@ public class CentralPage extends BaseUtil {
     @Given("^I log into the application$")
     public void iLogIntoTheApplication() {
 
+        base.driver.navigate().to("https://touch-test-central.azurewebsites.net/central/login");
         base.driver.findElement(By.id("username")).sendKeys(ukJurisdictionOperatorName);
         base.driver.findElement(By.id("password")).sendKeys(ukJurisdictionOperatorPassword);
         base.driver.findElement(By.className("btn-primary")).click();
