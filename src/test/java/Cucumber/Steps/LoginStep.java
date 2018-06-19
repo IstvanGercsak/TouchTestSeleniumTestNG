@@ -6,23 +6,9 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class LoginStep extends BaseUtil {
-
-    public class User {
-
-        String username, password;
-
-        public User(String username, String password) {
-            this.username = username;
-            this.password = password;
-        }
-    }
 
     private BaseUtil base;
 
@@ -32,8 +18,6 @@ public class LoginStep extends BaseUtil {
 
     private static final String CENTRALPAGEURL = "https://touch-test-central.azurewebsites.net/central/";
     private static final String INVALIDLOGINPAGE = "https://touch-test-central.azurewebsites.net/central/login?error";
-    private static final String PROFILEPAGE = "https://touch-test-central.azurewebsites.net/central/myprofile";
-    private static final String LOGINPAGE = "https://touch-test-central.azurewebsites.net/central/login";
 
     @Given("^I navigate to the login page$")
     public void iNavigateToTheLoginPage() {
@@ -71,22 +55,6 @@ public class LoginStep extends BaseUtil {
 
     }
 
-    @And("^I click on the profile icon$")
-    public void iClickOnTheProfileIcon() {
-
-//        WebDriverWait wait = new WebDriverWait(base.driver, 10);
-//        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(base.driver.findElement(By.className("icon-medium"))));
-        base.driver.findElement(By.className("icon-medium")).click();
-
-    }
-
-    @Then("^I arrive on the profile page$")
-    public void iArriveOnTheProfilePage() {
-
-        Assert.assertEquals(base.driver.getCurrentUrl(), PROFILEPAGE);
-
-    }
-
     @Given("^I log into the Touch with \"([^\"]*)\" username and \"([^\"]*)\" password$")
     public void iLogIntoTheTouchWithUsernameAndPasswordSingle(String username, String password) {
 
@@ -94,41 +62,4 @@ public class LoginStep extends BaseUtil {
         base.driver.findElement(By.id("password")).sendKeys(password);
 
     }
-
-    @And("^I click on the Metlife icon$")
-    public void iClickOnTheMetlifeIcon() {
-
-        base.driver.findElement(By.className("img-responsive")).click();
-
-    }
-
-    @Then("^I arrive on the Metlife page$")
-    public void iArriveOnTheMetlifePage() {
-
-        Assert.assertEquals(base.driver.getCurrentUrl(), CENTRALPAGEURL);
-
-    }
-
-    @Then("^The \"([^\"]*)\" breadcrumb appears$")
-    public void theRightBreadcrumbAppears(String breadcumb) {
-
-        Assert.assertEquals(base.driver.findElement(By.xpath("//*[@id=\"titlebarFragment\"]/div/span")).getText(), breadcumb);
-
-    }
-
-    @And("^I click on the log out$")
-    public void iClickOnTheLogOut() {
-
-        base.driver.findElement(By.id("hamburger-nav")).click();
-        base.driver.findElement(By.xpath("//a[contains(text(),'" + "Logout" + "')]")).click();
-
-    }
-
-    @Then("^I redirected to the login page$")
-    public void iRedirectedToTheLoginPage() {
-
-        Assert.assertEquals(base.driver.getCurrentUrl(),LOGINPAGE);
-
-    }
-
 }

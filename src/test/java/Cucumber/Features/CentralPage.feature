@@ -1,4 +1,5 @@
-Feature: Central page availability, hamburger menu availability, links, and logout from page
+Feature: Central page features
+  Page availability, hamburger menu availability, links, and logout from page
 
   Scenario Outline: Login with correct username and password with different rights
     Given I navigate to the login page
@@ -7,10 +8,10 @@ Feature: Central page availability, hamburger menu availability, links, and logo
     Then I arrive on the central page
 
     Examples:
-      | username                   | password    | rights         |
-      | istvan.gercsak@metlife.com | Igercsak8!# | admin          |
-      | istvan.gercsak@metlife.com | Igercsak8!# | UKJurisdiction |
-      | istvan.gercsak@gmail.com   | Igercsak8!# | mixed rights   |
+      | username                 | password    | rights         |
+      | TestAdmin@TestAdmin.com  | Igercsak8!# | admin          |
+      | istvan.gercsak@gmail.com | Igercsak8!# | UKJurisdiction |
+      | istvan.gercsak@gmail.com | Igercsak8!# | mixed rights   |
 
   Scenario: I can reach the User details page
     Given I navigate to the login page
@@ -38,3 +39,13 @@ Feature: Central page availability, hamburger menu availability, links, and logo
     And I click on the login button
     And I click on the log out
     Then I redirected to the login page
+
+  Scenario: UK page is available
+    Given I log into the application
+    And I click on the "UK" options
+    Then I redirected to the UK page
+
+  Scenario: Dashboard page is available
+    Given I log into the application
+    And I click on the "Dashboard" options
+    Then I redirected to the Dashboard page
