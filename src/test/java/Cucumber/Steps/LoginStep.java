@@ -119,15 +119,15 @@ public class LoginStep extends BaseUtil {
     @And("^I click on the log out$")
     public void iClickOnTheLogOut() {
 
-        driver.findElement(By.id("hamburger-nav")).click();
-        driver.findElement(By.xpath("//a[contains(text(),'" + "Logout" + "')]")).click();
+        base.driver.findElement(By.id("hamburger-nav")).click();
+        base.driver.findElement(By.xpath("//a[contains(text(),'" + "Logout" + "')]")).click();
 
     }
 
     @Then("^I redirected to the login page$")
     public void iRedirectedToTheLoginPage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(),"LOGINPAGE");
+        Assert.assertEquals(base.driver.getCurrentUrl(),LOGINPAGE);
 
     }
 
