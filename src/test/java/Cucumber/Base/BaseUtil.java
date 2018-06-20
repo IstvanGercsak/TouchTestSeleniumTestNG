@@ -14,6 +14,8 @@ public class BaseUtil {
     public String LOGINPAGE = "https://touch-test-central.azurewebsites.net/central/login";
     public String PROFILEPAGE = "https://touch-test-central.azurewebsites.net/central/myprofile";
     public String INVALIDLOGINPAGE = "https://touch-test-central.azurewebsites.net/central/login?error";
+    public String ABOUTPAGE = "https://touch-test-central.azurewebsites.net/central/help/about";
+    public String USERPROFILEPAGE = "https://touch-test-central.azurewebsites.net/central/myprofile";
 
     /* User details */
     public String ukJurisdictionOperatorName = "istvan.gercsak@gmail.com";

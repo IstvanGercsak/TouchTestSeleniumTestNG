@@ -1,5 +1,5 @@
 Feature: Login Page Feature
-  This feature deals with the login functionality of the application
+
 
   Scenario Outline: Login with correct username and password with different rights
     Given I navigate to the login page
@@ -8,10 +8,10 @@ Feature: Login Page Feature
     Then I arrive on the central page
 
     Examples:
-      | username                   | password    | rights         |
-      | istvan.gercsak@metlife.com | Igercsak8!# | admin          |
-      | istvan.gercsak@metlife.com | Igercsak8!# | UKJurisdiction |
-      | istvan.gercsak@gmail.com   | Igercsak8!# | mixed rights   |
+      | username                   | password    | rights                   |
+      | TestAdmin@TestAdmin.com    | Igercsak8!# | Central Admin            |
+      | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
+      | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
 
   Scenario Outline: Login with wrong username and password
     Given I navigate to the login page
@@ -22,5 +22,5 @@ Feature: Login Page Feature
     Examples:
       | username                   | password    | wrong_data |
       |                            |             | both       |
-      | istvan.gercsak@metlife.com | Igercsak8!  | username   |
-      | istvan.gercsak@metlife.co  | Igercsak8!# | password   |
+      | istvan.gercsak@metlife.com | Igercsak8!  | password   |
+      | istvan.gercsak@metlife.co  | Igercsak8!# | username   |

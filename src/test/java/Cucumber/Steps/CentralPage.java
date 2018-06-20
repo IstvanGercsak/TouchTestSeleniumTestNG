@@ -80,7 +80,7 @@ public class CentralPage extends BaseUtil {
 
     }
 
-    @Given("^I log into the application$")
+    @Given("^I log into the application with Jurisdiction user$")
     public void iLogIntoTheApplication() {
 
         base.driver.navigate().to("https://touch-test-central.azurewebsites.net/central/login");

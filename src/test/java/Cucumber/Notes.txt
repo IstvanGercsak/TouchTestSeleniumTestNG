@@ -1,0 +1,7 @@
+About Touch page:
+    There isn't profile picture on the top right corner
+UK:
+    MetLife icon get a new reference to the UK
+    There isn't profile picture on the top right corner
+hamburger menu:
+    I can see all of the elements in the hamburger menu
