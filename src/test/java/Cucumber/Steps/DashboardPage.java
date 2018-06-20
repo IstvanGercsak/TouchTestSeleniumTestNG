@@ -5,6 +5,7 @@ import cucumber.api.java.en.Then;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 public class DashboardPage extends BaseUtil {
 
@@ -34,6 +35,13 @@ public class DashboardPage extends BaseUtil {
     public void iCanClickOnAllOfTheElements() {
 
         listElementsAreClickable(DROPDOWNLISTELEMENT);
+
+    }
+
+    @Then("^I arrive on the Dashboard page$")
+    public void iArriveOnTheDashboardPage() {
+
+        Assert.assertEquals(base.driver.getCurrentUrl(), DASHBOARDPAGE);
 
     }
 }

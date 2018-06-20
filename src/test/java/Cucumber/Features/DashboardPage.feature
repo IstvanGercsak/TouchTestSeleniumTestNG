@@ -5,7 +5,7 @@ Feature: Dashboard page features
     And I log into the Touch with <username> and <password>
     And I click on the login button
     And I go on the "Dashboard" page
-    Then I arrive on the About page
+    Then I arrive on the Dashboard page
     Examples:
       | username                   | password    | rights                   |
       | TestAdmin@TestAdmin.com    | Igercsak8!# | Central Admin            |
