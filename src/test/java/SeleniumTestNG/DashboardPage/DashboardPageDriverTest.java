@@ -7,6 +7,8 @@ import org.openqa.selenium.support.ui.Select;
 
 class DashboardPageDriverTest extends BaseData {
 
+
+
     void listElementsAreClickable(String[] getElements) {
 
         WebElement mySelectElement = driver.findElement(By.tagName("select"));
