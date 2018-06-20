@@ -5,6 +5,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
 
 public class CentralPage extends BaseUtil {
@@ -33,7 +34,11 @@ public class CentralPage extends BaseUtil {
     @And("^I click on the \"([^\"]*)\" options$")
     public void iClickOnTheOptions(String getOption) {
 
-        base.driver.findElement(By.linkText(getOption)).click();
+        try {
+            base.driver.findElement(By.linkText(getOption)).click();
+        } catch (NoSuchElementException e) {
+            System.out.println("You have no rights");
+        }
 
     }
 

@@ -2,7 +2,7 @@ Feature: Dashboard page features
 
   Scenario Outline: I can reach the About Touch page
     Given I navigate to the login page
-    And I log into the Touch with <username> and <password>
+    And I log into the Touch with <username> username and <password> password
     And I click on the login button
     And I go on the "Dashboard" page
     Then I arrive on the Dashboard page

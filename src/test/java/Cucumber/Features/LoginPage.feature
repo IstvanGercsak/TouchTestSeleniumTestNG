@@ -3,7 +3,7 @@ Feature: Login Page Feature
 
   Scenario Outline: Login with correct username and password with different rights
     Given I navigate to the login page
-    And I log into the Touch with <username> and <password>
+    And I log into the Touch with <username> username and <password> password
     And I click on the login button
     Then I arrive on the central page
 
@@ -15,7 +15,7 @@ Feature: Login Page Feature
 
   Scenario Outline: Login with wrong username and password
     Given I navigate to the login page
-    And I log into the Touch with <username> and <password>
+    And I log into the Touch with <username> username and <password> password
     And I click on the login button
     Then I redirected to the invalid login page
 
