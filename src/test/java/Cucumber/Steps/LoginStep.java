@@ -2,6 +2,7 @@ package Cucumber.Steps;
 
 import Cucumber.Base.BaseUtil;
 
+
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -15,6 +16,7 @@ public class LoginStep extends BaseUtil {
     public LoginStep(BaseUtil base) {
         this.base = base;
     }
+
 
     @Given("^I navigate to the login page$")
     public void iNavigateToTheLoginPage() {
@@ -57,6 +59,14 @@ public class LoginStep extends BaseUtil {
 
         base.driver.findElement(By.id("username")).sendKeys(username);
         base.driver.findElement(By.id("password")).sendKeys(password);
+
+    }
+
+    @Then("^I can see the \"([^\"]*)\" placeholder in the username and the \"([^\"]*)\" placeholder for the password field$")
+    public void iCanSeeThePlaceholderInTheUsernameAndThePlaceholderForThePasswordField(String usernamePlaceholder, String passwordPlaceholder) {
+
+        Assert.assertEquals(base.driver.findElement(By.cssSelector("#username")).getAttribute("placeholder"), usernamePlaceholder);
+        Assert.assertEquals(base.driver.findElement(By.cssSelector("#password")).getAttribute("placeholder"), passwordPlaceholder);
 
     }
 }

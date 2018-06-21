@@ -8,9 +8,8 @@ Feature: Touch Central Actions page features
     Then I arrive on the Touch Central Page
 
     Examples:
-      | username                   | password    | rights                   |
-      | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
-      | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
+      | username                   | password    | right       |
+      | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights |
 
 
   Scenario: I can not reach the Touch Central Actions page with single admin rights
@@ -19,3 +18,15 @@ Feature: Touch Central Actions page features
     And I click on the login button
     And I click on the "UK" options
     Then The UK link not visible
+
+  Scenario Outline: I can see the right placeholders
+    Given I go on the UK page
+    And I chose the <searchby>
+    Then I see the right <placeholder> based on <referenceid> selector
+
+    Examples:
+      | searchby  | placeholder                               | referenceid |
+      | Reference | Search for name or reference              | #reference  |
+      | Name      | uk:tlbl:zone:searchbar-search-given-name  | #given      |
+      | Name      | uk:tlbl:zone:searchbar-search-family-name | #family     |
+      | Email     | uk:tlbl:zone:searchbar-search-email       | #email      |

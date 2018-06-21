@@ -24,3 +24,7 @@ Feature: Login Page Feature
       |                            |             | both       |
       | istvan.gercsak@metlife.com | Igercsak8!  | password   |
       | istvan.gercsak@metlife.co  | Igercsak8!# | username   |
+
+  Scenario: I can see the right placeholders
+    Given I navigate to the login page
+    Then I can see the "Username / Email" placeholder in the username and the "Password" placeholder for the password field
