@@ -1,4 +1,4 @@
-Feature: Central page features
+Feature: Central page features 
 
 
   Scenario: The right breadcrumb appears on the page

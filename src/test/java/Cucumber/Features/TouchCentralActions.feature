@@ -8,8 +8,8 @@ Feature: Touch Central Actions page features
     Then I arrive on the Touch Central Page
 
     Examples:
-      | username                   | password    | right       |
-      | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights |
+      | username                   | password    |
+      | istvan.gercsak@metlife.com | Igercsak8!# |
 
 
   Scenario: I can not reach the Touch Central Actions page with single admin rights
@@ -21,7 +21,7 @@ Feature: Touch Central Actions page features
 
   Scenario Outline: I can see the right placeholders
     Given I go on the UK page
-    And I chose the <searchby>
+    And I choose the <searchby>
     Then I see the right <placeholder> based on <referenceid> selector
 
     Examples:

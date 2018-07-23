@@ -47,7 +47,7 @@ public class TouchCentralActionsPage extends BaseUtil {
 
     }
 
-    @And("^I chose the ([^\"]*)$")
+    @And("^I choose the ([^\"]*)$")
     public void iChoseSearchby(String getMode) {
 
         WebElement mySelectElement = base.driver.findElement(By.tagName("select"));
