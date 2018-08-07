@@ -22,4 +22,12 @@ public class BaseUtil {
     public String ukJurisdictionOperatorName = "istvan.gercsak@gmail.com";
     public String ukJurisdictionOperatorPassword = "Igercsak8!#";
 
+    public String adminName = "TestAdmin@TestAdmin.com";
+    public String adminPassword = "Igercsak8!#";
+
+    public String mixedUserName = "istvan.gercsak@metlife.com";
+    public String mixedUserPassword = "Igercsak8!#";
+
+
+
 }

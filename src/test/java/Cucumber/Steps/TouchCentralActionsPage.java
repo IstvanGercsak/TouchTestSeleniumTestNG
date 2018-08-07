@@ -41,7 +41,7 @@ public class TouchCentralActionsPage extends BaseUtil {
 
         CentralPage cp = new CentralPage(base);
 
-        cp.iLogIntoTheApplication();
+        cp.iLogIntoTheApplicationWithJurisdiction();
         cp.iClickOnTheOptions("UK");
 
 
