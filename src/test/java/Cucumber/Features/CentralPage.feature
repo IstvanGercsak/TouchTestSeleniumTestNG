@@ -49,15 +49,15 @@ Feature: Central page features
   Scenario Outline: With Admin rights, using the hamburger menu I can see and reach every page from the list
     Given I log into the application with Admin user
     And I navigate with the hamburger menu to the <site> page
-    Then I arrive to the <site> page
+    Then I can see the right <breadcrumbs> that is belong to the page
 
     Examples:
-      | site                                           |
-      | Touchpoint Forms                               |
-      | Touchpoint Data Lists                          |
-      | Manage Users                                   |
-      | Manage Jurisdictions                           |
-      | base:tlbl:central:admin-system-endpoints-title |
-      | base:tlbl:central:admin-system-info-title      |
-      | Text Content                                   |
-      | Content Templates                              |
+      | site                                           | breadcrumbs                              |
+      | Touchpoint Forms                               | Touchpoint Forms                         |
+      | Touchpoint Data Lists                          | Touchpoint Data Lists                    |
+      | Manage Users                                   | Manage Touch Users                       |
+      | Manage Jurisdictions                           | Manage Jurisdictions                     |
+      | base:tlbl:central:admin-system-endpoints-title | base:tlbl:central:admin-endpoints-title  |
+      | base:tlbl:central:admin-system-info-title      | base:tlbl:central:admin-info-title       |
+      | Text Content                                   | Text Content                             |
+      | Content Templates                              | base:tlbl:central:content-template-title |

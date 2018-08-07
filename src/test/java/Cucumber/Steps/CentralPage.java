@@ -136,11 +136,11 @@ public class CentralPage extends BaseUtil {
     @Then("^I get \"([^\"]*)\" error message$")
     public void iGetErrorMessage(String getErrorMessage) {
 
-        Assert.assertEquals(driver.findElement(By.className("alert alert-warning small")).getText(), getErrorMessage);
+        Assert.assertEquals(base.driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/section/div/div/div/div/p[2]/span")).getText(), getErrorMessage);
 
     }
 
-    @Then("^I arrive to the ([^\"]*) page$")
+    @Then("^I can see the right ([^\"]*) that is belong to the page$")
     public void iArriveToTheBreadcrumbsPage(String siteBreadcrumbs) {
 
         Assert.assertEquals(base.driver.findElement(By.className("page-bar-title")).getText(), siteBreadcrumbs);

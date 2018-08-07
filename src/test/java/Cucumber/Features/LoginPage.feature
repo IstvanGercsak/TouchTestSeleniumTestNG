@@ -40,4 +40,5 @@ Feature: Login Page Feature
     And I log into the Touch with "" username and "" password
     And I click on the login button
     And I log into the Touch with "TestAdmin@TestAdmin.com" username and "Igercsak8!#" password
+    And I click on the login button
     Then I arrive on the central page
