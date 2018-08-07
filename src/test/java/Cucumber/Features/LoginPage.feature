@@ -28,3 +28,16 @@ Feature: Login Page Feature
   Scenario: I can see the right placeholders
     Given I navigate to the login page
     Then I can see the "Username / Email" placeholder in the username and the "Password" placeholder for the password field
+
+  Scenario: I can see the right placeholders on the invalid login page
+    Given I navigate to the login page
+    And I log into the Touch with "" username and "" password
+    And I click on the login button
+    Then I can see the "Username / Email" placeholder in the username and the "Password" placeholder for the password field
+
+  Scenario: I can login after I try to login with bad data
+    Given I navigate to the login page
+    And I log into the Touch with "" username and "" password
+    And I click on the login button
+    And I log into the Touch with "TestAdmin@TestAdmin.com" username and "Igercsak8!#" password
+    Then I arrive on the central page
