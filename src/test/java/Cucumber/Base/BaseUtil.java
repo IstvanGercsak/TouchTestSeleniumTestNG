@@ -28,7 +28,12 @@ public class BaseUtil {
     public String mixedUserName = "istvan.gercsak@metlife.com";
     public String mixedUserPassword = "Igercsak8!#";
 
-    /* Methods */
+    /* Elements */
 
-
+    public String metLifeIconClass = "img-responsive";
+    public String userNameID = "username";
+    public String passwordID = "password";
+    public String userNameCSS = "#username";
+    public String passwordCSS = "#password";
+    public String loginButtonClass = "btn-primary";
 }

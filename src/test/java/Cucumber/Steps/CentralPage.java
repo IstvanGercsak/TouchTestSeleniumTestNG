@@ -77,7 +77,7 @@ public class CentralPage extends BaseUtil {
     @And("^I click on the Metlife icon$")
     public void iClickOnTheMetlifeIcon() {
 
-        base.driver.findElement(By.className("img-responsive")).click();
+        base.driver.findElement(By.className(metLifeIconClass)).click();
 
     }
 
@@ -91,17 +91,17 @@ public class CentralPage extends BaseUtil {
     @Given("^I log into the application with Jurisdiction user$")
     public void iLogIntoTheApplicationWithJurisdiction() {
 
-        base.driver.navigate().to("https://touch-test-central.azurewebsites.net/central/login");
-        base.driver.findElement(By.id("username")).sendKeys(ukJurisdictionOperatorName);
-        base.driver.findElement(By.id("password")).sendKeys(ukJurisdictionOperatorPassword);
-        base.driver.findElement(By.className("btn-primary")).click();
+        base.driver.navigate().to(LOGINPAGE);
+        base.driver.findElement(By.id(userNameID)).sendKeys(ukJurisdictionOperatorName);
+        base.driver.findElement(By.id(passwordID)).sendKeys(ukJurisdictionOperatorPassword);
+        base.driver.findElement(By.className(loginButtonClass)).click();
 
     }
 
     @Given("^I log into the application with Admin user$")
     public void iLogIntoTheApplicationWithAdmin() {
 
-        base.driver.navigate().to("https://touch-test-central.azurewebsites.net/central/login");
+        base.driver.navigate().to(LOGINPAGE);
         base.driver.findElement(By.id("username")).sendKeys(adminName);
         base.driver.findElement(By.id("password")).sendKeys(adminPassword);
         base.driver.findElement(By.className("btn-primary")).click();
@@ -111,7 +111,7 @@ public class CentralPage extends BaseUtil {
     @Given("^I log into the application with Mixed rights user$")
     public void iLogIntoTheApplicationWithMixed() {
 
-        base.driver.navigate().to("https://touch-test-central.azurewebsites.net/central/login");
+        base.driver.navigate().to(LOGINPAGE);
         base.driver.findElement(By.id("username")).sendKeys(mixedUserName);
         base.driver.findElement(By.id("password")).sendKeys(mixedUserPassword);
         base.driver.findElement(By.className("btn-primary")).click();
