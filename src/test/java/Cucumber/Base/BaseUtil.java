@@ -46,6 +46,6 @@ public class BaseUtil {
     public String profileIconClass = "icon-medium";
 
     public String breadcrumbsContainerClass = "page-bar-title";
-    public String accesDeniedErrorMessageXPath = "\"//*[@id=\\\"defaultFragment\\\"]/div[3]/div/div/section/div/div/div/div/p[2]/span\"";
+    public String accesDeniedErrorMessageXPath = "//*[@id=\"defaultFragment\"]/div[3]/div/div/section/div/div/div/div/p[2]/span";
 
 }
