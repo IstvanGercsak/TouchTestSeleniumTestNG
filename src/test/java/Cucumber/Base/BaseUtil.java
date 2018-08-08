@@ -28,6 +28,7 @@ public class BaseUtil {
     public String mixedUserName = "istvan.gercsak@metlife.com";
     public String mixedUserPassword = "Igercsak8!#";
 
+    /* Methods */
 
 
 }

@@ -20,7 +20,6 @@ public class TouchCentralActionsPage extends BaseUtil {
         this.base = base;
     }
 
-
     @Then("^I arrive on the Touch Central Page$")
     public void iArriveOnTheTouchCentralPage() {
 

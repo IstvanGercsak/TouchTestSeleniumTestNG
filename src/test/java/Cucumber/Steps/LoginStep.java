@@ -21,7 +21,7 @@ public class LoginStep extends BaseUtil {
     @Given("^I navigate to the login page$")
     public void iNavigateToTheLoginPage() {
 
-        base.driver.navigate().to("https://touch-test-central.azurewebsites.net/central/login");
+        base.driver.navigate().to(LOGINPAGE);
 
     }
 
