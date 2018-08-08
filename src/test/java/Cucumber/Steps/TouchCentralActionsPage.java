@@ -12,8 +12,6 @@ import org.testng.Assert;
 
 public class TouchCentralActionsPage extends BaseUtil {
 
-    String referencePlaceholder = "#reference";
-
     private BaseUtil base;
 
     public TouchCentralActionsPage(BaseUtil base) {
@@ -37,12 +35,10 @@ public class TouchCentralActionsPage extends BaseUtil {
     @Given("^I go on the UK page$")
     public void iGoOnTheUKPage() {
 
-
         CentralPage cp = new CentralPage(base);
 
         cp.iLogIntoTheApplicationWithJurisdiction();
         cp.iClickOnTheOptions("UK");
-
 
     }
 

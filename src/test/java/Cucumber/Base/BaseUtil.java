@@ -36,15 +36,11 @@ public class BaseUtil {
     public String userNameCSS = "#username";
     public String passwordCSS = "#password";
     public String loginButtonClass = "btn-primary";
-
-
     public String hamburgerNavigationID = "hamburger-nav";
     public String versionID = "version";
     public String buildnumberID = "buildnumber";
     public String timestampID = "timestamp";
-
     public String profileIconClass = "icon-medium";
-
     public String breadcrumbsContainerClass = "page-bar-title";
     public String accesDeniedErrorMessageXPath = "//*[@id=\"defaultFragment\"]/div[3]/div/div/section/div/div/div/div/p[2]/span";
 
