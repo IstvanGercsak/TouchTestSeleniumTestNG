@@ -62,14 +62,14 @@ public class CentralPage extends BaseUtil {
     @Then("^The \"([^\"]*)\" breadcrumb appears$")
     public void theRightBreadcrumbAppears(String breadcumb) {
 
-        Assert.assertEquals(base.driver.findElement(By.xpath("//*[@id=\"titlebarFragment\"]/div/span")).getText(), breadcumb);
+        Assert.assertEquals(base.driver.findElement(By.className(breadcrumbsContainerClass)).getText(), breadcumb);
 
     }
 
     @And("^I click on the log out$")
     public void iClickOnTheLogOut() {
 
-        base.driver.findElement(By.id("hamburger-nav")).click();
+        base.driver.findElement(By.id(hamburgerNavigationID)).click();
         base.driver.findElement(By.xpath("//a[contains(text(),'" + "Logout" + "')]")).click();
 
     }
@@ -102,9 +102,9 @@ public class CentralPage extends BaseUtil {
     public void iLogIntoTheApplicationWithAdmin() {
 
         base.driver.navigate().to(LOGINPAGE);
-        base.driver.findElement(By.id("username")).sendKeys(adminName);
-        base.driver.findElement(By.id("password")).sendKeys(adminPassword);
-        base.driver.findElement(By.className("btn-primary")).click();
+        base.driver.findElement(By.id(userNameID)).sendKeys(adminName);
+        base.driver.findElement(By.id(passwordID)).sendKeys(adminPassword);
+        base.driver.findElement(By.className(loginButtonClass)).click();
 
     }
 
@@ -112,23 +112,23 @@ public class CentralPage extends BaseUtil {
     public void iLogIntoTheApplicationWithMixed() {
 
         base.driver.navigate().to(LOGINPAGE);
-        base.driver.findElement(By.id("username")).sendKeys(mixedUserName);
-        base.driver.findElement(By.id("password")).sendKeys(mixedUserPassword);
-        base.driver.findElement(By.className("btn-primary")).click();
+        base.driver.findElement(By.id(userNameID)).sendKeys(mixedUserName);
+        base.driver.findElement(By.id(passwordID)).sendKeys(mixedUserPassword);
+        base.driver.findElement(By.className(loginButtonClass)).click();
 
     }
 
     @And("^I click on the profile icon$")
     public void iClickOnTheProfileIcon() {
 
-        base.driver.findElement(By.className("icon-medium")).click();
+        base.driver.findElement(By.className(profileIconClass)).click();
 
     }
 
     @And("^I navigate with the hamburger menu to the ([^\"]*) page$")
     public void iNavigateWithTheHamburgerMenuToTheSitePage(String siteName) {
 
-        base.driver.findElement(By.id("hamburger-nav")).click();
+        base.driver.findElement(By.id(hamburgerNavigationID)).click();
         base.driver.findElement(By.linkText(siteName)).click();
 
     }
@@ -136,14 +136,14 @@ public class CentralPage extends BaseUtil {
     @Then("^I get \"([^\"]*)\" error message$")
     public void iGetErrorMessage(String getErrorMessage) {
 
-        Assert.assertEquals(base.driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/section/div/div/div/div/p[2]/span")).getText(), getErrorMessage);
+        Assert.assertEquals(base.driver.findElement(By.xpath(accesDeniedErrorMessageXPath)).getText(), getErrorMessage);
 
     }
 
     @Then("^I can see the right ([^\"]*) that is belong to the page$")
     public void iArriveToTheBreadcrumbsPage(String siteBreadcrumbs) {
 
-        Assert.assertEquals(base.driver.findElement(By.className("page-bar-title")).getText(), siteBreadcrumbs);
+        Assert.assertEquals(base.driver.findElement(By.className(breadcrumbsContainerClass)).getText(), siteBreadcrumbs);
 
     }
 }
