@@ -17,12 +17,12 @@ public class DashboardPage extends BaseUtil {
 
     private static final String[] DROPDOWNLISTELEMENT = {"GLOBAL", "USA", "Mexico", "Brazil", "Poland"};
 
-    void listElementsAreClickable(String[] getElements) {
+    private void listElementsAreClickable() {
 
         WebElement mySelectElement = base.driver.findElement(By.tagName("select"));
         Select dropdown = new Select(mySelectElement);
 
-        for (String name : getElements) {
+        for (String name : DROPDOWNLISTELEMENT) {
 
             base.driver.findElement(By.tagName("select")).click();
             dropdown.selectByVisibleText(name);
@@ -34,7 +34,7 @@ public class DashboardPage extends BaseUtil {
     @Then("^I can click on all of the elements$")
     public void iCanClickOnAllOfTheElements() {
 
-        listElementsAreClickable(DROPDOWNLISTELEMENT);
+        listElementsAreClickable();
 
     }
 

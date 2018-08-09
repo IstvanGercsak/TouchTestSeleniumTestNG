@@ -17,7 +17,7 @@ Feature: Touch Central Actions page features
     And I log into the Touch with "TestAdmin@TestAdmin.com" username and "Igercsak8!#" password
     And I click on the login button
     And I click on the "UK" option
-    Then The UK link not visible
+    Then The UK link is not visible
 
   Scenario Outline: I can see the right placeholders
     Given I go on the UK page
