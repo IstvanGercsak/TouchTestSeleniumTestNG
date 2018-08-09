@@ -30,6 +30,7 @@ Feature: User profile page features
     And I click on the login button
     And I go on the "User Profile" page
     Then The <rights> is <available>
+
     Examples:
       | username                   | password    | rights                   | available |
       | TestAdmin@TestAdmin.com    | Igercsak8!# | Central Admin            | true      |

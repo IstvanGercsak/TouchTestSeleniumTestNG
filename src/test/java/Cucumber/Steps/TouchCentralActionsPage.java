@@ -26,7 +26,7 @@ public class TouchCentralActionsPage extends BaseUtil {
     }
 
     @Then("^The UK link is not visible$")
-    public void theUKLinkNotVisible() {
+    public void theUKLinkIsNotVisible() {
 
         Assert.assertNotEquals(base.driver.getCurrentUrl(), UKPAGE);
 

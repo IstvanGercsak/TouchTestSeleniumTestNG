@@ -15,11 +15,6 @@ Feature: Central page features
     And I click on the "Dashboard" option
     Then I redirected to the Dashboard page
 
-  Scenario: UK page is not available with Admin rights
-    Given I log into the application with Admin user
-    And I click on the "UK" option
-    Then The UK link is not visible
-
   Scenario: Dashboard page is available with Admin rights
     Given I log into the application with Admin user
     And I click on the "Dashboard" option
