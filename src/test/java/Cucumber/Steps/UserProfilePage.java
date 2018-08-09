@@ -21,6 +21,13 @@ public class UserProfilePage extends BaseUtil {
 
     }
 
+    @And("^I click on the profile icon$")
+    public void iClickOnTheProfileIcon() {
+
+        base.driver.findElement(By.className(profileIconClass)).click();
+
+    }
+
     @And("^I click on the \"([^\"]*)\" button$")
     public void iClickOnTheButton(String buttonName) {
 

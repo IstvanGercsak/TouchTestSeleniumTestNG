@@ -1,10 +1,22 @@
 Feature: User profile page features
 
-  Scenario Outline: I can reach the User profile page
+  Scenario Outline: I can reach the User profile page with hamburger menu
     Given I navigate to the login page
     And I log into the Touch with <username> username and <password> password
     And I click on the login button
     And I go on the "User Profile" page
+    Then I arrive on the user Profile page
+    Examples:
+      | username                   | password    | rights                   |
+      | TestAdmin@TestAdmin.com    | Igercsak8!# | Central Admin            |
+      | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
+      | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
+
+  Scenario Outline: I can reach the User profile page with profile icon
+    Given I navigate to the login page
+    And I log into the Touch with <username> username and <password> password
+    And I click on the login button
+    And  I click on the profile icon
     Then I arrive on the user Profile page
     Examples:
       | username                   | password    | rights                   |

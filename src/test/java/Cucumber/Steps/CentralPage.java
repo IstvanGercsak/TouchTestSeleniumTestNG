@@ -118,13 +118,6 @@ public class CentralPage extends BaseUtil {
 
     }
 
-    @And("^I click on the profile icon$")
-    public void iClickOnTheProfileIcon() {
-
-        base.driver.findElement(By.className(profileIconClass)).click();
-
-    }
-
     @And("^I navigate with the hamburger menu to the ([^\"]*) page$")
     public void iNavigateWithTheHamburgerMenuToTheSitePage(String siteName) {
 
