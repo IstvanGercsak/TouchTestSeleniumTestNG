@@ -8,10 +8,10 @@ Feature: About Touch page features
     And I go on the "About Touch" page
     Then I arrive on the About page
     Examples:
-      | username                   | password    | rights                   |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# | Central Admin            |
-      | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
-      | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
+      | username                   | password    |
+      | TestAdmin@TestAdmin.com    | Igercsak8!# |
+      | istvan.gercsak@gmail.com   | Igercsak8!# |
+      | istvan.gercsak@metlife.com | Igercsak8!# |
 
   Scenario: The right breadcrumb is appears on the page
     Given I log into the application with Jurisdiction user
