@@ -13,6 +13,7 @@ public class BaseUtil {
     public String CENTRALPAGEURL = "http://use1webapp01.zone.ase.metlife.com/central/";
     public String UKPAGE = "http://neukwebapp01.zone.ase.metlife.co.uk/zone/";
     public String LOGINPAGE = "http://use1webapp01.zone.ase.metlife.com/central/login";
+    public String DASHBOARDPAGE = "http://use1webapp01.zone.ase.metlife.com/central/reports/dashboard";
     public String PROFILEPAGE = "http://use1webapp01.zone.ase.metlife.com/central/myprofile";
     public String INVALIDLOGINPAGE = "http://use1webapp01.zone.ase.metlife.com/central/login?error";
     public String ABOUTPAGE = "http://use1webapp01.zone.ase.metlife.com/central/help/about";
