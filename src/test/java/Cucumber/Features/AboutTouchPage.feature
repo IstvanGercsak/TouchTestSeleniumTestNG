@@ -21,7 +21,7 @@ Feature: About Touch page features
   Scenario Outline: The actual version is "1a3e0cf"
     Given I log into the application with Jurisdiction user
     And I go on the "About Touch" page
-    Then I see following <Touch build version>, <Touch build number>, <Touch build timestamp>
+    Then I see following <Touch build version>, <Touch commit id>, <Touch build number>, <Touch build timestamp>
     Examples:
-      | Touch build version | Touch build number | Touch build timestamp |
-      | 0.16.0-RELEASE      | 1a3e0cf            | 1527525936069         |
+      | Touch build version | Touch commit id | Touch build number | Touch build timestamp |
+      | 0.17.0-SNAPSHOT     | d19bc7e         | 30                 | 1535136498681         |

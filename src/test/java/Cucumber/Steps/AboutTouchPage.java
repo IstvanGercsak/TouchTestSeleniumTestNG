@@ -30,10 +30,11 @@ public class AboutTouchPage extends BaseUtil {
 
     }
 
-    @Then("^I see following ([^\"]*), ([^\"]*), ([^\"]*)$")
-    public void iSeeFollowingTouchBuildVersionTouchBuildNumberTouchBuildTimestamp(String buildVersion, String buildNumber, String buildTimestamp) {
+    @Then("^I see following ([^\"]*), ([^\"]*), ([^\"]*), ([^\"]*)$")
+    public void iSeeFollowingTouchBuildVersionTouchBuildNumberTouchBuildTimestamp(String buildVersion, String commitNumber, String buildNumber, String buildTimestamp) {
 
         Assert.assertEquals(base.driver.findElement(By.id(versionID)).getText(), buildVersion);
+        Assert.assertEquals(base.driver.findElement(By.id(commitID)).getText(), commitNumber);
         Assert.assertEquals(base.driver.findElement(By.id(buildnumberID)).getText(), buildNumber);
         Assert.assertEquals(base.driver.findElement(By.id(timestampID)).getText(), buildTimestamp);
 
