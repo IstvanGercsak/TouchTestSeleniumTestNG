@@ -18,7 +18,7 @@ public class AboutTouchPage extends BaseUtil {
     @And("^I go on the \"([^\"]*)\" page$")
     public void iGoOnThePage(String page_name) {
 
-        base.driver.findElement(By.id(hamburgerNavigationID)).click();
+        base.driver.findElement(By.id(hamburgerNavigationID())).click();
         base.driver.findElement(By.xpath("//a[contains(text(),'" + page_name + "')]")).click();
 
     }
@@ -33,10 +33,10 @@ public class AboutTouchPage extends BaseUtil {
     @Then("^I see following ([^\"]*), ([^\"]*), ([^\"]*), ([^\"]*)$")
     public void iSeeFollowingTouchBuildVersionTouchBuildNumberTouchBuildTimestamp(String buildVersion, String commitNumber, String buildNumber, String buildTimestamp) {
 
-        Assert.assertEquals(base.driver.findElement(By.id(versionID)).getText(), buildVersion);
-        Assert.assertEquals(base.driver.findElement(By.id(commitID)).getText(), commitNumber);
-        Assert.assertEquals(base.driver.findElement(By.id(buildnumberID)).getText(), buildNumber);
-        Assert.assertEquals(base.driver.findElement(By.id(timestampID)).getText(), buildTimestamp);
+        Assert.assertEquals(base.driver.findElement(By.id(versionID())).getText(), buildVersion);
+        Assert.assertEquals(base.driver.findElement(By.id(commitID())).getText(), commitNumber);
+        Assert.assertEquals(base.driver.findElement(By.id(buildnumberID())).getText(), buildNumber);
+        Assert.assertEquals(base.driver.findElement(By.id(timestampID())).getText(), buildTimestamp);
 
     }
 }

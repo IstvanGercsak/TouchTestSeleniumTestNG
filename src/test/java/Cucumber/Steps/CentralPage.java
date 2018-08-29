@@ -53,14 +53,14 @@ public class CentralPage extends BaseUtil {
     @Then("^The \"([^\"]*)\" breadcrumb appears$")
     public void theRightBreadcrumbAppears(String breadcumb) {
 
-        Assert.assertEquals(base.driver.findElement(By.className(breadcrumbsContainerClass)).getText(), breadcumb);
+        Assert.assertEquals(base.driver.findElement(By.className(breadcrumbsContainerClass())).getText(), breadcumb);
 
     }
 
     @And("^I click on the log out$")
     public void iClickOnTheLogOut() {
 
-        base.driver.findElement(By.id(hamburgerNavigationID)).click();
+        base.driver.findElement(By.id(hamburgerNavigationID())).click();
         base.driver.findElement(By.xpath("//a[contains(text(),'" + "Logout" + "')]")).click();
 
     }
@@ -68,7 +68,7 @@ public class CentralPage extends BaseUtil {
     @And("^I click on the Metlife icon$")
     public void iClickOnTheMetlifeIcon() {
 
-        base.driver.findElement(By.className(metLifeIconClass)).click();
+        base.driver.findElement(By.className(metLifeIconClass())).click();
 
     }
 
@@ -83,9 +83,9 @@ public class CentralPage extends BaseUtil {
     public void iLogIntoTheApplicationWithJurisdiction() {
 
         base.driver.navigate().to(LOGINPAGE());
-        base.driver.findElement(By.id(userNameID)).sendKeys(ukJurisdictionOperatorName);
-        base.driver.findElement(By.id(passwordID)).sendKeys(ukJurisdictionOperatorPassword);
-        base.driver.findElement(By.className(loginButtonClass)).click();
+        base.driver.findElement(By.id(userNameID())).sendKeys(ukJurisdictionOperatorName());
+        base.driver.findElement(By.id(passwordID())).sendKeys(ukJurisdictionOperatorPassword());
+        base.driver.findElement(By.className(loginButtonClass())).click();
 
     }
 
@@ -93,9 +93,9 @@ public class CentralPage extends BaseUtil {
     public void iLogIntoTheApplicationWithAdmin() {
 
         base.driver.navigate().to(LOGINPAGE());
-        base.driver.findElement(By.id(userNameID)).sendKeys(adminName);
-        base.driver.findElement(By.id(passwordID)).sendKeys(adminPassword);
-        base.driver.findElement(By.className(loginButtonClass)).click();
+        base.driver.findElement(By.id(userNameID())).sendKeys(adminName());
+        base.driver.findElement(By.id(passwordID())).sendKeys(adminPassword());
+        base.driver.findElement(By.className(loginButtonClass())).click();
 
     }
 
@@ -103,16 +103,16 @@ public class CentralPage extends BaseUtil {
     public void iLogIntoTheApplicationWithMixed() {
 
         base.driver.navigate().to(LOGINPAGE());
-        base.driver.findElement(By.id(userNameID)).sendKeys(mixedUserName);
-        base.driver.findElement(By.id(passwordID)).sendKeys(mixedUserPassword);
-        base.driver.findElement(By.className(loginButtonClass)).click();
+        base.driver.findElement(By.id(userNameID())).sendKeys(mixedUserName());
+        base.driver.findElement(By.id(passwordID())).sendKeys(mixedUserPassword());
+        base.driver.findElement(By.className(loginButtonClass())).click();
 
     }
 
     @And("^I navigate with the hamburger menu to the ([^\"]*) page$")
     public void iNavigateWithTheHamburgerMenuToTheSitePage(String siteName) {
 
-        base.driver.findElement(By.id(hamburgerNavigationID)).click();
+        base.driver.findElement(By.id(hamburgerNavigationID())).click();
         base.driver.findElement(By.linkText(siteName)).click();
 
     }
@@ -120,14 +120,14 @@ public class CentralPage extends BaseUtil {
     @Then("^I get \"([^\"]*)\" error message$")
     public void iGetErrorMessage(String getErrorMessage) {
 
-        Assert.assertEquals(base.driver.findElement(By.xpath(accesDeniedErrorMessageXPath)).getText(), getErrorMessage);
+        Assert.assertEquals(base.driver.findElement(By.xpath(accesDeniedErrorMessageXPath())).getText(), getErrorMessage);
 
     }
 
     @Then("^I can see the right ([^\"]*) that is belong to the page$")
     public void iArriveToTheBreadcrumbsPage(String siteBreadcrumbs) {
 
-        Assert.assertEquals(base.driver.findElement(By.className(breadcrumbsContainerClass)).getText(), siteBreadcrumbs);
+        Assert.assertEquals(base.driver.findElement(By.className(breadcrumbsContainerClass())).getText(), siteBreadcrumbs);
 
     }
 }

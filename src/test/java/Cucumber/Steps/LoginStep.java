@@ -28,15 +28,15 @@ public class LoginStep extends BaseUtil {
     @And("^I log into the Touch with ([^\"]*) username and ([^\"]*) password$")
     public void iLogIntoTheTouchWithUsernameAndPasswordOutline(String username, String password) {
 
-        base.driver.findElement(By.id(userNameID)).sendKeys(username);
-        base.driver.findElement(By.id(passwordID)).sendKeys(password);
+        base.driver.findElement(By.id(userNameID())).sendKeys(username);
+        base.driver.findElement(By.id(passwordID())).sendKeys(password);
 
     }
 
     @And("^I click on the login button$")
     public void iClickOnTheLoginButton() {
 
-        base.driver.findElement(By.className(loginButtonClass)).click();
+        base.driver.findElement(By.className(loginButtonClass())).click();
 
     }
 
@@ -57,16 +57,16 @@ public class LoginStep extends BaseUtil {
     @Given("^I log into the Touch with \"([^\"]*)\" username and \"([^\"]*)\" password$")
     public void iLogIntoTheTouchWithUsernameAndPasswordSingle(String username, String password) {
 
-        base.driver.findElement(By.id(userNameID)).sendKeys(username);
-        base.driver.findElement(By.id(passwordID)).sendKeys(password);
+        base.driver.findElement(By.id(userNameID())).sendKeys(username);
+        base.driver.findElement(By.id(passwordID())).sendKeys(password);
 
     }
 
     @Then("^I can see the \"([^\"]*)\" placeholder in the username and the \"([^\"]*)\" placeholder for the password field$")
     public void iCanSeeThePlaceholderInTheUsernameAndThePlaceholderForThePasswordField(String usernamePlaceholder, String passwordPlaceholder) {
 
-        Assert.assertEquals(base.driver.findElement(By.cssSelector(userNameCSS)).getAttribute("placeholder"), usernamePlaceholder);
-        Assert.assertEquals(base.driver.findElement(By.cssSelector(passwordCSS)).getAttribute("placeholder"), passwordPlaceholder);
+        Assert.assertEquals(base.driver.findElement(By.cssSelector(userNameCSS())).getAttribute("placeholder"), usernamePlaceholder);
+        Assert.assertEquals(base.driver.findElement(By.cssSelector(passwordCSS())).getAttribute("placeholder"), passwordPlaceholder);
 
     }
 }

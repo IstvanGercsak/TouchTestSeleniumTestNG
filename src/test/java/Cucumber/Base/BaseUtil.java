@@ -20,29 +20,29 @@ public class BaseUtil {
 
     /* User details */
 
-    public String ukJurisdictionOperatorName = "istvan.gercsak@gmail.com";
-    public String ukJurisdictionOperatorPassword = "Igercsak8!#";
-    public String adminName = "testadmin@testadmin.com";
-    public String adminPassword = "Igercsak8!#";
-    public String mixedUserName = "istvan.gercsak@metlife.com";
-    public String mixedUserPassword = "Igercsak8!#";
+    private static final String ukJurisdictionOperatorName = "istvan.gercsak@gmail.com";
+    private static final String ukJurisdictionOperatorPassword = "Igercsak8!#";
+    private static final String adminName = "testadmin@testadmin.com";
+    private static final String adminPassword = "Igercsak8!#";
+    private static final String mixedUserName = "istvan.gercsak@metlife.com";
+    private static final String mixedUserPassword = "Igercsak8!#";
 
     /* Elements */
 
-    public String metLifeIconClass = "img-responsive";
-    public String userNameID = "username";
-    public String passwordID = "password";
-    public String userNameCSS = "#username";
-    public String passwordCSS = "#password";
-    public String loginButtonClass = "btn-primary";
-    public String hamburgerNavigationID = "hamburger-nav";
-    public String versionID = "version";
-    public String commitID = "commit";
-    public String buildnumberID = "buildnumber";
-    public String timestampID = "timestamp";
-    public String profileIconClass = "icon-medium";
-    public String breadcrumbsContainerClass = "page-bar-title";
-    public String accesDeniedErrorMessageXPath = "//*[@id=\"defaultFragment\"]/div[3]/div/div/section/div/div/div/div/p[2]/span";
+    private static final String metLifeIconClass = "img-responsive";
+    private static final String userNameID = "username";
+    private static final String passwordID = "password";
+    private static final String userNameCSS = "#username";
+    private static final String passwordCSS = "#password";
+    private static final String loginButtonClass = "btn-primary";
+    private static final String hamburgerNavigationID = "hamburger-nav";
+    private static final String versionID = "version";
+    private static final String commitID = "commit";
+    private static final String buildnumberID = "buildnumber";
+    private static final String timestampID = "timestamp";
+    private static final String profileIconClass = "icon-medium";
+    private static final String breadcrumbsContainerClass = "page-bar-title";
+    private static final String accesDeniedErrorMessageXPath = "//*[@id=\"defaultFragment\"]/div[3]/div/div/section/div/div/div/div/p[2]/span";
 
 
     protected String CENTRALPAGEURL() {
@@ -75,6 +75,86 @@ public class BaseUtil {
 
     protected String USERPROFILEPAGE() {
         return USERPROFILEPAGE;
+    }
+
+    protected String ukJurisdictionOperatorName() {
+        return ukJurisdictionOperatorName;
+    }
+
+    protected String ukJurisdictionOperatorPassword() {
+        return ukJurisdictionOperatorPassword;
+    }
+
+    protected String adminName() {
+        return adminName;
+    }
+
+    protected String adminPassword() {
+        return adminPassword;
+    }
+
+    protected String mixedUserName() {
+        return mixedUserName;
+    }
+
+    protected String mixedUserPassword() {
+        return mixedUserPassword;
+    }
+
+    protected String metLifeIconClass() {
+        return metLifeIconClass;
+    }
+
+    protected String userNameID() {
+        return userNameID;
+    }
+
+    protected String passwordID() {
+        return passwordID;
+    }
+
+    protected String userNameCSS() {
+        return userNameCSS;
+    }
+
+    protected String passwordCSS() {
+        return passwordCSS;
+    }
+
+    protected String loginButtonClass() {
+        return loginButtonClass;
+    }
+
+    protected String hamburgerNavigationID() {
+        return hamburgerNavigationID;
+    }
+
+    protected String versionID() {
+        return versionID;
+    }
+
+    protected String commitID() {
+        return commitID;
+    }
+
+    protected String buildnumberID() {
+        return buildnumberID;
+    }
+
+    protected String timestampID() {
+        return timestampID;
+    }
+
+    protected String profileIconClass() {
+        return profileIconClass;
+    }
+
+    protected String breadcrumbsContainerClass() {
+        return breadcrumbsContainerClass;
+    }
+
+    protected String accesDeniedErrorMessageXPath() {
+        return accesDeniedErrorMessageXPath;
     }
 
 }
