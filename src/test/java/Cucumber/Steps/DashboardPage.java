@@ -41,7 +41,7 @@ public class DashboardPage extends BaseUtil {
     @Then("^I arrive on the Dashboard page$")
     public void iArriveOnTheDashboardPage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(), DASHBOARDPAGE);
+        Assert.assertEquals(base.driver.getCurrentUrl(), DASHBOARDPAGE());
 
     }
 }

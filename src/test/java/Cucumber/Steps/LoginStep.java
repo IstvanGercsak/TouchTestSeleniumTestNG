@@ -21,7 +21,7 @@ public class LoginStep extends BaseUtil {
     @Given("^I navigate to the login page$")
     public void iNavigateToTheLoginPage() {
 
-        base.driver.navigate().to(LOGINPAGE);
+        base.driver.navigate().to(LOGINPAGE());
 
     }
 
@@ -43,14 +43,14 @@ public class LoginStep extends BaseUtil {
     @Then("^I arrive on the central page$")
     public void iArriveOnTheCentralPage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(), CENTRALPAGEURL);
+        Assert.assertEquals(base.driver.getCurrentUrl(), CENTRALPAGEURL());
 
     }
 
     @Then("^I redirected to the invalid login page$")
     public void iRedirectedToTheInvalidLoginPage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(), INVALIDLOGINPAGE);
+        Assert.assertEquals(base.driver.getCurrentUrl(), INVALIDLOGINPAGE());
 
     }
 

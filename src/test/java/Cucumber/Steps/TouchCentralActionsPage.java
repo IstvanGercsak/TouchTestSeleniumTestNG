@@ -21,14 +21,14 @@ public class TouchCentralActionsPage extends BaseUtil {
     @Then("^I arrive on the Touch Central Page$")
     public void iArriveOnTheTouchCentralPage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(), UKPAGE);
+        Assert.assertEquals(base.driver.getCurrentUrl(), UKPAGE());
 
     }
 
     @Then("^The UK link is not visible$")
     public void theUKLinkIsNotVisible() {
 
-        Assert.assertNotEquals(base.driver.getCurrentUrl(), UKPAGE);
+        Assert.assertNotEquals(base.driver.getCurrentUrl(), UKPAGE());
 
     }
 

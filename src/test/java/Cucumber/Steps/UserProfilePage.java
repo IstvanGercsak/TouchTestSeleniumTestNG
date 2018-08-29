@@ -17,7 +17,7 @@ public class UserProfilePage extends BaseUtil {
     @Then("^I arrive on the user Profile page$")
     public void iArriveOnTheUserProfilePage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(), USERPROFILEPAGE);
+        Assert.assertEquals(base.driver.getCurrentUrl(), USERPROFILEPAGE());
 
     }
 

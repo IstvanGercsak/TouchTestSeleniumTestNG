@@ -9,15 +9,14 @@ public class BaseUtil {
     public WebDriver driver;
 
     /*Page Url implementation*/
-
-    public String CENTRALPAGEURL = "http://use1webapp01.zone.ase.metlife.com/central/";
-    public String UKPAGE = "http://neukwebapp01.zone.ase.metlife.co.uk/zone/";
-    public String LOGINPAGE = "http://use1webapp01.zone.ase.metlife.com/central/login";
-    public String DASHBOARDPAGE = "http://use1webapp01.zone.ase.metlife.com/central/reports/dashboard";
-    public String PROFILEPAGE = "http://use1webapp01.zone.ase.metlife.com/central/myprofile";
-    public String INVALIDLOGINPAGE = "http://use1webapp01.zone.ase.metlife.com/central/login?error";
-    public String ABOUTPAGE = "http://use1webapp01.zone.ase.metlife.com/central/help/about";
-    public String USERPROFILEPAGE = "http://use1webapp01.zone.ase.metlife.com/central/myprofile";
+    private static final String CENTRALPAGEURL = "http://use1webapp01.zone.ase.metlife.com/central/";
+    private static final String UKPAGE = "http://neukwebapp01.zone.ase.metlife.co.uk/zone/";
+    private static final String LOGINPAGE = "http://use1webapp01.zone.ase.metlife.com/central/login";
+    private static final String DASHBOARDPAGE = "http://use1webapp01.zone.ase.metlife.com/central/reports/dashboard";
+    private static final String PROFILEPAGE = "http://use1webapp01.zone.ase.metlife.com/central/myprofile";
+    private static final String INVALIDLOGINPAGE = "http://use1webapp01.zone.ase.metlife.com/central/login?error";
+    private static final String ABOUTPAGE = "http://use1webapp01.zone.ase.metlife.com/central/help/about";
+    private static final String USERPROFILEPAGE = "http://use1webapp01.zone.ase.metlife.com/central/myprofile";
 
     /* User details */
 
@@ -44,5 +43,38 @@ public class BaseUtil {
     public String profileIconClass = "icon-medium";
     public String breadcrumbsContainerClass = "page-bar-title";
     public String accesDeniedErrorMessageXPath = "//*[@id=\"defaultFragment\"]/div[3]/div/div/section/div/div/div/div/p[2]/span";
+
+
+    protected String CENTRALPAGEURL() {
+        return CENTRALPAGEURL;
+    }
+
+    protected String UKPAGE() {
+        return UKPAGE;
+    }
+
+    protected String LOGINPAGE() {
+        return LOGINPAGE;
+    }
+
+    protected String DASHBOARDPAGE() {
+        return DASHBOARDPAGE;
+    }
+
+    protected String PROFILEPAGE() {
+        return PROFILEPAGE;
+    }
+
+    protected String INVALIDLOGINPAGE() {
+        return INVALIDLOGINPAGE;
+    }
+
+    protected String ABOUTPAGE() {
+        return ABOUTPAGE;
+    }
+
+    protected String USERPROFILEPAGE() {
+        return USERPROFILEPAGE;
+    }
 
 }

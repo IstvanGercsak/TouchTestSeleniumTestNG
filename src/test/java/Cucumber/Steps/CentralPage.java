@@ -20,14 +20,14 @@ public class CentralPage extends BaseUtil {
     @Then("^I redirected to the UK page$")
     public void iRedirectedToTheUKPage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(), UKPAGE);
+        Assert.assertEquals(base.driver.getCurrentUrl(), UKPAGE());
 
     }
 
     @Then("^I redirected to the Dashboard page$")
     public void iRedirectedToTheDashboardPage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(), DASHBOARDPAGE);
+        Assert.assertEquals(base.driver.getCurrentUrl(), DASHBOARDPAGE());
 
     }
 
@@ -45,16 +45,10 @@ public class CentralPage extends BaseUtil {
     @Then("^I redirected to the login page$")
     public void iRedirectedToTheLoginPage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(), LOGINPAGE);
+        Assert.assertEquals(base.driver.getCurrentUrl(), LOGINPAGE());
 
     }
 
-    @Then("^I arrive on the Metlife page$")
-    public void iArriveOnTheMetlifePage() {
-
-        Assert.assertEquals(base.driver.getCurrentUrl(), CENTRALPAGEURL);
-
-    }
 
     @Then("^The \"([^\"]*)\" breadcrumb appears$")
     public void theRightBreadcrumbAppears(String breadcumb) {
@@ -81,14 +75,14 @@ public class CentralPage extends BaseUtil {
     @Then("^I arrive on the profile page$")
     public void iArriveOnTheProfilePage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(), PROFILEPAGE);
+        Assert.assertEquals(base.driver.getCurrentUrl(), PROFILEPAGE());
 
     }
 
     @Given("^I log into the application with Jurisdiction user$")
     public void iLogIntoTheApplicationWithJurisdiction() {
 
-        base.driver.navigate().to(LOGINPAGE);
+        base.driver.navigate().to(LOGINPAGE());
         base.driver.findElement(By.id(userNameID)).sendKeys(ukJurisdictionOperatorName);
         base.driver.findElement(By.id(passwordID)).sendKeys(ukJurisdictionOperatorPassword);
         base.driver.findElement(By.className(loginButtonClass)).click();
@@ -98,7 +92,7 @@ public class CentralPage extends BaseUtil {
     @Given("^I log into the application with Admin user$")
     public void iLogIntoTheApplicationWithAdmin() {
 
-        base.driver.navigate().to(LOGINPAGE);
+        base.driver.navigate().to(LOGINPAGE());
         base.driver.findElement(By.id(userNameID)).sendKeys(adminName);
         base.driver.findElement(By.id(passwordID)).sendKeys(adminPassword);
         base.driver.findElement(By.className(loginButtonClass)).click();
@@ -108,7 +102,7 @@ public class CentralPage extends BaseUtil {
     @Given("^I log into the application with Mixed rights user$")
     public void iLogIntoTheApplicationWithMixed() {
 
-        base.driver.navigate().to(LOGINPAGE);
+        base.driver.navigate().to(LOGINPAGE());
         base.driver.findElement(By.id(userNameID)).sendKeys(mixedUserName);
         base.driver.findElement(By.id(passwordID)).sendKeys(mixedUserPassword);
         base.driver.findElement(By.className(loginButtonClass)).click();

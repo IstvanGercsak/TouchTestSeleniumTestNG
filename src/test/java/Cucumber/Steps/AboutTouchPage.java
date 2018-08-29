@@ -26,7 +26,7 @@ public class AboutTouchPage extends BaseUtil {
     @Then("^I arrive on the About page$")
     public void iArriveOnTheAboutPage() {
 
-        Assert.assertEquals(base.driver.getCurrentUrl(), ABOUTPAGE);
+        Assert.assertEquals(base.driver.getCurrentUrl(), ABOUTPAGE());
 
     }
 
