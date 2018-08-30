@@ -17,6 +17,14 @@ public class BaseUtil {
     private static final String INVALIDLOGINPAGE = "http://use1webapp01.zone.ase.metlife.com/central/login?error";
     private static final String ABOUTPAGE = "http://use1webapp01.zone.ase.metlife.com/central/help/about";
     private static final String USERPROFILEPAGE = "http://use1webapp01.zone.ase.metlife.com/central/myprofile";
+    private static final String TOUCHPOINTFORMSPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/touchpoint/forms";
+    private static final String TOUCHPOINTDARALISTSPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/touchpoint/datalists";
+    private static final String MANAGEUSERSPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/system/users";
+    private static final String MANAGEJURISDICTIONPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/system/jurisdictions";
+    private static final String SYSTEMENDPOINTSTITLEPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/system/endpoints";
+    private static final String SYSTEMINFOTITLEPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/system/info";
+    private static final String TEXTCONTENTPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/content/text";
+    private static final String CONTENTTEMPLATESPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/content/templates";
 
     /* User details */
 
@@ -75,6 +83,38 @@ public class BaseUtil {
 
     protected String USERPROFILEPAGE() {
         return USERPROFILEPAGE;
+    }
+
+    protected static String TOUCHPOINTFORMSPAGE() {
+        return TOUCHPOINTFORMSPAGE;
+    }
+
+    protected static String TOUCHPOINTDARALISTSPAGE() {
+        return TOUCHPOINTDARALISTSPAGE;
+    }
+
+    protected static String MANAGEUSERSPAGE() {
+        return MANAGEUSERSPAGE;
+    }
+
+    protected static String MANAGEJURISDICTIONPAGE() {
+        return MANAGEJURISDICTIONPAGE;
+    }
+
+    protected static String SYSTEMENDPOINTSTITLEPAGE() {
+        return SYSTEMENDPOINTSTITLEPAGE;
+    }
+
+    protected static String SYSTEMINFOTITLEPAGE() {
+        return SYSTEMINFOTITLEPAGE;
+    }
+
+    protected static String TEXTCONTENTPAGE() {
+        return TEXTCONTENTPAGE;
+    }
+
+    protected static String CONTENTTEMPLATESPAGE() {
+        return CONTENTTEMPLATESPAGE;
     }
 
     protected String ukJurisdictionOperatorName() {

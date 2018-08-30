@@ -25,8 +25,8 @@ public class LoginStep extends BaseUtil {
 
     }
 
-    @And("^I log into the Touch with ([^\"]*) username and ([^\"]*) password$")
-    public void iLogIntoTheTouchWithUsernameAndPasswordOutline(String username, String password) {
+    @And("^I log into the Touch with ([^\"]*) username and ([^\"]*) password with ([^\"]*) rights$")
+    public void iLogIntoTheTouchWithUsernameAndPasswordOutline(String username, String password, String data) {
 
         base.driver.findElement(By.id(userNameID())).sendKeys(username);
         base.driver.findElement(By.id(passwordID())).sendKeys(password);
