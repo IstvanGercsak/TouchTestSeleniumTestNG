@@ -2,7 +2,7 @@ Feature: User profile page features
 
   Scenario Outline: I can reach the User profile page with hamburger menu
     Given I navigate to the login page
-    And I log into the Touch with <username> username and <password> password
+    And I log into the Touch with <username> username and <password> password with <rights> rights
     And I click on the login button
     And I go on the "User Profile" page
     Then I arrive on the user Profile page
@@ -14,7 +14,7 @@ Feature: User profile page features
 
   Scenario Outline: I can reach the User profile page with profile icon
     Given I navigate to the login page
-    And I log into the Touch with <username> username and <password> password
+    And I log into the Touch with <username> username and <password> password with <rights> rights
     And I click on the login button
     And  I click on the profile icon
     Then I arrive on the user Profile page
@@ -26,7 +26,7 @@ Feature: User profile page features
 
   Scenario Outline: I can see the right rights
     Given I navigate to the login page
-    And I log into the Touch with <username> username and <password> password
+    And I log into the Touch with <username> username and <password> password with <rights> rights
     And I click on the login button
     And I go on the "User Profile" page
     Then The <rights> is <available>

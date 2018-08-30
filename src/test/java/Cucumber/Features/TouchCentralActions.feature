@@ -2,7 +2,7 @@ Feature: Touch Central Actions page features
 
   Scenario Outline: I can reach the Touch Central Actions page with mixed and Jurisdiction rights
     Given I navigate to the login page
-    And I log into the Touch with <username> username and <password> password
+    And I log into the Touch with <username> username and <password> password with <rights> rights
     And I click on the login button
     And I click on the "UK" option
     Then I arrive on the Touch Central Page
