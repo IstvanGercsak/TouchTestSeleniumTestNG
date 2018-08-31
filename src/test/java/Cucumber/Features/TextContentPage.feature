@@ -17,6 +17,20 @@ Feature: Text Content Page features
     And I go on the "Text Content" page
     Then The "Text Content" breadcrumb appears
 
+
+#WORK IN PROGRESS - DO NOT TEST
+#
+#  Scenario: New text resource content
+#    Given I navigate to the login page
+#    And I log into the Touch with "TestAdmin@TestAdmin.com" username and "Igercsak8!#" password
+#    And I click on the login button
+#    And I go on the "Text Content" page
+#    And I click on the new text resource content
+#    And Fields are clickable
+#    And I click on the Cancel
+#    And I click on the new text resource content
+#    And I click on the Save
+
   Scenario Outline: Text content content
     Given I navigate to the login page
     And I log into the Touch with "TestAdmin@TestAdmin.com" username and "Igercsak8!#" password
