@@ -9,6 +9,7 @@ public class BaseUtil {
     public WebDriver driver;
 
     /*Page Url implementation*/
+
     private static final String CENTRALPAGEURL = "http://use1webapp01.zone.ase.metlife.com/central/";
     private static final String UKPAGE = "http://neukwebapp01.zone.ase.metlife.co.uk/zone/";
     private static final String LOGINPAGE = "http://use1webapp01.zone.ase.metlife.com/central/login";
