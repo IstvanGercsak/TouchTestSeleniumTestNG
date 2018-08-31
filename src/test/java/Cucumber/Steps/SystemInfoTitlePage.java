@@ -1,4 +1,4 @@
-package Cucumber.Features;
+package Cucumber.Steps;
 
 import Cucumber.Base.BaseUtil;
 import cucumber.api.java.en.Then;
