@@ -18,7 +18,7 @@ Feature: About Touch page features
     And I go on the "About Touch" page
     Then The "About Touch" breadcrumb appears
 
-  Scenario Outline: The actual version is "1a3e0cf"
+  Scenario Outline: The actual version is "0.17.0-SNAPSHOT"
     Given I log into the application with Jurisdiction user
     And I go on the "About Touch" page
     Then I see following <Touch build version>, <Touch commit id>, <Touch build number>, <Touch build timestamp>
