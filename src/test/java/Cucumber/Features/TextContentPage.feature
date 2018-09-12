@@ -97,7 +97,7 @@ Feature: Text Content Page features
       | base:tlbl:central:jurisdiction-url                      | en_US       | URL                                 | URL                                                  |
       | base:tlbl:central:login-password                        | en_US       | Password                            | Password                                             |
       | base:tlbl:central:login-signin                          | en_US       | Login                               | Login                                                |
-      | base:tlbl:central:login-title                           | en_US       | Sign-on                             | Sign on Title                                        |
+      #BUG | base:tlbl:central:login-title                           | en_US       | Sign-on                             | Sign on Title                                        |
       | base:tlbl:central:login-username                        | en_US       | Username / Email                    | Username / Email                                     |
       | base:tlbl:central:nav-actions                           | en_US       | Touch Central Actions               | Touch Central Actions                                |
       | base:tlbl:central:nav-admin-content-title               | en_US       | Content Administration              | Content Administration                               |
