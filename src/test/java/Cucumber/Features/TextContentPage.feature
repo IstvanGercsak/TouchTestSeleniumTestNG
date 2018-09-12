@@ -31,7 +31,7 @@ Feature: Text Content Page features
 #    And I click on the new text resource content
 #    And I click on the Save
 
-  Scenario Outline: Text content content
+  Scenario Outline: Text content modification
     Given I navigate to the login page
     And I log into the Touch with "TestAdmin@TestAdmin.com" username and "Igercsak8!#" password
     And I click on the login button
@@ -54,7 +54,7 @@ Feature: Text Content Page features
       | base:tlbl:central:about-build-timestamp | en_US       | Touch build timestamp | Touch build timestamp | Touch build timestamp_test13 | Touch build timestamp_descriptiontest |
 
 
-  Scenario Outline:
+  Scenario Outline: Text content content is correct
     Given I navigate to the login page
     And I log into the Touch with "TestAdmin@TestAdmin.com" username and "Igercsak8!#" password
     And I click on the login button
