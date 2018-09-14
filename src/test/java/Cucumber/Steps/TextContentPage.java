@@ -1,7 +1,6 @@
 package Cucumber.Steps;
 
 import Cucumber.Base.BaseUtil;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.By;
@@ -39,7 +38,7 @@ public class TextContentPage extends BaseUtil {
             String textTitle,
             String textDescription) throws InterruptedException {
 
-        Thread.sleep(1000);
+        Thread.sleep(2500);
 
         Assert.assertEquals(base.driver.findElement(By.xpath("//*[@id=\"defaultFragment\"]/div[3]/div/div/section/div[2]/div/table/tbody/tr/td[1]/span")).getText(), textLocale);
         Assert.assertEquals(base.driver.findElement(By.className("header3-font")).getText(), mainTextTitle);
@@ -79,7 +78,7 @@ public class TextContentPage extends BaseUtil {
             String resourceTitle,
             String resourceDescription) throws InterruptedException {
 
-        Thread.sleep(1000);
+        Thread.sleep(2500);
 
         base.driver.findElement(By.id("valueUpdateResourceTitle")).click();
         base.driver.findElement(By.id("valueUpdateResourceTitle")).clear();

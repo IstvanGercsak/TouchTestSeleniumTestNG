@@ -26,6 +26,7 @@ public class BaseUtil {
     private static final String SYSTEMINFOTITLEPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/system/info";
     private static final String TEXTCONTENTPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/content/text";
     private static final String CONTENTTEMPLATESPAGE = "http://use1webapp01.zone.ase.metlife.com/central/admin/content/templates";
+    private static final String TOUCHPOINTSRESULTPAGE = "http://neukwebapp01.zone.ase.metlife.co.uk/zone/touchpoints";
 
     /* User details */
 
@@ -116,6 +117,10 @@ public class BaseUtil {
 
     protected static String CONTENTTEMPLATESPAGE() {
         return CONTENTTEMPLATESPAGE;
+    }
+
+    protected static String TOUCHPOINTSRESULTPAGE() {
+        return TOUCHPOINTSRESULTPAGE;
     }
 
     protected String ukJurisdictionOperatorName() {

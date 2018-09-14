@@ -1,6 +1,7 @@
 package Cucumber.Steps;
 
 import Cucumber.Base.BaseUtil;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -59,6 +60,42 @@ public class TouchCentralActionsPage extends BaseUtil {
     public void iSeeTheRightPlaceholder_(String placeholder, String selector) {
 
         Assert.assertEquals(base.driver.findElement(By.cssSelector(selector)).getAttribute("placeholder"), placeholder);
+
+    }
+
+    @Then("^I arrive on the Touchpoints result page$")
+    public void iArriveOnTheTouchpointsResultPage() {
+
+        Assert.assertEquals(base.driver.getCurrentUrl(), TOUCHPOINTSRESULTPAGE());
+
+    }
+
+    @And("^I give the searchable ([^\"]*) based on the ([^\"]*)$")
+    public void iGiveTheSearchableKeyword(String keyword, String refID) {
+
+        base.driver.findElement(By.cssSelector(refID)).sendKeys(keyword);
+
+    }
+
+    @And("^I click on the search button$")
+    public void iClickOnTheSearchButton() {
+
+        base.driver.findElement(By.className("btn-default")).click();
+
+    }
+
+    @And("^I give the ([^\"]*) as given name and ([^\"]*) as family name$")
+    public void iGiveTheGiven_nameAsGivenNameAndFamily_nameAsFamilyName(String givenName, String familyName) {
+
+        base.driver.findElement(By.id("given")).sendKeys(givenName);
+        base.driver.findElement(By.id("family")).sendKeys(familyName);
+
+    }
+
+    @Then("^I don not move to the Touchpoints result page$")
+    public void iDonNotMoveToTheTouchpointsResultPage() {
+
+        Assert.assertEquals(base.driver.getCurrentUrl(),UKPAGE());
 
     }
 }
