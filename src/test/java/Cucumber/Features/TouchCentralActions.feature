@@ -66,7 +66,8 @@ Feature: Touch Central Actions page features
     And I click on the search button
     Then I don not move to the Touchpoints result page
 
-      # TODO: How to test JS
+      # TODO: How to test basic JS
+      # TODO: How to ignore tests
 
     Examples:
       | search_by | keyword | referenceid |
