@@ -23,7 +23,6 @@ public class Hook extends BaseUtil {
         base.driver = new ChromeDriver();
         base.driver.manage().window().maximize();
 
-
     }
 
     @After
