@@ -1,7 +1,6 @@
 package Cucumber.Steps;
 
 import Cucumber.Base.BaseUtil;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
