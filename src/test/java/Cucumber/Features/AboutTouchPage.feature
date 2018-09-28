@@ -24,4 +24,4 @@ Feature: About Touch page features
     Then I see following <Touch_build_version>, <Touch_commit_id>, <Touch_build_number>, <Touch_build_timestamp>
     Examples:
       | Touch_build_version | Touch_commit_id | Touch_build_number | Touch_build_timestamp |
-      | 0.17.0-SNAPSHOT     | d19bc7e         | 1                 | 1535136498681         |
+      | 0.17.0-SNAPSHOT     | d19bc7e         | 1                 | 1537960892736         |
