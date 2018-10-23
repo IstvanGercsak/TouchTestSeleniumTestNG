@@ -8,7 +8,7 @@ Feature: Content Templates Page feature
     Then I arrive on the Content Templates Lists page
     Examples:
       | username                   | password    | rights |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# | admin  |
+      | testadmin@testadmin.com    | Igercsak8!# | admin  |
       | istvan.gercsak@metlife.com | Igercsak8!# | mixed  |
 
   Scenario: The right breadcrumb is appears on the page

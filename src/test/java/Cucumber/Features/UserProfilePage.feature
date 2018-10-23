@@ -8,7 +8,7 @@ Feature: User profile page features
     Then I arrive on the user Profile page
     Examples:
       | username                   | password    | rights                   |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# | Central Admin            |
+      | testadmin@testadmin.com    | Igercsak8!# | Central Admin            |
       | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
       | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
 
@@ -20,7 +20,7 @@ Feature: User profile page features
     Then I arrive on the user Profile page
     Examples:
       | username                   | password    | rights                   |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# | Central Admin            |
+      | testadmin@testadmin.com    | Igercsak8!# | Central Admin            |
       | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
       | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
 
@@ -33,8 +33,8 @@ Feature: User profile page features
 
     Examples:
       | username                   | password    | rights                   | available |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# | Central Admin            | true      |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# | UK Jurisdiction Operator | false     |
+      | testadmin@testadmin.com    | Igercsak8!# | Central Admin            | true      |
+      | testadmin@testadmin.com    | Igercsak8!# | UK Jurisdiction Operator | false     |
       | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator | true      |
       | istvan.gercsak@gmail.com   | Igercsak8!# | Central Admin            | false     |
       | istvan.gercsak@metlife.com | Igercsak8!# | UK Jurisdiction Operator | true      |

@@ -8,7 +8,7 @@ Feature: Dashboard page features
     Then I arrive on the Dashboard page
     Examples:
       | username                   | password    | rights                   |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# | Central Admin            |
+      | testadmin@testadmin.com   | Igercsak8!# | Central Admin            |
       | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
       | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
 

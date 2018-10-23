@@ -9,7 +9,7 @@ Feature: Text Content Page features
     Then I arrive on the Text Content Lists page
     Examples:
       | username                   | password    | rights |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# | admin  |
+      | testadmin@testadmin.com    | Igercsak8!# | admin  |
       | istvan.gercsak@metlife.com | Igercsak8!# | mixed  |
 
   Scenario: The right breadcrumb is appears on the page
@@ -33,7 +33,7 @@ Feature: Text Content Page features
 
   Scenario Outline: Text content modification
     Given I navigate to the login page
-    And I log into the Touch with "TestAdmin@TestAdmin.com" username and "Igercsak8!#" password
+    And I log into the Touch with "testadmin@testadmin.com" username and "Igercsak8!#" password
     And I click on the login button
     And I go on the "Text Content" page
     And I click on the <text_id> text id
@@ -56,7 +56,7 @@ Feature: Text Content Page features
 
   Scenario Outline: Text content content is correct
     Given I navigate to the login page
-    And I log into the Touch with "TestAdmin@TestAdmin.com" username and "Igercsak8!#" password
+    And I log into the Touch with "testadmin@testadmin.com" username and "Igercsak8!#" password
     And I click on the login button
     And I go on the "Text Content" page
     And I click on the <text_id> text id

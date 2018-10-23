@@ -8,7 +8,7 @@ Feature: Touchpoint Data Lists Page
     Then I arrive on the Touchpoint Data Lists page
     Examples:
       | username                   | password    | rights |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# | admin  |
+      | testadmin@testadmin.com    | Igercsak8!# | admin  |
       | istvan.gercsak@metlife.com | Igercsak8!# | mixed  |
 
   Scenario: The right breadcrumb is appears on the page

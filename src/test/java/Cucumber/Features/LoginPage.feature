@@ -9,7 +9,7 @@ Feature: Login Page Feature
 
     Examples:
       | username                   | password    | rights                   |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# | Central Admin            |
+      | testadmin@testadmin.com   | Igercsak8!# | Central Admin            |
       | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
       | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
 

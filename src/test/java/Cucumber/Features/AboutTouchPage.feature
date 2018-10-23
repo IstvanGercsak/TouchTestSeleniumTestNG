@@ -9,7 +9,7 @@ Feature: About Touch page features
     Then I arrive on the About page
     Examples:
       | username                   | password    |
-      | TestAdmin@TestAdmin.com    | Igercsak8!# |
+      | testadmin@testadmin.com    | Igercsak8!# |
       | istvan.gercsak@gmail.com   | Igercsak8!# |
       | istvan.gercsak@metlife.com | Igercsak8!# |
 
