@@ -99,7 +99,7 @@ For this I built this pilot test framework alone without any help from the devel
         - For this report I had to use Jenkins plugin and configure the pom.xml file to create a new more colorful Cucumber report    
         - Verdict:
             - It is more complex to configure the the simple TestNG report plugin. 
-            - More colorful and more transparent.
+            - More colorful and more transparent
             - Only the last running results is available
 ![Report](./assetsForReadme/CucumberReport.jpg)
 
