@@ -101,6 +101,7 @@ For this I built this pilot test framework alone without any help from the devel
             - It is more complex to configure the the simple TestNG report plugin. 
             - More colorful and more transparent
             - Only the last running results is available
+            ![Report](./assetsForReadme/CucumberReport.jpg)
 
 ## Conclusion
 
