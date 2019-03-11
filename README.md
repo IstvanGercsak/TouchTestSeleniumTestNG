@@ -101,6 +101,7 @@ For this I built this pilot test framework alone without any help from the devel
             - It is more complex to configure the the simple TestNG report plugin. 
             - More colorful and more transparent.
             - Only the last running results is available
+![Report](./assetsForReadme/CucumberReport.jpg)
 
 ## Conclusion
 
@@ -124,7 +125,7 @@ In this section I will summarize and explain my experiences about this framework
     - Time spend to expand test suite:
         - Once we have the framework it is very fast to expand it.
 - Lesson learned:
-    In summarize to build this pilot was an interesting experience. 
+    -   In summarize to build this pilot was an interesting experience. 
     One of the biggest lesson was that nowadays as a QA it is very important to have coding knowledge. 
     For this it would have been very important to separate time for the member of the QA team to practice together with the developers.
     Moreover the project get a huge advantage from these test as the quality became measurable and more transparent. 
