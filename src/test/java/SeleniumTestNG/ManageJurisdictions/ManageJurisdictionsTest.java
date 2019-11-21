@@ -34,7 +34,7 @@ public class ManageJurisdictionsTest extends BaseData {
     }
 
     @Test
-    public void manageJurisdictionsMetLifeIconDirection() {
+    public void manageJurisdictionsTestIconDirection() {
     }
 
     @Test

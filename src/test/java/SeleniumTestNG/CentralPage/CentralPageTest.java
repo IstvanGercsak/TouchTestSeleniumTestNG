@@ -58,10 +58,10 @@ public class CentralPageTest extends BaseData {
     }
 
     @Test
-    public void centralPageMetLifeIconDirection() {
+    public void centralPageTestIconDirection() {
 
         login(adminUserName, adminUserPassword);
-        clickOnTheMetlifeIcon();
+        clickOnTheTestIcon();
         Assert.assertEquals(driver.getCurrentUrl(),touchCentral.url());
 
     }

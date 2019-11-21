@@ -34,7 +34,7 @@ public class ContentTemplatesTest extends BaseData {
     }
 
     @Test
-    public void contentTemplatesMetLifeIconDirection() {
+    public void contentTemplatesTestIconDirection() {
     }
 
     @Test

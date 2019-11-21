@@ -96,7 +96,7 @@ public class BaseData {
 
     protected Page aboutTouchPage = new Page(
             "About Touch",
-            "https://touch-test-central.azurewebsites.net/central/help/about",
+            "",
             "About Touch"
     );
 
@@ -108,103 +108,103 @@ public class BaseData {
 
     protected Page dashboardPage = new Page(
             "Dashboard",
-            "https://touch-test-central.azurewebsites.net/central/reports/dashboard",
+            "",
             "Dashboards"
     );
 
     protected Page userProfilePage = new Page(
             "User Profile",
-            "https://touch-test-central.azurewebsites.net/central/myprofile",
+            "",
             "User Profile"
     );
 
     protected Page touchCentral = new Page(
             "Touch Central Actions",
-            "https://touch-test-central.azurewebsites.net/central/",
+            "",
             "Touch Central"
     );
 
     protected Page uktouchPage = new Page(
             "uk:tlbl:zone:touchpoints-title",
-            "http://touch-test-zone.azurewebsites.net/uk/",
+            "",
             "uk:tlbl:zone:touchpoints-title"
     );
 
     protected Page wrongLoginPage = new Page(
             "",
-            "https://touch-test-central.azurewebsites.net/central/login?error",
+            "",
             ""
     );
 
     protected Page loginPage = new Page(
             "",
-            "https://touch-test-central.azurewebsites.net/central/login",
+            "",
             ""
     );
 
     protected Page TouchpointFormsPage = new Page(
             "Touchpoint Forms",
-            "https://touch-test-central.azurewebsites.net/central/admin/touchpoint/forms",
+            "",
             "Touchpoint Forms"
     );
 
 
     protected Page TouchpointDataListsPage = new Page(
             "Touchpoint Data Lists",
-            "https://touch-test-central.azurewebsites.net/central/admin/touchpoint/datalists",
+            "",
             "Touchpoint Data Lists"
     );
 
     protected Page ManageUsersPage = new Page(
             "Manage Users",
-            "https://touch-test-central.azurewebsites.net/central/admin/system/users",
+            "",
             "Manage Users"
     );
 
     protected Page manageJurisdictionsPage = new Page(
             "Manage Jurisdictions",
-            "https://touch-test-central.azurewebsites.net/central/admin/system/jurisdictions",
+            "",
             "Manage Jurisdictions"
     );
 
     protected Page adminEndpointsPage = new Page(
             "base:tlbl:central:admin-system-endpoints-title",
-            "https://touch-test-central.azurewebsites.net/central/admin/system/endpoints",
+            "",
             "base:tlbl:central:admin-endpoints-title"
     );
 
     protected Page adminInfoPage = new Page(
             "base:tlbl:central:admin-system-info-title",
-            "https://touch-test-central.azurewebsites.net/central/admin/system/info",
+            "",
             "base:tlbl:central:admin-info-title"
     );
 
     protected Page textContentPage = new Page(
             "Text Content",
-            "https://touch-test-central.azurewebsites.net/central/admin/content/text",
+            "",
             "Text Content"
     );
 
     protected Page contentTemplatesPage = new Page(
             "Touchpoint Data Lists",
-            "https://touch-test-central.azurewebsites.net/central/admin/content/templates",
+            "",
             "base:tlbl:central:content-template-title"
     );
 
 
     /*Users implementation*/
 
-    protected String adminUserName = "TestAdmin@TestAdmin.com";
-    protected String adminUserPassword = "Igercsak8!#";
-    protected String ukJurisdictionOperatorName = "istvan.gercsak@gmail.com";
-    protected String ukJurisdictionOperatorPassword = "Igercsak8!#";
-    protected String testUserName = "istvan.gercsak@metlife.com";
-    protected String testUserPassword = "Igercsak8!#";
+    protected String adminUserName = "";
+    protected String adminUserPassword = "";
+    protected String ukJurisdictionOperatorName = "";
+    protected String ukJurisdictionOperatorPassword = "";
+    protected String testUserName = "";
+    protected String testUserPassword = "";
 
 
     /*Used methods on every page*/
 
-    protected void clickOnTheMetlifeIcon() {
+    protected void clickOnTheTestIcon() {
 
         driver.findElement(By.className("img-responsive")).click();
 

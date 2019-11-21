@@ -67,11 +67,11 @@ public class AboutTouchPageTest extends BaseData {
     }
 
     @Test
-    public void AboutTouchMetLifeIconDirection() {
+    public void AboutTouchTestIconDirection() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(aboutTouchPage.hamburgerName());
-        clickOnTheMetlifeIcon();
+        clickOnTheTestIcon();
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
 
     }

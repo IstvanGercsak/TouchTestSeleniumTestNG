@@ -11,7 +11,7 @@ Feature: About Touch page features
       | username                   | password    |
       | testadmin@testadmin.com    | Igercsak8!# |
       | istvan.gercsak@gmail.com   | Igercsak8!# |
-      | istvan.gercsak@metlife.com | Igercsak8!# |
+      | istvan.gercsak@test.com | Igercsak8!# |
 
   Scenario: The right breadcrumb is appears on the page
     Given I log into the application with Jurisdiction user

@@ -34,7 +34,7 @@ public class ManageUsersTest extends BaseData {
     }
 
     @Test
-    public void manageUsersMetLifeIconDirection() {
+    public void manageUsersTestIconDirection() {
     }
 
     @Test

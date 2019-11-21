@@ -43,11 +43,11 @@ public class UserProfilePageJurisdictionUserTest extends UserProfilePageTestDriv
     }
 
     @Test
-    public void UserProfileJurisdictionUserMetLifeIconDirection() {
+    public void UserProfileJurisdictionUserTestIconDirection() {
 
         login(ukJurisdictionOperatorName, ukJurisdictionOperatorPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
-        clickOnTheMetlifeIcon();
+        clickOnTheTestIcon();
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
 
     }

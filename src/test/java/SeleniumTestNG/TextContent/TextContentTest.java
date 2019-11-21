@@ -34,7 +34,7 @@ public class TextContentTest extends BaseData {
     }
 
     @Test
-    public void textContentMetLifeIconDirection() {
+    public void textContentTestIconDirection() {
     }
 
     @Test

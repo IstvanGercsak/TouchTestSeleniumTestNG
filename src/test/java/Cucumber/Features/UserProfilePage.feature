@@ -10,7 +10,7 @@ Feature: User profile page features
       | username                   | password    | rights                   |
       | testadmin@testadmin.com    | Igercsak8!# | Central Admin            |
       | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
-      | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
+      | istvan.gercsak@Test.com | Igercsak8!# | mixed rights             |
 
   Scenario Outline: I can reach the User profile page with profile icon
     Given I navigate to the login page
@@ -22,7 +22,7 @@ Feature: User profile page features
       | username                   | password    | rights                   |
       | testadmin@testadmin.com    | Igercsak8!# | Central Admin            |
       | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
-      | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
+      | istvan.gercsak@Test.com | Igercsak8!# | mixed rights             |
 
   Scenario Outline: I can see the right rights
     Given I navigate to the login page
@@ -37,8 +37,8 @@ Feature: User profile page features
       | testadmin@testadmin.com    | Igercsak8!# | UK Jurisdiction Operator | false     |
       | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator | true      |
       | istvan.gercsak@gmail.com   | Igercsak8!# | Central Admin            | false     |
-      | istvan.gercsak@metlife.com | Igercsak8!# | UK Jurisdiction Operator | true      |
-      | istvan.gercsak@metlife.com | Igercsak8!# | Central Admin            | true      |
+      | istvan.gercsak@Test.com | Igercsak8!# | UK Jurisdiction Operator | true      |
+      | istvan.gercsak@Test.com | Igercsak8!# | Central Admin            | true      |
 
   Scenario: The right breadcrumb is appears on the page
     Given I log into the application with Jurisdiction user

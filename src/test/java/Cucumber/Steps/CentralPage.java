@@ -65,10 +65,10 @@ public class CentralPage extends BaseUtil {
 
     }
 
-    @And("^I click on the Metlife icon$")
-    public void iClickOnTheMetlifeIcon() {
+    @And("^I click on the Test icon$")
+    public void iClickOnTheTestIcon() {
 
-        base.driver.findElement(By.className(metLifeIconClass())).click();
+        base.driver.findElement(By.className(TestIconClass())).click();
 
     }
 

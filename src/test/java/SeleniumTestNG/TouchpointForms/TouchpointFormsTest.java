@@ -53,11 +53,11 @@ public class TouchpointFormsTest extends BaseData {
     }
 
     @Test
-    public void touchpointFormsMetLifeIconDirection() {
+    public void touchpointFormsTestIconDirection() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(TouchpointFormsPage.hamburgerName());
-        clickOnTheMetlifeIcon();
+        clickOnTheTestIcon();
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
 
     }

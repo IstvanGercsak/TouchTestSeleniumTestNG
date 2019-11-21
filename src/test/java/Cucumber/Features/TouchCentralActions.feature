@@ -9,8 +9,8 @@ Feature: Touch Central Actions page features
 
     Examples:
       | username                   | password    | rights              |
-      | istvan.gercsak@metlife.com | Igercsak8!# | Mixed rights        |
-      | istvan.gercsak@metlife.com | Igercsak8!# | Jurisdiction rights |
+      | istvan.gercsak@Test.com | Igercsak8!# | Mixed rights        |
+      | istvan.gercsak@Test.com | Igercsak8!# | Jurisdiction rights |
 
   Scenario Outline: I can see the right placeholders
     Given I go on the UK page

@@ -10,7 +10,7 @@ Feature: Dashboard page features
       | username                   | password    | rights                   |
       | testadmin@testadmin.com   | Igercsak8!# | Central Admin            |
       | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
-      | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
+      | istvan.gercsak@Test.com | Igercsak8!# | mixed rights             |
 
   Scenario: The right breadcrumb is appears on the page
     Given I log into the application with Jurisdiction user

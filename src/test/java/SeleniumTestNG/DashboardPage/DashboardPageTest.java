@@ -55,11 +55,11 @@ public class DashboardPageTest extends DashboardPageDriverTest {
     }
 
     @Test
-    public void dashboardMetLifeIconDirection() {
+    public void dashboardTestIconDirection() {
 
         login(testUserName, testUserPassword);
         directionWithHamburgerMenu(dashboardPage.hamburgerName());
-        clickOnTheMetlifeIcon();
+        clickOnTheTestIcon();
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
 
     }

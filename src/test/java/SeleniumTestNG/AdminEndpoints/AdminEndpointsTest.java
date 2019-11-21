@@ -53,11 +53,11 @@ public class AdminEndpointsTest extends BaseData {
     }
 
     @Test
-    public void adminEndpointsMetLifeIconDirection() {
+    public void adminEndpointsTestIconDirection() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(adminEndpointsPage.hamburgerName());
-        clickOnTheMetlifeIcon();
+        clickOnTheTestIcon();
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
 
     }

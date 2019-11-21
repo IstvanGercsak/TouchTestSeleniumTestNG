@@ -116,7 +116,7 @@ public class TouchpointPageTest extends TouchPointPageDriverTest {
     }
 
     @Test
-    public void touchpointPageMetLifeIconDirection() {
+    public void touchpointPageTestIconDirection() {
 
         login(testUserName, testUserPassword);
         goToTouchpoint();

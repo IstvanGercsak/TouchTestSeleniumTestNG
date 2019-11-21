@@ -11,7 +11,7 @@ Feature: Login Page Feature
       | username                   | password    | rights                   |
       | testadmin@testadmin.com   | Igercsak8!# | Central Admin            |
       | istvan.gercsak@gmail.com   | Igercsak8!# | UK Jurisdiction Operator |
-      | istvan.gercsak@metlife.com | Igercsak8!# | mixed rights             |
+      | istvan.gercsak@test.com | Igercsak8!# | mixed rights             |
 
   Scenario Outline: Login with wrong username and password
     Given I navigate to the login page
@@ -22,8 +22,8 @@ Feature: Login Page Feature
     Examples:
       | username                   | password    | wrong_data |
       |                            |             | both       |
-      | istvan.gercsak@metlife.com | Igercsak8!  | password   |
-      | istvan.gercsak@metlife.co  | Igercsak8!# | username   |
+      | istvan.gercsak@test.com | Igercsak8!  | password   |
+      | istvan.gercsak@test.co  | Igercsak8!# | username   |
 
   Scenario: I can see the right placeholders
     Given I navigate to the login page

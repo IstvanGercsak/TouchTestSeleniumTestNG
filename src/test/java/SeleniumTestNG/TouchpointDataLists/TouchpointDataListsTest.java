@@ -34,7 +34,7 @@ public class TouchpointDataListsTest extends BaseData {
     }
 
     @Test
-    public void TouchpointDataListsMetLifeIconDirection() {
+    public void TouchpointDataListsTestIconDirection() {
     }
 
     @Test

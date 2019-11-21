@@ -10,7 +10,7 @@ Feature: Manage Jurisdictions features
     Examples:
       | username                   | password    | rights |
       | testadmin@testadmin.com    | Igercsak8!# | admin  |
-      | istvan.gercsak@metlife.com | Igercsak8!# | mixed  |
+      | istvan.gercsak@test.com | Igercsak8!# | mixed  |
 
   Scenario: The right breadcrumb is appears on the page
     Given I log into the application with Jurisdiction user

@@ -43,11 +43,11 @@ public class UserProfilePageAdminUserTest extends UserProfilePageTestDriver {
     }
 
     @Test
-    public void UserProfileAdminMetLifeIconDirection() {
+    public void UserProfileAdminTestIconDirection() {
 
         login(adminUserName, adminUserPassword);
         directionWithHamburgerMenu(userProfilePage.hamburgerName());
-        clickOnTheMetlifeIcon();
+        clickOnTheTestIcon();
         Assert.assertEquals(driver.getCurrentUrl(), touchCentral.url());
 
     }
